@@ -1,0 +1,88 @@
+website:
+  access:
+    site:
+      login: true
+  enabled: true
+  readableName: 'Website Login'
+  description: 'Kann sich an der Website anmelden'
+admin:
+  access:
+    admin:
+      login: true
+      users:
+        read: true
+        list: true
+  enabled: true
+  readableName: 'Admin Login'
+  description: 'Kann sich am Admin Panel anmelden'
+statistics:
+  access:
+    admin:
+      statistics: true
+  enabled: true
+  readableName: 'Site Statistics'
+  description: 'Kann Statistiken der Seite einsehen'
+editor:
+  access:
+    admin:
+      cache: true
+      pages:
+        read: true
+        update: true
+        list: true
+  readableName: 'Content Editor'
+  description: 'Kann bestehende Seiten bearbeiten'
+  enabled: true
+pages:
+  access:
+    admin:
+      cache: true
+      pages: true
+      flex-objects: true
+      configuration:
+        site: true
+  readableName: 'Pages Manager'
+  description: 'Kann Seiten verwalten'
+  enabled: true
+maintainer:
+  access:
+    admin:
+      cache: true
+      maintenance: true
+      tools: true
+      flex-objects: true
+      configuration:
+        site: true
+  enabled: true
+  readableName: 'Site Maintainer'
+  description: 'Kann die Seite warten'
+manager:
+  access:
+    admin:
+      configuration:
+        system: true
+        site: true
+  readableName: 'Site Manager'
+  enabled: true
+  description: 'Kann Seiten- & Systemeinstellungen verwalten'
+themes:
+  access:
+    admin:
+      themes: true
+  readableName: 'Theme Manager'
+  enabled: true
+  description: 'Kann Themes verwalten'
+plugins:
+  access:
+    admin:
+      plugins: true
+  readableName: 'Plugin Manager'
+  enabled: true
+  description: 'Kann Plugins verwalten'
+accounts:
+  access:
+    admin:
+      users: true
+  readableName: 'Account Manager'
+  enabled: true
+  description: 'Kann Benutzerkonten verwalten'

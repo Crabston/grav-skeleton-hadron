@@ -1,0 +1,11 @@
+state: enabled
+email: clients@crabston.dev
+fullname: 'Crabston Clients'
+language: de
+content_editor: default
+hashed_password: $2y$10$pWvNDS.n6CAM.YSakaUCvepgCGQlcCdFDef6M2lvQM0vwalvnERzy
+groups:
+  - admin
+  - statistics
+  - pages
+avatar: {  }

@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		//Set the JavaScript language version for emitted JavaScript and include compatible library declarations.
+		"target": "es2016",
+		//Specify what module code is generated.
+		"module": "commonjs",
+		//Specify the root folder within your source files.
+		"rootDir": "./ts/",
+		//Create source map files for emitted JavaScript files. *
+		"sourceMap": false,
+		//Specify an output folder for all emitted files.
+		"outDir": "./js/",
+		//Disable emitting comments. *
+		"removeComments": true,
+		//Emit additional JavaScript to ease support for importing CommonJS modules. This, enables `allowSyntheticDefaultImports` for type compatibility.
+		"esModuleInterop": true,
+		//Ensure that casing is correct in imports.
+		"forceConsistentCasingInFileNames": true,
+		//Enable all strict type-checking options.
+		"strict": false,
+		//Skip type checking all .d.ts files.
+		"skipLibCheck": true,
+	}
+}
