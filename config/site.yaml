@@ -1,0 +1,20 @@
+title: 'Grav Tutorial'
+default_lang: de
+author:
+  name: Crabston GmbH
+  email: contact@crabston.dev
+taxonomies:
+  - category
+  - tag
+  - month
+  - author
+  - filter
+metadata:
+  description: 'Mit dieser Demoseite und den Tutorials zu Grav CMS lernst du die und wichtigsten Funktionen von Grav CMS kennen und kannst diese bei deiner Website anwenden.'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: ''

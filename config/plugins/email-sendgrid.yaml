@@ -1,0 +1,3 @@
+enabled: true
+transport: api
+api_key: "SENDGRID_API_KEY"
