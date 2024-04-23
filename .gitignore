@@ -1,4 +1,6 @@
 # Grav Specific
+accounts/*
+!accounts/.*
 data/*
 !data/.*
 plugins/*

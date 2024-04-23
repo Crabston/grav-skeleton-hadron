@@ -1,7 +1,0 @@
-state: enabled
-email: user@example.com
-fullname: 'Demo User'
-language: de
-hashed_password: $2y$10$HP4UKG7cAnbTYmYi6fklDOq8jdPiYQ26Er/igyCajvPwZLAdqt/aK # password: Demo1234
-groups:
-  - website
