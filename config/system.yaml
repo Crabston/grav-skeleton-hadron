@@ -1,10 +1,9 @@
 absolute_urls: false
 timezone: Europe/Zurich
-default_locale: null
 param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
-force_ssl: false
+force_ssl: true
 force_lowercase_urls: true
 custom_base_url: null
 username_regex: '^[a-z0-9_-]{3,16}$'
@@ -18,7 +17,7 @@ http_x_forwarded:
 languages:
   supported:
     - de
-  default_lang: null
+  default_lang: de
   include_default_lang: false
   include_default_lang_file_extension: true
   translations: true
@@ -26,7 +25,6 @@ languages:
   session_store_active: false
   http_accept_language: false
   override_locale: false
-  content_fallback: {  }
   pages_fallback_only: false
   debug: false
 home:
@@ -44,8 +42,8 @@ pages:
     count: 20
   dateformat:
     default: 'd-m-Y H:i'
-    short: d.m.Y
-    long: 'F jS \a\t g:ia'
+    short: 'd. M Y'
+    long: 'l jS \of F g:i A'
   publish_dates: true
   process:
     markdown: true
@@ -70,10 +68,10 @@ pages:
       - class
       - classes
   types:
-    - txt
-    - xml
     - html
     - htm
+    - xml
+    - txt
     - json
     - rss
     - atom
@@ -81,9 +79,9 @@ pages:
   expires: 604800
   cache_control: null
   last_modified: false
-  etag: false
+  etag: true
   vary_accept_encoding: false
-  redirect_default_code: '301'
+  redirect_default_code: '302'
   redirect_trailing_slash: 1
   redirect_default_route: 0
   ignore_files:
@@ -102,13 +100,13 @@ pages:
 cache:
   enabled: true
   check:
-    method: file
+    method: hash
   driver: auto
   prefix: g
   purge_at: '0 4 * * *'
   clear_at: '0 3 * * *'
   clear_job_type: standard
-  clear_images_by_default: true
+  clear_images_by_default: false
   cli_compatibility: false
   lifetime: 604800
   gzip: false
@@ -127,9 +125,9 @@ cache:
     port: null
 twig:
   cache: true
-  debug: true
-  auto_reload: true
-  autoescape: false
+  debug: false
+  auto_reload: false
+  autoescape: true
   undefined_functions: true
   undefined_filters: true
   safe_functions: {  }
@@ -152,7 +150,7 @@ assets:
   enable_asset_timestamp: false
   enable_asset_sri: false
   collections:
-    jquery: 'system://assets/jquery/jquery-2.x.min.js'
+    jquery: 'system://assets/jquery/jquery-3.x.min.js'
 errors:
   display: 0
   log: true
@@ -164,16 +162,15 @@ log:
 debugger:
   enabled: false
   provider: clockwork
-  censored: false
+  censored: true
   shutdown:
     close_connection: true
-  twig: true
 images:
   default_image_quality: 85
   cache_all: true
   cache_perms: '0755'
   debug: false
-  auto_fix_orientation: false
+  auto_fix_orientation: true
   seofriendly: true
   cls:
     auto_sizes: false
@@ -189,7 +186,7 @@ images:
     scale: 33
     watermark_all: false
 media:
-  enable_media_timestamp: true
+  enable_media_timestamp: false
   unsupported_inline_types: null
   allowed_fallback_types: null
   auto_metadata_exif: true
@@ -198,20 +195,18 @@ session:
   enabled: true
   initialize: true
   timeout: 1800
-  name: grav
+  name: grav-site
   uniqueness: path
-  secure: false
+  secure: true
   secure_https: true
   httponly: true
-  samesite: Lax
+  samesite: Strict
   split: true
   domain: null
   path: null
 gpm:
   releases: stable
-  official_gpm_only: true
-  method: auto
-  verify_peer: true
+  official_gpm_only: false
 http:
   method: auto
   enable_proxy: true
@@ -236,6 +231,6 @@ flex:
       enabled: true
       lifetime: 600
 strict_mode:
-  yaml_compat: true
-  twig_compat: true
-  blueprint_compat: true
+  yaml_compat: false
+  twig_compat: false
+  blueprint_compat: false

@@ -10,7 +10,11 @@ themes/*
 !themes/local
 config/versions.yaml
 
+# Security
 config/security.yaml
+
+# Development
+env/localhost/*
 
 # OS Generated
 .DS_Store*
