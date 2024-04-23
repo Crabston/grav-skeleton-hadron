@@ -1,11 +1,9 @@
 ---
 title: Datenschutz
-language: de
-body_classes: privacy
 sitemap:
   changefreq: yearly
   priority: 0
-date: 13.10.2023
+date: 13-10-2023
 ---
 
 # Datenschutz

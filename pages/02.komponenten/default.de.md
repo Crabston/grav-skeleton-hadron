@@ -1,7 +1,6 @@
 ---
 title: Komponenten
 slug: komponenten
-language: de
 sitemap:
   changefreq: monthly
   priority: 0.8

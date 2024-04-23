@@ -1,11 +1,9 @@
 ---
 title: Kontakt
-language: de
-body_classes: contact
 sitemap:
   changefreq: yearly
   priority: 0.4
-date: 13.10.2023
+date: 13-10-2023
 ---
 
 # Kontakt
