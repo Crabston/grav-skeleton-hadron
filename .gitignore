@@ -6,6 +6,7 @@ plugins/*
 themes/*
 !themes/.*
 !themes/local
+config/versions.yaml
 
 config/security.yaml
 
