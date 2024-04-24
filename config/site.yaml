@@ -1,7 +1,7 @@
 title: 'Grav Tutorial'
 default_lang: de
 author:
-  name: Crabston GmbH
+  name: 'Crabston GmbH'
   email: contact@crabston.dev
 taxonomies:
   - category
@@ -16,5 +16,7 @@ summary:
   format: short
   size: 300
   delimiter: '==='
+redirects: null
+routes: null
 blog:
-  route: ''
+  route: '/tutorial'
