@@ -20,4 +20,4 @@ player_parameters:
   vq: default
   showinfo: 1
 privacy_enhanced_mode: true
-lazy_load: true
+lazy_load: false
