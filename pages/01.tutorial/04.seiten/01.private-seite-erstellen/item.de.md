@@ -1,10 +1,10 @@
 ---
 title: Private Seite erstellen
-slug: seiten/private-seite-erstellen
+slug: private-seite-erstellen
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 20.4.2024
+date: 20-04-2024
 taxonomy:
   category: Seiten
   tag: [ Anleitung, Seiten ]

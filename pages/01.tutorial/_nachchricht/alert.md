@@ -1,6 +1,6 @@
 ---
 alert_color: blue
-title: 'Mitteilung'
+title: Mitteilung
 published: true
 visible: true
 ---

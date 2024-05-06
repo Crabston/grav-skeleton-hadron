@@ -1,11 +1,10 @@
 ---
 title: Konfiguration
 slug: konfiguration
-language: de
 sitemap:
   changefreq: monthly
   priority: 0.8
-date: 20.10.2023
+date: 20-10-2023
 published: false
 ---
 

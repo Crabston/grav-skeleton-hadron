@@ -4,9 +4,8 @@ slug: login
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 19.4.2024
+date: 19-04-2024
 taxonomy:
-  category: Grundlagen
   tag: [ Grundlagen, Login ]
 header_image: login.webp
 ---

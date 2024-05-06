@@ -5,7 +5,7 @@ blog_url: /tutorial
 sitemap:
   changefreq: monthly
   priority: 1
-date: 19.4.2024
+date: 19-04-2024
 taxonomy:
   author: Crabston GmbH
 feed:
@@ -13,7 +13,6 @@ feed:
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 body_classes: 'header-dark header-transparent'
 show_breadcrumbs: false
-#show_sidebar: false
 show_sidebar: true
 pagination: true
 show_pagination: true
