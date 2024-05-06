@@ -531,3 +531,76 @@ Phasellus cursus odio ex, in mattis lorem tincidunt vel. [Donec nibh odio](#), d
 [/ui-tabs]
 [/raw]
 ```
+
+## Galerie
+
+> Galerien können verwendet werden, um mehrere Bilder in einer Galerie anzuzeigen.  
+> Optionen:
+> - `lastRow=justify` - Letzte Reihe ausrichten
+> - `captions=false` - Bildunterschriften ausblenden
+
+!!! [Dokumentation: Shortcode Gallery++ Plugin](https://github.com/sal0max/grav-plugin-shortcode-gallery-plusplus#gallery-settings)
+
+[gallery lastRow=justify]
+![Bild 1](gallery/gallery-1.webp)
+![Bild 2](gallery/gallery-2.webp)
+![Bild 3](gallery/gallery-4.webp)
+![Bild 4](gallery/gallery-5.webp)
+![Bild 5](gallery/gallery-3.webp)
+![Bild 6](gallery/gallery-5.webp)
+![Bild 7](gallery/gallery-4.webp)
+![Bild 8](gallery/gallery-1.webp)
+![Bild 9](gallery/gallery-2.webp)
+![Bild 10](gallery/gallery-3.webp)
+[/gallery]
+
+```md
+[raw]
+[gallery lastRow=justify]
+![Bild 1](gallery/gallery-1.webp)
+![Bild 2](gallery/gallery-2.webp)
+![Bild 3](gallery/gallery-4.webp)
+![Bild 4](gallery/gallery-5.webp)
+![Bild 5](gallery/gallery-3.webp)
+![Bild 6](gallery/gallery-5.webp)
+![Bild 7](gallery/gallery-4.webp)
+![Bild 8](gallery/gallery-1.webp)
+![Bild 9](gallery/gallery-2.webp)
+![Bild 10](gallery/gallery-3.webp)
+[/gallery]
+[/raw]
+```
+
+## Owl Carousel
+
+> Owl Carousel ist ein Plugin, das verwendet wird, um Bilder in einem Karussell anzuzeigen.  
+> Optionen:
+> - `items=1` - Anzahl der Elemente die angezeigt werden
+> - `margin=10` - Abstand zwischen den Elementen
+> - `loop=true` - Endlosschleife
+> - `nav=true` - Navigation anzeigen
+> - `stagePadding=200` - Abstand zum Rand
+
+!!! [Dokumentation: Shortcode Owl Carousel Plugin](https://github.com/getgrav/grav-plugin-shortcode-owl-carousel)
+
+[owl-carousel items=1 margin=10 loop=true nav=true stagePadding=200]
+![Bild 1](carousel/carousel-1.jpg)
+![Bild 2](carousel/carousel-2.jpg)
+![Bild 3](carousel/carousel-3.jpg)
+![Bild 4](carousel/carousel-4.jpg)
+![Bild 5](carousel/carousel-5.jpg)
+![Bild 6](carousel/carousel-6.jpg)
+[/owl-carousel]
+
+```md
+[raw]
+[owl-carousel items=1 margin=10 loop=true nav=true stagePadding=200]
+![Bild 1](carousel/carousel-1.jpg)
+![Bild 2](carousel/carousel-2.jpg)
+![Bild 3](carousel/carousel-3.jpg)
+![Bild 4](carousel/carousel-4.jpg)
+![Bild 5](carousel/carousel-5.jpg)
+![Bild 6](carousel/carousel-6.jpg)
+[/owl-carousel]
+[/raw]
+```
