@@ -4,7 +4,7 @@ slug: komponenten
 sitemap:
   changefreq: monthly
   priority: 0.8
-date: 03-05-2024
+date: 06-05-2024
 ---
 
 # Komponenten
@@ -166,7 +166,9 @@ Text<sub>Subscripted</sub> `<sub>`
 
 !!! Weitere Informationen findest du in der [offiziellen Grav Dokumentation](https://learn.getgrav.org/17/content/media)
 
-### normales Bild
+### Bilder
+
+#### normales Bild
 
 > Syntax: `![Bild](Bildpfad)`
 
@@ -176,7 +178,7 @@ Text<sub>Subscripted</sub> `<sub>`
 ![Bild](grav-logo.png)
 ```
 
-### Bild mit Link
+#### Bild mit Link
 
 > Ein Bild, welches zusätzlich als Link funktioniert.  
 > Syntax: `[![Bild](Bildpfad)](Link)`
@@ -187,7 +189,7 @@ Text<sub>Subscripted</sub> `<sub>`
 [![Bild](grav-logo.png)](https://grav.demo.crabston.dev)
 ```
 
-### Bild mit Optionen
+#### Bild mit Optionen
 
 > Syntax: `![Bild](Bildpfad?Option1&Option2&Option3)`
 > - `lightbox` - öffnet das Bild in einem Lightbox-Modus
@@ -197,6 +199,63 @@ Text<sub>Subscripted</sub> `<sub>`
 
 ```md
 ![Bild](grav-logo.png?lightbox&resize=200)
+```
+
+### Videos
+
+> Syntax: `![Video](Videopfad?Optionen)`
+> - `autoplay[=1|0]` - 1: startet das Video automatisch (Standard: 0)
+> - `loop[=1|0]` - 1: wiederholt das Video (Standard: 0)
+> - `controls[=1|0]` - 1: zeigt die Steuerungselemente (Standard: 1)
+> - `muted[=1|0]` - 1: schaltet den Ton stumm (Standard: 0)
+
+![Beispiel Video](beispiel-video.mp4?autoplay&loop&muted&resize=600)
+
+```md
+![Beispiel Video](beispiel-video.mp4?autoplay&loop&muted&resize=600)
+```
+
+### Audio
+
+> Syntax: `![Audio](Audiopfad?Optionen)`
+> - `autoplay[=1|0]` - 1: startet das Audio automatisch (Standard: 0)
+> - `loop[=1|0]` - 1: wiederholt das Audio (Standard: 0)
+> - `controls[=1|0]` - 1: zeigt die Steuerungselemente (Standard: 1)
+> - `muted[=1|0]` - 1: schaltet den Ton stumm (Standard: 0)
+
+![Beispiel Audio](beispiel-audio.mp3)
+
+```md
+![Beispiel Audio](beispiel-audio.mp3)
+```
+
+### YouTube (Variante 1)
+
+> Syntax: `[plugin:youtube](Videopfad)`
+
+[plugin:youtube](https://www.youtube.com/watch?v=K4TOrB7at0Y)
+
+```md
+[\plugin:youtube](https://www.youtube.com/watch?v=K4TOrB7at0Y)
+```
+
+### YouTube (Variante 2)
+
+> Syntax: `[\youtube OPTIONEN] https://www.youtube.com/watch?v=VIDEOPFAD [/youtube]`
+> - `autoplay[=1|0]` - 1: startet das Video automatisch (Standard: 0)
+> - `controls[=1|0]` - 1: zeigt die Steuerungselemente (Standard: 1)
+> - `loop[=1|0]` - 1: wiederholt das Video (Standard: 0)
+
+[youtube autoplay=1 controls=0 loop=1]
+https://www.youtube.com/watch?v=K4TOrB7at0Y
+[/youtube]
+
+```md
+[raw]
+[youtube autoplay=1 controls=0 loop=1]
+https://www.youtube.com/watch?v=K4TOrB7at0Y
+[/youtube]
+[/raw]
 ```
 
 ## Code
