@@ -24,102 +24,57 @@ form:
       fields:
         general_info:
           type: tab
-          title: 'Open Publishing Options'
+          title: THEME_LOCAL.OPEN_PUBLISHING.TITLE
           fields:
             chromelessoptions:
               type: section
-              title: 'Chromeless Site (i.e. Embedded)'
+              title: THEME_LOCAL.OPEN_PUBLISHING.CHROMELESS.TITLE
               underline: true
             chromeless.enabled:
               type: toggle
-              label: 'Hide Site Menu, Sidebar and Footer'
+              label: THEME_LOCAL.OPEN_PUBLISHING.CHROMELESS.ENABLE_CHROMELESS.LABEL
               highlight: 1
               default: 0
               options:
-                '0': No
-                '1': Yes
+                '0': PLUGIN_ADMIN.DISABLED
+                '1': PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             h5psetup:
               type: section
-              title: 'H5P Setup'
+              title: THEME_LOCAL.OPEN_PUBLISHING.H5P.TITLE
               underline: true
             h5pembedrootpath:
               type: text
               size: long
-              label: 'H5P Embed Source URL'
+              label: THEME_LOCAL.OPEN_PUBLISHING.H5P.EMBED_URL.LABEL
               default: 'https://h5p.org/h5p/embed/'
-              help: 'Enter the embed source URL path up to, but not including, the H5P Content ID.'
-              description: 'H5P embed source URL path up to, but not including, the Content ID. For example, ''https://h5p.org/h5p/embed/'' or ''https://[organization].h5p.com/content/''.'
+              help: THEME_LOCAL.OPEN_PUBLISHING.H5P.EMBED_URL.HELP
+              description: THEME_LOCAL.OPEN_PUBLISHING.H5P.EMBED_URL.DESCRIPTION
               validate:
                 type: URL
-            displaycclicense:
-              type: section
-              title: 'Creative Commons License'
-              underline: true
-              fields:
-                cc_license.enabled:
-                  type: toggle
-                  label: 'Display CC License'
-                  highlight: 1
-                  default: 0
-                  options:
-                    '0': No
-                    '1': Yes
-                  validate:
-                    type: bool
-                cc_license.type:
-                  type: select
-                  label: 'CC License Type'
-                  default: ccby
-                  size: long
-                  description: 'Looking for more info about Creative Commons (CC) Licenses?<br> Visit the <a href="https://creativecommons.org/" target="_blank">creativecommons.org</a> site.'
-                  options:
-                    ccby: 'CC Attribution'
-                    ccbysa: 'CC Attribution Share Alike'
-                    ccbynd: 'CC Attribution No Derivatives'
-                    ccbync: 'CC Attribution Non-Commercial'
-                    ccbyncsa: 'CC Attribution Non-Commercial Share Alike'
-                    ccbyncnd: 'CC Attribution Non-Commercial No Derivatives'
-                cc_license.icon:
-                  type: toggle
-                  label: 'Display Only CC License Icon'
-                  highlight: 1
-                  default: 0
-                  options:
-                    '0': No
-                    '1': Yes
-                  validate:
-                    type: bool
-                cc_license.text:
-                  type: text
-                  size: long
-                  description: 'For example, ''except where otherwise noted.'''
-                  label: 'Additional CC License Text'
-                  validate:
-                    type: text
             menuoptions:
               type: section
-              title: Menu
+              title: THEME_LOCAL.OPEN_PUBLISHING.MENU.TITLE
               underline: true
             dropdown.enabled:
               type: toggle
-              label: 'Display Dropdowns in Menu'
+              label: THEME_LOCAL.OPEN_PUBLISHING.MENU.DISPLAY_DROPDOWNS.LABEL
               highlight: 1
               default: 1
               options:
-                '0': Disabled
-                '1': Enabled
+                '0': PLUGIN_ADMIN.DISABLED
+                '1': PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
         theme_info:
           type: tab
-          title: 'Quark Options'
+          title: THEME_LOCAL.QUARK_OPTIONS.TITLE
           fields:
             production-mode:
               type: toggle
-              label: 'Production mode'
-              help: 'When enabled, Quark will render with minified CSS'
+              label: THEME_LOCAL.QUARK_OPTIONS.PRODUCTION_MODE.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.PRODUCTION_MODE.HELP
               highlight: 1
               default: 1
               options:
@@ -129,31 +84,31 @@ form:
                 type: bool
             grid-size:
               type: select
-              label: 'Grid size'
-              help: 'The maximum width of the theme'
+              label: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.HELP
               size: small
               options:
-                "": 'None (full width)'
-                grid-xl: 'Extra Large'
-                grid-lg: Large
-                grid-md: Medium
+                "": THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.NONE
+                grid-xl: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.GRID_XL
+                grid-lg: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.GRID_LG
+                grid-md: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.GRID_MD
             header_section:
               type: section
-              title: 'Header Defaults'
+              title: THEME_LOCAL.QUARK_OPTIONS.HEADER.TITLE
               underline: true
             custom_logo:
               type: file
-              label: 'Custom Logo'
+              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.CUSTOM_LOGO.LABEL
               size: large
               destination: 'theme://images/logo'
               multiple: false
               markdown: true
-              description: 'Will be used instead of default logo `theme://images/grav-logo.svg`'
+              description: THEME_LOCAL.QUARK_OPTIONS.HEADER.CUSTOM_LOGO.DESCRIPTION
               accept:
                 - 'image/*'
             custom_logo_mobile:
               type: file
-              label: 'Mobile Custom Logo'
+              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.CUSTOM_LOGO_MOBILE.LABEL
               size: large
               destination: 'theme://images/logo'
               multiple: false
@@ -161,8 +116,8 @@ form:
                 - 'image/*'
             header-fixed:
               type: toggle
-              label: 'Fixed header'
-              help: 'When enabled, the header will be fixed at the top of the browser'
+              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_FIXED.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_FIXED.HELP
               highlight: 1
               default: 1
               options:
@@ -172,8 +127,8 @@ form:
                 type: bool
             header-animated:
               type: toggle
-              label: Animated
-              help: 'When enabled, the header will animate to a smaller header when scrolling'
+              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_ANIMATED.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_ANIMATED.HELP
               highlight: 1
               default: 1
               options:
@@ -183,8 +138,8 @@ form:
                 type: bool
             header-dark:
               type: toggle
-              label: 'Dark Style'
-              help: 'When enabled, a dark-friendly style will be used'
+              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_DARK.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_DARK.HELP
               highlight: 0
               default: 0
               options:
@@ -194,8 +149,8 @@ form:
                 type: bool
             header-transparent:
               type: toggle
-              label: Transparent
-              help: 'When enabled, a transparent style will be used'
+              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_TRANSPARENT.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_TRANSPARENT.HELP
               highlight: 0
               default: 1
               options:
@@ -205,12 +160,12 @@ form:
                 type: bool
             footer_section:
               type: section
-              title: 'Footer Defaults'
+              title: THEME_LOCAL.QUARK_OPTIONS.FOOTER.TITLE
               underline: true
             sticky-footer:
               type: toggle
-              label: 'Sticky footer'
-              help: 'When enabled, the footer will be sticky at the bottom of the browser'
+              label: THEME_LOCAL.QUARK_OPTIONS.FOOTER.STICKY_FOOTER.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.FOOTER.STICKY_FOOTER.HELP
               highlight: 1
               default: 1
               options:
@@ -220,27 +175,27 @@ form:
                 type: bool
             blog_section:
               type: section
-              title: 'Blog Defaults'
+              title: THEME_LOCAL.QUARK_OPTIONS.BLOG.TITLE
               underline: true
             blog-page:
               type: text
-              label: 'Blog Page'
-              help: 'The route to the blog page when working with blog sidebar'
+              label: THEME_LOCAL.QUARK_OPTIONS.BLOG.BLOG_PAGE.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.BLOG.BLOG_PAGE.HELP
               size: medium
               default: /blog
             blog_page_hero_classes:
               type: text
-              label: 'Hero Classes'
+              label: THEME_LOCAL.QUARK_OPTIONS.BLOG.HERO_CLASSES.LABEL
               markdown: true
-              description: 'There are several Hero class options that can be listed here (space separated):<br />`text-light`, `text-dark`, `title-h1h2`, `parallax`, `overlay-dark-gradient`, `overlay-light-gradient`, `overlay-dark`, `overlay-light`, `hero-fullscreen`, `hero-large`, `hero-medium`, `hero-small`, `hero-tiny`<br />Please consult the [Quark documentation](https://github.com/getgrav/grav-theme-quark#hero-options) for more details.'
+              description: THEME_LOCAL.QUARK_OPTIONS.BLOG.HERO_CLASSES.DESCRIPTION
             spectre_section:
               type: section
-              title: 'Spectre.css Options'
+              title: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.TITLE
               underline: true
             spectre.exp:
               type: toggle
-              label: 'Experimentals CSS'
-              help: 'When enabled, the `spectre-exp.css` file will be included'
+              label: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.EXPERIMENTAL.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.EXPERIMENTAL.HELP
               highlight: 0
               default: 0
               options:
@@ -250,8 +205,8 @@ form:
                 type: bool
             spectre.icons:
               type: toggle
-              label: 'Icons CSS'
-              help: 'When enabled, the `spectre-icons.css` file will be included'
+              label: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.ICONS.LABEL
+              help: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.ICONS.HELP
               highlight: 0
               default: 0
               options:
@@ -261,111 +216,43 @@ form:
                 type: bool
         custommenu_options:
           type: tab
-          title: 'Custom Menu Items'
+          title: THEME_LOCAL.CUSTOM_MENU.TITLE
           fields:
             displaycustommenus.enabled:
               type: toggle
-              label: 'Display Custom Menu Items'
-              help: 'Determines if any defined custom menu entries are displayed in the menubar.'
+              label: THEME_LOCAL.CUSTOM_MENU.DISPLAY.LABEL
+              help: THEME_LOCAL.CUSTOM_MENU.DISPLAY.HELP
               default: 0
               highlight: 1
               options:
-                '0': No
-                '1': Yes
+                '0': PLUGIN_ADMIN.DISABLED
+                '1': PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             menu:
               name: menu
               type: list
-              label: 'Custom Menu Items'
+              label: THEME_LOCAL.CUSTOM_MENU.MENU.LABEL
               fields:
                 .text:
                   type: text
-                  label: Text
-                  description: 'Text label for menu item.'
+                  label: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TEXT.LABEL
+                  description: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TEXT.DESCRIPTION
                 .icon:
                   type: text
-                  label: Icon
-                  description: 'Font Awesome icon for menu item.'
+                  label: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.ICON.LABEL
+                  description: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.ICON.DESCRIPTION
                 .url:
                   type: text
-                  label: URL
-                  description: 'URL for menu item.'
+                  label: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.URL.LABEL
+                  description: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.URL.DESCRIPTION
                 .target:
                   type: select
-                  label: Target
+                  label: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.LABEL
                   default: _self
                   size: medium
                   options:
-                    _blank: 'Open in a new window'
-                    _parent: 'Open in the parent frame'
-                    _top: 'Open in the full body of the window'
-                    _self: 'Open in the same frame as clicked'
-        gitsynclink_options:
-          type: tab
-          title: 'Git Sync Link'
-          fields:
-            gitsyncsetup:
-              type: section
-              title: Setup
-              underline: true
-            display_of_git_sync_repo_link:
-              type: select
-              size: medium
-              classes: fancy
-              label: 'Location of Git Sync Link'
-              default: menu
-              options:
-                menu: Menu
-                page: 'Page (visible when ''Chromeless'')'
-                footer: Footer
-                none: None
-            type_of_git_sync_repo_link:
-              type: select
-              size: medium
-              label: 'Type of Git Sync Link'
-              default: view
-              options:
-                view: 'View Git Repository'
-                edit: 'View/Edit Page in Git Repository'
-            gitsyncoptions:
-              type: section
-              title: Appearance
-              underline: true
-            custom_git_sync_repo_link_icon:
-              type: input.text
-              size: small
-              label: 'Custom Font Awesome Icon'
-              description: 'Short name, e.g. ''code-fork''.'
-              validate:
-                type: text
-            custom_git_sync_repo_link_text:
-              type: input.text
-              size: long
-              label: 'Custom Link Text'
-              description: 'Link text, e.g. ''View Page in GitHub'' or ''View Page as Markdown''.'
-              validate:
-                type: text
-            git_sync_edit_note_text:
-              type: input.text
-              size: medium
-              label: 'Text before Page Link'
-              description: 'The text before Git Sync Link located on a Page, e.g. ''Have a suggestion or correction?'' or ''Want to reuse this open content?''.'
-            custom_git_sync_repo_presentation_link_text:
-              type: input.text
-              size: long
-              label: 'Custom Presentation Link Text'
-              description: 'Link text for embedded Presentations, e.g. ''View Slides in GitHub'' or ''View Slides as Markdown''.'
-              validate:
-                type: text
-            gitsyncadvanced:
-              type: section
-              title: Advanced
-              underline: true
-            git_sync_repo_link:
-              type: input.url
-              label: 'Custom Git Repository Tree URL'
-              help: 'Enter the URL that leads to the pages folder of your Git Repository.'
-              description: 'URL path to pages folder for ''View/Edit Page in Git Repository'' option, but with ''/pages'' and everything following it removed. For example, ''https://github.com/paulhibbitts/demo-grav-course-hub/tree/master''.'
-              validate:
-                type: URL
+                    _blank: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.OPTIONS.BLANK
+                    _parent: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.OPTIONS.PARENT
+                    _top: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.OPTIONS.TOP
+                    _self: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.OPTIONS.SELF
