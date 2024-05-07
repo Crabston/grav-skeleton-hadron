@@ -36,8 +36,8 @@ form:
               highlight: 1
               default: 0
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             h5psetup:
@@ -63,8 +63,8 @@ form:
               highlight: 1
               default: 1
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
         theme_info:
@@ -78,8 +78,8 @@ form:
               highlight: 1
               default: 1
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             grid-size:
@@ -88,7 +88,7 @@ form:
               help: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.HELP
               size: small
               options:
-                "": THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.NONE
+                '': THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.NONE
                 grid-xl: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.GRID_XL
                 grid-lg: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.GRID_LG
                 grid-md: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.GRID_MD
@@ -121,8 +121,8 @@ form:
               highlight: 1
               default: 1
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             header-animated:
@@ -132,8 +132,8 @@ form:
               highlight: 1
               default: 1
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             header-dark:
@@ -143,8 +143,8 @@ form:
               highlight: 0
               default: 0
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             header-transparent:
@@ -154,8 +154,8 @@ form:
               highlight: 0
               default: 1
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             footer_section:
@@ -169,8 +169,8 @@ form:
               highlight: 1
               default: 1
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             blog_section:
@@ -199,8 +199,8 @@ form:
               highlight: 0
               default: 0
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             spectre.icons:
@@ -210,8 +210,8 @@ form:
               highlight: 0
               default: 0
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
         custommenu_options:
@@ -225,8 +225,8 @@ form:
               default: 0
               highlight: 1
               options:
-                '0': PLUGIN_ADMIN.DISABLED
-                '1': PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+                1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
             menu:
