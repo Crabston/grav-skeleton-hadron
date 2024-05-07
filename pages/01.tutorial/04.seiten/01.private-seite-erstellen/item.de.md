@@ -8,6 +8,9 @@ date: 20-04-2024
 taxonomy:
   category: Seiten
   tag: [ Anleitung, Seiten ]
+header_image_file: hero.webp
+hero_image: hero.webp
+hero_classes: 'text-dark overlay-dark parallax'
 ---
 
 !!! Wie du in Grav eine private Seite erstellst, die nur für angemeldete Benutzer sichtbar ist

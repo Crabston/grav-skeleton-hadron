@@ -7,6 +7,9 @@ sitemap:
 date: 19-04-2024
 taxonomy:
   tag: [ Grundlagen, Dashboard ]
+header_image_file: hero.webp
+hero_image: hero.webp
+hero_classes: 'text-light overlay-dark parallax'
 ---
 
 !!! Wie du das Dashboard von Grav benutzen kannst und welche Informationen du dort findest

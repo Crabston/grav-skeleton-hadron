@@ -8,6 +8,9 @@ date: 07-05-2024
 taxonomy:
   category: Seiten
   tag: [ Anleitung, Seiten ]
+header_image_file: hero.webp
+hero_image: hero.webp
+hero_classes: 'text-dark overlay-dark parallax'
 ---
 
 !!! Diese Anleitung zeigt dir, wie du die Benutzeroberfläche der Seiten von Grav optimal verwendest und welche Funktionen dir zur Verfügung stehen.
