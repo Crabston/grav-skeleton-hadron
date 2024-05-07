@@ -9,8 +9,7 @@ taxonomy:
   category: [ Grundlagen ]
   tag: [ Grundlagen ]
   author: Crabston GmbH
-#hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
-hero_classes: 'text-dark title-h1h2 overlay-dark-gradient'
+hero_classes: 'text-light overlay-dark parallax'
 body_classes: 'header-dark header-transparent'
 show_breadcrumbs: true
 show_sidebar: false
