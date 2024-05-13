@@ -7,6 +7,9 @@ sitemap:
 date: 19-04-2024
 taxonomy:
   tag: [ Grundlagen, Account ]
+header_image_file: hero.webp
+hero_image: hero.webp
+hero_classes: 'text-light overlay-dark parallax'
 ---
 
 !!! Wie du Benutzer & Gruppen erstellst, bearbeitest und löschst.

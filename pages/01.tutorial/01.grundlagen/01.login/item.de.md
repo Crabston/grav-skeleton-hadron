@@ -7,7 +7,9 @@ sitemap:
 date: 19-04-2024
 taxonomy:
   tag: [ Grundlagen, Login ]
-header_image: login.webp
+header_image_file: hero.webp
+hero_image: hero.webp
+hero_classes: 'text-light overlay-dark parallax'
 ---
 
 !!! Wie du dich beim Grav Admin Panel anmeldest

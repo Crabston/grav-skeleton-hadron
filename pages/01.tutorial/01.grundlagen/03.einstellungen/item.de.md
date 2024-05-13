@@ -7,6 +7,9 @@ sitemap:
 date: 19-04-2024
 taxonomy:
   tag: [ Grundlagen, Einstellungen ]
+header_image_file: hero.webp
+hero_image: hero.webp
+hero_classes: 'text-light overlay-dark parallax'
 ---
 
 !!! Wie du die Einstellungen von Grav anpassen kannst

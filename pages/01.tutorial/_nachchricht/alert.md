@@ -7,12 +7,11 @@ visible: true
 
 **Willkommen zum Grav Tutorial!**
 
-Mit dieser Demoseite und den Tutorials zu Grav CMS lernst du die und wichtigsten Funktionen von Grav CMS kennen und kannst diese bei deiner Website anwenden.
+Mit dieser Demoseite und den Tutorials zu Grav CMS lernst du die wichtigsten Funktionen des Grav CMS kennen und kannst diese bei deiner Website anwenden.
 
 Hier sind noch weitere Links, die nützlich sein können:
 
-- [ScribeHow Tutorial](https://scribehow.com/page/Grav_CMS_Tutorial__zLmc6Ps-SsGNxt9fFX5FUA) (interaktiv)
-- [Grav Dokumentation](https://learn.getgrav.org/)
-- Shortcode Dokumentationen
-  - [Shortcode Core](https://github.com/getgrav/grav-plugin-shortcode-core#readme)
-  - [Shortcode UI](https://github.com/getgrav/grav-plugin-shortcode-ui#readme)
+- [Offizielle Grav CMS Dokumentation](https://learn.getgrav.org) _(englisch)_
+  - [Markdown Syntax](https://learn.getgrav.org/17/content/markdown)
+  - [Admin Panel](https://learn.getgrav.org/17/admin-panel/introduction)
+- [Bilder mit GIMP bearbeiten](https://ior.ad/8utP)
