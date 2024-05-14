@@ -107,6 +107,10 @@ git:
         url: https://github.com/trilbymedia/grav-plugin-quick-tray-links
         path: user/plugins/quick-tray-links
         branch: master
+    readingtime:
+        url: https://github.com/getgrav/grav-plugin-readingtime
+        path: user/plugins/readingtime
+        branch: master
     shortcode-core:
         url: https://github.com/getgrav/grav-plugin-shortcode-core
         path: user/plugins/shortcode-core
