@@ -1,3 +1,5 @@
+# TODO: translate options in admin advanced
+# TODO: add options for what to display
 enabled: true
 include_css: true
 active: true
