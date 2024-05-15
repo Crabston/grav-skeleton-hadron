@@ -258,6 +258,28 @@ https://www.youtube.com/watch?v=K4TOrB7at0Y
 [/raw]
 ```
 
+### PDF
+
+> Syntax: `[raw][pdf url="datei.pdf"][/raw]`
+
+[pdf url="beispiel-pdf.pdf"]
+
+```md
+[raw][pdf url="beispiel-pdf.pdf"][/raw]
+```
+
+### andere Dateien
+
+> Mit dem `docviewer` kannst du viele verschiedene Dateitypen mit dem Google Viewer anzeigen lassen.
+
+> Syntax: `[raw][docviewer url="datei.pdf" google=true][/raw]`
+
+[docviewer url="beispiel-pdf.pdf" google=true]
+
+```md
+[raw][docviewer url="beispiel-pdf.pdf" google=true][/raw]
+```
+
 ## Code
 
 > Codeblöcke können in Markdown eingefügt werden, um Code oder Skripte anzuzeigen. Diese können zudem mit Syntax-Highlighting versehen werden, indem man die Sprache des Codes angibt.

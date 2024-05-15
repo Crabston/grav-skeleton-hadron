@@ -115,6 +115,10 @@ git:
         url: https://github.com/sal0max/grav-plugin-shortcode-gallery-plusplus
         path: user/plugins/shortcode-gallery-plusplus
         branch: master
+    shortcode-media:
+        url: https://github.com/getgrav/grav-plugin-shortcode-media
+        path: user/plugins/shortcode-media
+        branch: master
     shortcode-owl-carousel:
         url: https://github.com/getgrav/grav-plugin-shortcode-owl-carousel
         path: user/plugins/shortcode-owl-carousel
