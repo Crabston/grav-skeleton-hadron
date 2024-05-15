@@ -135,10 +135,6 @@ git:
         url: https://github.com/trilbymedia/grav-plugin-tntsearch
         path: user/plugins/tntsearch
         branch: master
-    twigpcre:
-        url: https://github.com/kesslernetworks/grav-plugin-twigpcre
-        path: user/plugins/twigpcre
-        branch: master
     youtube:
         url: https://github.com/getgrav/grav-plugin-youtube
         path: user/plugins/youtube
