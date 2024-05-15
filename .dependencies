@@ -63,10 +63,6 @@ git:
         url: https://github.com/trilbymedia/grav-plugin-image-captions
         path: user/plugins/image-captions
         branch: master
-    license-manager:
-        url: https://github.com/getgrav/grav-plugin-license-manager
-        path: user/plugins/license-manager
-        branch: master
     login:
         url: https://github.com/getgrav/grav-plugin-login
         path: user/plugins/login
