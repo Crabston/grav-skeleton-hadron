@@ -16,7 +16,7 @@ git:
         path: user/plugins/auto-date
         branch: master
     autoseo:
-        url: https://github.com/francodacosta/grav-plugin-autoseo
+        url: https://github.com/Crabston/grav-plugin-autoseo
         path: user/plugins/autoseo
         branch: master
     dotenv:
