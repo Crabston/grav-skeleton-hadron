@@ -20,9 +20,7 @@ show_sidebar: false
 
 ## Ziel
 
-In dieser Anleitung lernst du, wie du mit Squoosh Bilder bearbeiten, optimieren und konvertieren kannst. Squoosh ist 
-ein kostenloses Tool, welches vollständig im Browser läuft und dir erlaubt, Bilder zu verkleinern, zu optimieren und 
-in verschiedene Formate zu konvertieren.
+In dieser Anleitung lernst du, wie du mit Squoosh Bilder bearbeiten, optimieren und konvertieren kannst. Squoosh ist ein kostenloses Tool, welches vollständig im Browser läuft und dir erlaubt, Bilder zu verkleinern, zu optimieren und in verschiedene Formate zu konvertieren.
 
 ## Bild hochladen
 
@@ -59,7 +57,7 @@ Du kannst die Bildseiten verwenden, um verschiedene Einstellungen zu vergleichen
    - **MozJPEG:** Ein verlustbehaftetes JPEG Format, welches eine sehr gute Komprimierung bietet. Keine Transparenz.
    - **WebP:** Ein verlustbehaftetes Format, welches eine sehr gute Komprimierung bietet. Transparenz möglich.
 2. Je nach Format stehen verschiedene Optionen zur Verfügung, um das Bild weiter zu optimieren. Mehr dazu in der jeweiligen Sektion.
-3. Ausser dem Konvertieren und Komprimieren, kannst du auch die Grösse des Bildes anpassen. Schalte dazu die Option «Resize» ein:
+3. Ausser dem Konvertieren und Komprimieren, kannst du auch die Grösse des Bildes anpassen. Schalte dazu die Option «Resize» ein:  
 ![Grösse anpassen](grösse-anpassen.webp?resize=600)
    - **Preset:** Wähle eine Voreinstellung aus, zum Beispiel 50% oder 25%.
    - **Width/Height:** Hier kannst du die Breite und Höhe des Bildes in Pixeln angeben. Wenn die Option «Maintain aspect ratio» aktiviert ist, wird das Bild proportional skaliert.
