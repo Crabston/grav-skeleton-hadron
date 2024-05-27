@@ -11,7 +11,6 @@ taxonomy:
 header_image_file: hero.webp
 hero_image: hero.webp
 hero_classes: 'text-dark overlay-dark parallax'
-show_sidebar: false
 ---
 
 !!! Wie du Bilder mit Squoosh bearbeiten, optimieren und konvertieren kannst
