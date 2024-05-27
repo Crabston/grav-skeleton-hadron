@@ -5,13 +5,13 @@ start: 1
 depth: 6
 hclass: null
 anchors:
-  start: 1
+  start: 2
   depth: 6
   link: true
   aria: Anchor
   class: null
   icon: '#'
-  position: after
+  position: before
   copy_to_clipboard: true
   slug_maxlen: 25
   slug_prefix: null
