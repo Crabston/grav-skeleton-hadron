@@ -7,6 +7,9 @@ sitemap:
 date: 06-05-2024
 ---
 
+[div class="columns"]
+[div class="column col-9 col-md-12 extra-spacing"]
+
 # Komponenten
 
 !!! Hier findest du eine Übersicht über alle verfügbaren Komponenten, die du in deine Seite einfügen kannst.
@@ -256,6 +259,28 @@ https://www.youtube.com/watch?v=K4TOrB7at0Y
 https://www.youtube.com/watch?v=K4TOrB7at0Y
 [/youtube]
 [/raw]
+```
+
+### PDF
+
+> Syntax: `[raw][pdf url="datei.pdf"][/raw]`
+
+[pdf url="beispiel-pdf.pdf"]
+
+```md
+[raw][pdf url="beispiel-pdf.pdf"][/raw]
+```
+
+### andere Dateien
+
+> Mit dem `docviewer` kannst du viele verschiedene Dateitypen mit dem Google Viewer anzeigen lassen.
+
+> Syntax: `[raw][docviewer url="datei.pdf" google=true][/raw]`
+
+[docviewer url="beispiel-pdf.pdf" google=true]
+
+```md
+[raw][docviewer url="beispiel-pdf.pdf" google=true][/raw]
 ```
 
 ## Code
@@ -604,3 +629,10 @@ Phasellus cursus odio ex, in mattis lorem tincidunt vel. [Donec nibh odio](#), d
 [/owl-carousel]
 [/raw]
 ```
+[/div]
+
+[div class="column col-3 col-md-12"]
+[div style="position: sticky; top: 4rem;"][TOC][/div]
+[/div]
+
+[/div]

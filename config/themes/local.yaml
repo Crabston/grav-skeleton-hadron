@@ -22,6 +22,7 @@ blog-page: /tutorial
 spectre:
   exp: false
   icons: false
+# TODO: check if grid-xl is better
 grid-size: grid-lg
 menu:
   -

@@ -3,6 +3,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-admin
         path: user/plugins/admin
         branch: master
+    anchors:
+        url: https://github.com/getgrav/grav-plugin-anchors
+        path: user/plugins/anchors
+        branch: master
     archives:
         url: https://github.com/getgrav/grav-plugin-archives
         path: user/plugins/archives
@@ -10,6 +14,10 @@ git:
     auto-date:
         url: https://github.com/getgrav/grav-plugin-auto-date
         path: user/plugins/auto-date
+        branch: master
+    autoseo:
+        url: https://github.com/Crabston/grav-plugin-autoseo
+        path: user/plugins/autoseo
         branch: master
     dotenv:
         url: https://github.com/getgrav/grav-plugin-dotenv.git
@@ -55,10 +63,6 @@ git:
         url: https://github.com/trilbymedia/grav-plugin-image-captions
         path: user/plugins/image-captions
         branch: master
-    license-manager:
-        url: https://github.com/getgrav/grav-plugin-license-manager
-        path: user/plugins/license-manager
-        branch: master
     login:
         url: https://github.com/getgrav/grav-plugin-login
         path: user/plugins/login
@@ -75,6 +79,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-page-inject
         path: user/plugins/page-inject
         branch: master
+    page-toc:
+        url: https://github.com/trilbymedia/grav-plugin-page-toc
+        path: user/plugins/page-toc
+        branch: 3.2.2
     pagination:
         url: https://github.com/getgrav/grav-plugin-pagination
         path: user/plugins/pagination
@@ -99,6 +107,10 @@ git:
         url: https://github.com/trilbymedia/grav-plugin-quick-tray-links
         path: user/plugins/quick-tray-links
         branch: master
+    readingtime:
+        url: https://github.com/getgrav/grav-plugin-readingtime
+        path: user/plugins/readingtime
+        branch: master
     shortcode-core:
         url: https://github.com/getgrav/grav-plugin-shortcode-core
         path: user/plugins/shortcode-core
@@ -106,6 +118,10 @@ git:
     shortcode-gallery-plusplus:
         url: https://github.com/sal0max/grav-plugin-shortcode-gallery-plusplus
         path: user/plugins/shortcode-gallery-plusplus
+        branch: master
+    shortcode-media:
+        url: https://github.com/getgrav/grav-plugin-shortcode-media
+        path: user/plugins/shortcode-media
         branch: master
     shortcode-owl-carousel:
         url: https://github.com/getgrav/grav-plugin-shortcode-owl-carousel
@@ -123,13 +139,9 @@ git:
         url: https://github.com/getgrav/grav-plugin-taxonomylist
         path: user/plugins/taxonomylist
         branch: master
-    twigfeeds:
-        url: https://github.com/OleVik/grav-plugin-twigfeeds
-        path: user/plugins/twigfeeds
-        branch: master
-    twigpcre:
-        url: https://github.com/kesslernetworks/grav-plugin-twigpcre
-        path: user/plugins/twigpcre
+    tntsearch:
+        url: https://github.com/trilbymedia/grav-plugin-tntsearch
+        path: user/plugins/tntsearch
         branch: master
     youtube:
         url: https://github.com/getgrav/grav-plugin-youtube

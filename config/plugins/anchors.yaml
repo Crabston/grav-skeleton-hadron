@@ -1,0 +1,9 @@
+enabled: false
+active: true
+selectors: 'h1,h2,h3,h4'
+placement: left
+visible: hover
+icon: null
+class: null
+truncate: 64
+copy_to_clipboard: false
