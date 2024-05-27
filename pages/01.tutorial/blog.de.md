@@ -17,6 +17,7 @@ sidebar:
   show_popular_tags: true
   show_feed: true
   show_toc: false
+  show_tntsearch: true
 pagination: true
 show_pagination: true
 bricklayer_layout: true
