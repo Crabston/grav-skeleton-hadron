@@ -23,3 +23,4 @@ display_child_page_titles: true
 - Modulare Seite mit Injektion: <br/> [![Modulare Seite mit Injektion](modulare-seite-injektion.webp?resize=500)](modulare-seite-injektion)
 - Eingebettete Seite: <br/> [![Eingebettete Seite](eingebettete-seiten.webp?resize=500)](eingebettete-seiten)
 - Private Seite (User: `demo`; Passwort: `Demo1234`): <br/> [![Eingebettete Seite](private-seite.webp?resize=500)](private-seite)
+- Formular: <br/> [![Formular](formular.webp?resize=500)](formular)
