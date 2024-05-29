@@ -1,4 +1,5 @@
 ---
+# TODO: add contact form
 title: Kontakt
 sitemap:
   changefreq: yearly
