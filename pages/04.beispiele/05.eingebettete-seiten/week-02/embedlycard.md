@@ -7,7 +7,6 @@ published: true
 visible: false
 cache_enable: false
 sitemap:
-  changefreq: never
-  priority: 0.2
+  ignore: true
 date: 3.4.2024
 ---
