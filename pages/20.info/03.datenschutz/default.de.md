@@ -2,12 +2,12 @@
 title: Datenschutz
 sitemap:
   changefreq: yearly
-  priority: 0
-date: 13-10-2023
+  priority: 0.1
+date: 27-05-2024
 ---
 
 # Datenschutzerklärung
-_Stand: `13.05.2024`_
+_Stand: `27.05.2024`_
 
 ## 1. Allgemeines
 Mit dieser Datenschutzerklärung informiert die Crabston Gmbh (nachfolgend «Crabston», «wir» oder «uns» genannt), welche Daten er von natürlichen Personen wofür, wie und wo bearbeitet, ausschliesslich im Zusammenhang mit der Grav Tutorial Webseite ([https://grav.demo.crabston.dev](https://grav.demo.crabston.dev)). Ausserdem informiert er über die Rechte von Personen, deren Daten er bearbeitet.

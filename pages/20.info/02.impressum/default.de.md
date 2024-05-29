@@ -3,7 +3,7 @@ title: Impressum
 sitemap:
   changefreq: yearly
   priority: 0.4
-date: 13-10-2023
+date: 27-05-2024
 ---
 
 # Impressum
