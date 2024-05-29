@@ -1,9 +1,9 @@
 ---
 title: Subsektion Eins
 taxonomy:
-    filter:
-        - view1
-        - view2
+  filter:
+    - view1
+    - view2
 sitemap:
   changefreq: never
   priority: 0.2

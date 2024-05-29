@@ -1,7 +1,7 @@
 ---
 title: Sektion Zwei
 taxonomy:
-    filter: [view2]
+  filter: [ view2 ]
 child_type: subsection
 sitemap:
   changefreq: never

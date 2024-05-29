@@ -1,9 +1,9 @@
 ---
 title: Sektion Drei
 taxonomy:
-    filter:
-        - view1
-        - view2
+  filter:
+    - view1
+    - view2
 child_type: subsection
 sitemap:
   changefreq: never

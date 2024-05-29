@@ -1,7 +1,7 @@
 ---
 title: Sektion Eins
 taxonomy:
-    filter: [view1]
+  filter: [ view1 ]
 child_type: subsection
 sitemap:
   changefreq: never

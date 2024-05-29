@@ -7,11 +7,11 @@ sitemap:
   priority: 0.5
 date: 3.4.2024
 content:
-    items:
-        - '@self.children'
-    order:
-        by: folder
-        dir: asc
+  items:
+    - '@self.children'
+  order:
+    by: folder
+    dir: asc
 display_child_page_titles: true
 ---
 

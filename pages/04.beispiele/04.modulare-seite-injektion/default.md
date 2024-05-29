@@ -5,7 +5,7 @@ published: true
 body_classes: modular
 onpage_menu: false
 page-inject:
-    processed_content: false
+  processed_content: false
 sitemap:
   changefreq: never
   priority: 0.2
