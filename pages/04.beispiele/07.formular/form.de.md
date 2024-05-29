@@ -66,18 +66,19 @@ form:
       value: Zurücksetzen
 
   process:
-    email:
-      from: "{{ config.plugins.email.from }}"
-      to:
-        - "{{ config.plugins.email.to }}"
-        - "{{ form.value.email }}"
-      subject: "[Feedback]: {{ form.value.subject|e }}"
-      body: "{% include 'forms/data.html.twig' %}"
-    save:
-      fileprefix: feedback-
-      dateformat: Ymd-His-u
-      extension: txt
-      body: "{% include 'forms/data.txt.twig' %}"
+		# NOTE: commented out to prevent spam
+    #email:
+    #  from: "{{ config.plugins.email.from }}"
+    #  to:
+    #    - "{{ config.plugins.email.to }}"
+    #    - "{{ form.value.email }}"
+    #  subject: "[Feedback]: {{ form.value.subject|e }}"
+    #  body: "{% include 'forms/data.html.twig' %}"
+    #save:
+    #  fileprefix: feedback-
+    #  dateformat: Ymd-His-u
+    #  extension: txt
+    #  body: "{% include 'forms/data.txt.twig' %}"
     message: Vielen Dank für deine Nachricht!
     display: thankyou
 ---
@@ -85,3 +86,5 @@ form:
 # Beispiel Formular
 
 Dies ist ein Beispiel für ein Kontaktformular. Es enthält Felder für Name, Vorname, E-Mail, Betreff und Nachricht. Das Formular kann per E-Mail versendet werden und die Daten werden in einer Datei gespeichert.
+
+!!! Aus Spam und Sicherheitsgründen werden Formulardaten weder gespeichert noch versendet.
