@@ -24,7 +24,7 @@ git:
         path: user/plugins/breadcrumbs
         branch: master
     dotenv:
-        url: https://github.com/getgrav/grav-plugin-dotenv.git
+        url: https://github.com/getgrav/grav-plugin-dotenv
         path: user/plugins/dotenv
         branch: master
     email:
