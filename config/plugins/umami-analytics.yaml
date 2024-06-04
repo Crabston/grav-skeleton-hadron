@@ -1,4 +1,4 @@
 enabled: true
 script_src: 'https://umami.crabston.dev'
-website_id: f3e70954-be57-4d50-bc91-979eddf3d38c
+website_id: 'UMAMI_WEBSITE_ID'
 domains: 'grav.demo.crabston.dev'
