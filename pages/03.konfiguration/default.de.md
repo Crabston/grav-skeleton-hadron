@@ -4,7 +4,7 @@ slug: konfiguration
 sitemap:
   changefreq: monthly
   priority: 0.8
-date: 20-10-2023
+  lastmod: 20-10-2023
 published: false
 ---
 

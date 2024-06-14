@@ -4,7 +4,7 @@ slug: komponenten
 sitemap:
   changefreq: monthly
   priority: 0.8
-date: 06-05-2024
+  lastmod: 06-05-2024
 ---
 
 [div class="columns"]

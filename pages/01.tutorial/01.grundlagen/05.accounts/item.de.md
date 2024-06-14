@@ -4,7 +4,7 @@ slug: accounts
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 19-04-2024
+  lastmod: 19-04-2024
 taxonomy:
   tag: [ Grundlagen, Account ]
 header_image_file: hero.webp

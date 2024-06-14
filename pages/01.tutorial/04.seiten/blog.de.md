@@ -4,7 +4,7 @@ slug: seiten
 sitemap:
   changefreq: monthly
   priority: 0.8
-date: 20-04-2024
+  lastmod: 20-04-2024
 taxonomy:
   category: [ Seiten ]
   tag: [ Seiten ]

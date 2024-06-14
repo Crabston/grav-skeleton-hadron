@@ -4,7 +4,7 @@ title: Kontakt
 sitemap:
   changefreq: yearly
   priority: 0.4
-date: 27-05-2024
+  lastmod: 27-05-2024
 ---
 
 # Kontakt

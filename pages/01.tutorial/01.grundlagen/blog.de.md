@@ -4,7 +4,7 @@ slug: grundlagen
 sitemap:
   changefreq: monthly
   priority: 0.8
-date: 19-04-2024
+  lastmod: 19-04-2024
 taxonomy:
   category: [ Grundlagen ]
   tag: [ Grundlagen ]
