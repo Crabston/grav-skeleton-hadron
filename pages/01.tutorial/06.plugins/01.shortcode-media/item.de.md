@@ -5,7 +5,7 @@ slug: shortcode-media
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 31-05-2024
+  lastmod: 31-05-2024
 taxonomy:
   category: Plugins
   tag: [ Anleitung, Plugins ]

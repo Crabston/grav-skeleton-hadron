@@ -6,7 +6,7 @@ slug: seiten-typen
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 31-05-2024
+  lastmod: 31-05-2024
 taxonomy:
   category: Seiten
   tag: [ Anleitung, Seiten ]
