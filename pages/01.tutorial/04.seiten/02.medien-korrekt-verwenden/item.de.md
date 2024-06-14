@@ -4,7 +4,7 @@ slug: medien-korrekt-verwenden
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 06-05-2024
+  lastmod: 06-05-2024
 taxonomy:
   category: Seiten
   tag: [ Anleitung, Seiten, Medien ]

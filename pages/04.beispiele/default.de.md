@@ -5,7 +5,7 @@ language: de
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 3.4.2024
+  lastmod: 3.4.2024
 content:
     items:
         - '@self.children'

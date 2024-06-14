@@ -5,7 +5,7 @@ blog_url: /tutorial
 sitemap:
   changefreq: monthly
   priority: 1
-date: 19-04-2024
+  lastmod: 19-04-2024
 taxonomy:
   author: Crabston GmbH
 feed:
