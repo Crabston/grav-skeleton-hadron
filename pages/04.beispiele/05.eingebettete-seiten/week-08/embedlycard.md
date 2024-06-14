@@ -8,5 +8,5 @@ visible: false
 cache_enable: false
 sitemap:
   ignore: true
-date: 3.4.2024
+  lastmod: 3.4.2024
 ---

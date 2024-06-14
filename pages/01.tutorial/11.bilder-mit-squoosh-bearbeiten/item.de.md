@@ -4,7 +4,7 @@ slug: bilder-mit-squoosh-bearbeiten
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 06-05-2024
+  lastmod: 06-05-2024
 taxonomy:
   category: Allgemein
   tag: [ Anleitung, Medien, Bilder ]

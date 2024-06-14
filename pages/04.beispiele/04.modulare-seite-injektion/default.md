@@ -9,7 +9,7 @@ page-inject:
 sitemap:
   changefreq: never
   priority: 0.2
-date: 3.4.2024
+  lastmod: 3.4.2024
 ---
 
 Diese Seite ist ein Beispiel für eine **modulare** Seite, auf der Inhalte von Modulseiten einer **anderen Seite** mithilfe des [Page Inject Plugins](https://github.com/getgrav/grav-plugin-page-inject) angezeigt werden. Jede der folgenden Definitionen ist in einer separaten Seite enthalten, und diese Seiten können an mehreren Stellen der Website eingebunden werden.

@@ -3,24 +3,27 @@ title: Impressum
 sitemap:
   changefreq: yearly
   priority: 0.4
-date: 13-10-2023
+  lastmod: 27-05-2024
 ---
 
 # Impressum
-
-Diese Website wird betrieben durch Crabston GmbH.
-Die Programmierung und Wartung der Website geschieht durch Crabston GmbH.
+Diese Website wird programmiert, betrieben und verwaltet durch die Crabston GmbH.
 
 ## Kontaktpersonen
+### Allgemein
+Bei Fragen oder Anregungen in Bezug auf die Crabston GmbH oder den Inhalt der Webseite, wenden Sie sich bitte an die allgemeine Kontaktperson:
 
-### Webmaster
-Für technische Fragen oder Anregungen (Website, E-Mail, etc.) wenden Sie sich bitte an Crabston:
-
-<address>
 Crabston GmbH <br />
+Nicholas Krebs <br />
 Städtli 16 <br />
 3380 Wangen an der Aare <br />
-</address>
+[nicholas@crabston.ch](mailto:nicholas@crabston.ch) <br />
 
-[kontakt@crabston.ch](mailto:kontakt@crabston.ch) <br />
-[+41 76 471 29 12](tel:+41764712912)
+### Webmaster
+Für alle technischen Fragen oder Anregungen betreffend Website, E-Mail, Hosting, etc., kontaktieren Sie bitte den Webmaster direkt:
+
+Crabston GmbH <br />
+Nicholas Krebs <br />
+Städtli 16 <br />
+3380 Wangen an der Aare <br />
+[nicholas@crabston.ch](mailto:nicholas@crabston.ch) <br />

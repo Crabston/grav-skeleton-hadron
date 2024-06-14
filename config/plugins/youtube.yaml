@@ -20,4 +20,5 @@ player_parameters:
   vq: default
   showinfo: 1
 privacy_enhanced_mode: true
-lazy_load: true
+# Note: If lazy_load is enabled, the plugin may break the ability for autoplay or play the video in general. The page speed however will be improved significantly.
+lazy_load: false

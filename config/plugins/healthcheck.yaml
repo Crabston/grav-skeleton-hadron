@@ -1,0 +1,11 @@
+enabled: true
+route: /health
+info:
+  status_code: true
+  status_message: true
+  timestamp: true
+  environment: true
+  grav_version: true
+  php_version: true
+  custom: null
+config: null
