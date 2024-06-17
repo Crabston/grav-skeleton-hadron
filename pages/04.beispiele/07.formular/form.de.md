@@ -96,7 +96,8 @@ form:
             checkbox:
               type: checkbox
               label: Checkbox
-              description: Beschreibung der Checkbox
+              description: Beschreibung des Feldes
+              classes: fancy
             #checkboxes:
             #  type: checkboxes
             #  label: Mehrere Checkboxen
@@ -109,18 +110,21 @@ form:
             date:
               type: date
               label: Datum
+              classes: fancy
               validate:
                 min: 2020-01-01
                 max: 2025-12-31
             number:
               type: number
               label: Nummer
+              classes: fancy
               validate:
                 min: 1
                 max: 10
             radio:
               type: radio
               label: Radio
+              classes: fancy
               default: two
               options:
                 one: Option Eins
@@ -129,6 +133,7 @@ form:
             range:
               type: range
               label: Bereich
+              classes: fancy
               default: 5
               validate:
                 min: 1
@@ -136,6 +141,7 @@ form:
             select:
               type: select
               label: Auswahl
+              classes: fancy
               default: two
               options:
                 one: Option Eins
@@ -147,6 +153,7 @@ form:
             select_multiple:
               type: select
               label: Mehrfachauswahl
+              classes: fancy
               default: two
               multiple: true
               options:
@@ -159,6 +166,7 @@ form:
             select_optgroup:
               type: select_optgroup
               label: Gruppenauswahl
+              classes: fancy
               options:
                 - Gruppe 1:
                     - Option Eins
@@ -169,6 +177,7 @@ form:
             toggle:
               type: toggle
               label: Schalter
+              classes: fancy
               highlight: 1
               options:
                 1: Ja
@@ -178,16 +187,19 @@ form:
             url:
               type: url
               label: URL
-              placeholder: https://getgrav.org
+              classes: fancy
+              placeholder: https://crabston.ch
 
 
   buttons:
     submit:
       type: submit
       value: Senden
+      classes: fancy btn btn-primary
     reset:
       type: reset
       value: Zurücksetzen
+      classes: fancy
 
   process:
     # NOTE: commented out to prevent spam
