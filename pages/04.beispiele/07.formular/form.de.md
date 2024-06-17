@@ -18,18 +18,18 @@ form:
         column1:
           type: column
           fields:
-            lastname:
-              label: Name
-              placeholder: Mustermann
+            firstname:
+              label: Vorname
+              placeholder: Max
               type: text
               validate:
                 required: true
         column2:
           type: column
           fields:
-            firstname:
-              label: Vorname
-              placeholder: Max
+            lastname:
+              label: Name
+              placeholder: Mustermann
               type: text
               validate:
                 required: true
@@ -66,7 +66,7 @@ form:
       value: Zurücksetzen
 
   process:
-		# NOTE: commented out to prevent spam
+    # NOTE: commented out to prevent spam
     #email:
     #  from: "{{ config.plugins.email.from }}"
     #  to:
