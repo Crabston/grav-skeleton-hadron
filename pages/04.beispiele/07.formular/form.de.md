@@ -28,18 +28,20 @@ form:
                   type: column
                   fields:
                     firstname:
+                      type: text
                       label: Vorname
                       placeholder: Max
-                      type: text
+                      classes: fancy
                       validate:
                         required: true
                 column2:
                   type: column
                   fields:
                     lastname:
+                      type: text
                       label: Name
                       placeholder: Mustermann
-                      type: text
+                      classes: fancy
                       validate:
                         required: true
 
@@ -50,30 +52,34 @@ form:
                   type: column
                   fields:
                     email:
+                      type: email
                       label: Email
                       placeholder: email@example.com
-                      type: email
+                      classes: fancy
                       validate:
                         required: true
                 column2:
                   type: column
                   fields:
                     tel:
+                      type: tel
                       label: Telefon
                       placeholder: +41 12 345 67 89
-                      type: tel
+                      classes: fancy
 
             subject:
+              type: text
               label: Betreff
               placeholder: Betreff
-              type: text
+              classes: fancy
               validate:
                 required: true
 
             message:
+              type: textarea
               label: Nachricht
               placeholder: Deine Nachricht
-              type: textarea
+              classes: fancy
               rows: 5
               cols: 40
               validate:
