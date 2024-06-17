@@ -4,7 +4,7 @@ slug: formular
 sitemap:
   changefreq: yearly
   priority: 0.5
-  lastmod: 29.05.2024
+  lastmod: 17.06.2024
 
 form:
   name: beispiel-formular
@@ -12,50 +12,168 @@ form:
     honeypot:
       type: honeypot
 
-    columns:
-      type: columns
+    tabs:
+      type: tabs
+      active: 1
       fields:
-        column1:
-          type: column
+        tab1:
+          type: tab
+          title: Kontaktinformationen
           fields:
-            firstname:
-              label: Vorname
-              placeholder: Max
+
+            names:
+              type: columns
+              fields:
+                column1:
+                  type: column
+                  fields:
+                    firstname:
+                      label: Vorname
+                      placeholder: Max
+                      type: text
+                      validate:
+                        required: true
+                column2:
+                  type: column
+                  fields:
+                    lastname:
+                      label: Name
+                      placeholder: Mustermann
+                      type: text
+                      validate:
+                        required: true
+
+            contact_info:
+              type: columns
+              fields:
+                column1:
+                  type: column
+                  fields:
+                    email:
+                      label: Email
+                      placeholder: email@example.com
+                      type: email
+                      validate:
+                        required: true
+                column2:
+                  type: column
+                  fields:
+                    tel:
+                      label: Telefon
+                      placeholder: +41 12 345 67 89
+                      type: tel
+
+            subject:
+              label: Betreff
+              placeholder: Betreff
               type: text
               validate:
                 required: true
-        column2:
-          type: column
-          fields:
-            lastname:
-              label: Name
-              placeholder: Mustermann
-              type: text
+
+            message:
+              label: Nachricht
+              placeholder: Deine Nachricht
+              type: textarea
+              rows: 5
+              cols: 40
               validate:
                 required: true
 
-    email:
-      label: Email
-      placeholder: email@example.com
-      type: email
-      validate:
-        required: true
+        tab2:
+          type: tab
+          title: weitere Felder
+          fields:
+            section:
+              type: section
+              title: Zusätzliche Felder
+              text: Hier sind weitere Felder, die benutzt werden können.
+            checkbox:
+              type: checkbox
+              label: Checkbox
+              description: Beschreibung der Checkbox
+            #checkboxes:
+            #  type: checkboxes
+            #  label: Mehrere Checkboxen
+            #  default:
+            #    - one
+            #  options:
+            #    one: Option Eins
+            #    two: Option Zwei
+            #    three: Option Drei
+            date:
+              type: date
+              label: Datum
+              validate:
+                min: 2020-01-01
+                max: 2025-12-31
+            number:
+              type: number
+              label: Nummer
+              validate:
+                min: 1
+                max: 10
+            radio:
+              type: radio
+              label: Radio
+              default: two
+              options:
+                one: Option Eins
+                two: Option Zwei
+                three: Option Drei
+            range:
+              type: range
+              label: Bereich
+              default: 5
+              validate:
+                min: 1
+                max: 10
+            select:
+              type: select
+              label: Auswahl
+              default: two
+              options:
+                one: Option Eins
+                two: Option Zwei
+                three:
+                  value: Option Drei
+                  disabled: true
+                four: Option Vier
+            select_multiple:
+              type: select
+              label: Mehrfachauswahl
+              default: two
+              multiple: true
+              options:
+                one: Option Eins
+                two: Option Zwei
+                three:
+                  value: Option Drei
+                  disabled: true
+                four: Option Vier
+            select_optgroup:
+              type: select_optgroup
+              label: Gruppenauswahl
+              options:
+                - Gruppe 1:
+                    - Option Eins
+                    - Option Zwei
+                - Gruppe 2:
+                    - Option Drei
+                    - Option Vier
+            toggle:
+              type: toggle
+              label: Schalter
+              highlight: 1
+              options:
+                1: Ja
+                0: Nein
+              validate:
+                type: bool
+            url:
+              type: url
+              label: URL
+              placeholder: https://getgrav.org
 
-    subject:
-      label: Betreff
-      placeholder: Betreff
-      type: text
-      validate:
-        required: true
-
-    message:
-      label: Nachricht
-      placeholder: Deine Nachricht
-      type: textarea
-      rows: 5
-      cols: 40
-      validate:
-        required: true
 
   buttons:
     submit:
