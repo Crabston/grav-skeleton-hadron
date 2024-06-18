@@ -4,8 +4,8 @@ slug: formular
 sitemap:
   changefreq: yearly
   priority: 0.5
-  lastmod: 17.06.2024
-
+  lastmod: 17-06-2024
+date: 17-06-2024
 form:
   name: beispiel-formular
   fields:

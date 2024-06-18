@@ -6,6 +6,7 @@ sitemap:
   changefreq: yearly
   priority: 0.5
   lastmod: 14-06-2024
+date: 14-06-2024
 taxonomy:
   category: Seiten
   tag: [ Anleitung, Seiten ]

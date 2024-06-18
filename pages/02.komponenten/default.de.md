@@ -5,6 +5,7 @@ sitemap:
   changefreq: monthly
   priority: 0.8
   lastmod: 06-05-2024
+date: 06-05-2024
 ---
 
 [div class="columns"]

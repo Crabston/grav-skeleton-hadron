@@ -5,6 +5,7 @@ sitemap:
   changefreq: monthly
   priority: 0.8
   lastmod: 31-05-2024
+date: 31-05-2024
 taxonomy:
   category: [ Plugins ]
   tag: [ Plugins ]

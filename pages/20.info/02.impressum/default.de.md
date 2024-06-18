@@ -4,6 +4,7 @@ sitemap:
   changefreq: yearly
   priority: 0.4
   lastmod: 27-05-2024
+date: 27-05-2024
 ---
 
 # Impressum

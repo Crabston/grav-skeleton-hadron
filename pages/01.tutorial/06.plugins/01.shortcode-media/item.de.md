@@ -6,6 +6,7 @@ sitemap:
   changefreq: yearly
   priority: 0.5
   lastmod: 31-05-2024
+date: 31-05-2024
 taxonomy:
   category: Plugins
   tag: [ Anleitung, Plugins ]

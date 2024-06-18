@@ -6,6 +6,7 @@ sitemap:
   changefreq: monthly
   priority: 1
   lastmod: 19-04-2024
+date: 19-04-2024
 taxonomy:
   author: Crabston GmbH
 feed:

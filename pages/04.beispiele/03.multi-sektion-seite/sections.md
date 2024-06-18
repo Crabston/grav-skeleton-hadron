@@ -15,7 +15,8 @@ child_type: section
 sitemap:
   changefreq: never
   priority: 0.2
-  lastmod: 3.4.2024
+  lastmod: 03-04-2024
+date: 03-04-2024
 ---
 
 [div class="sections-page-title"]

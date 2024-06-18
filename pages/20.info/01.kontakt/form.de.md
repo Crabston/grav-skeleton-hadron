@@ -3,7 +3,8 @@ title: Kontakt
 sitemap:
   changefreq: yearly
   priority: 0.4
-  lastmod: 18.06.2024
+  lastmod: 18-06-2024
+date: 18-06-2024
 
 form:
   name: contact-form
