@@ -33,8 +33,7 @@ modular_content:
     custom:
       - _nachricht
 content:
-  items:
-    - '@self.descendants'
+  items: '@self.descendants'
   limit: 8
   order:
     by: date
