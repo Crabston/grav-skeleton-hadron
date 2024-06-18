@@ -62,20 +62,13 @@ form:
     email:
       from: '{{ config.plugins.email.from }}'
       to:
-        - '{{ config.plugins.email.to }}'
         - '{{ config.site.author.email }}'
-      subject: '[Feedback]: {{ form.value.subject|e }}'
+      subject: '[Kontaktformular]: {{ form.value.subject|e }}'
       body: '{% include ''forms/data.html.twig'' %}'
     display: thankyou
-    message: 'Wir haben Ihre Nachricht bekommen.'
+    message: 'Wir haben Ihre Nachricht erhalten und werden uns in Kürze bei Ihnen melden.'
 ---
 
 # Kontakt
 
-Kontaktiere uns:
-
-Crabston GmbH <br />
-Städtli 16 <br />
-3380 Wangen an der Aare <br />
-[kontakt@crabston.ch](mailto:kontakt@crabston.ch) <br />
-[crabston.ch](https://crabston.ch)
+Kontaktiere uns bei technischen Anliegen via E-Mail an [contact@crabston.dev](mailto:contact@crabston.dev) oder über das Kontaktformular.
