@@ -31,7 +31,6 @@ form:
                       type: text
                       label: Vorname
                       placeholder: Max
-                      classes: fancy
                       validate:
                         required: true
                 column2:
@@ -41,7 +40,6 @@ form:
                       type: text
                       label: Name
                       placeholder: Mustermann
-                      classes: fancy
                       validate:
                         required: true
 
@@ -55,7 +53,6 @@ form:
                       type: email
                       label: Email
                       placeholder: email@example.com
-                      classes: fancy
                       validate:
                         required: true
                 column2:
@@ -65,13 +62,11 @@ form:
                       type: tel
                       label: Telefon
                       placeholder: +41 12 345 67 89
-                      classes: fancy
 
             subject:
               type: text
               label: Betreff
               placeholder: Betreff
-              classes: fancy
               validate:
                 required: true
 
@@ -79,7 +74,6 @@ form:
               type: textarea
               label: Nachricht
               placeholder: Deine Nachricht
-              classes: fancy
               rows: 5
               cols: 40
               validate:
@@ -97,7 +91,6 @@ form:
               type: checkbox
               label: Checkbox
               description: Beschreibung des Feldes
-              classes: fancy
             #checkboxes:
             #  type: checkboxes
             #  label: Mehrere Checkboxen
@@ -110,21 +103,18 @@ form:
             date:
               type: date
               label: Datum
-              classes: fancy
               validate:
                 min: 2020-01-01
                 max: 2025-12-31
             number:
               type: number
               label: Nummer
-              classes: fancy
               validate:
                 min: 1
                 max: 10
             radio:
               type: radio
               label: Radio
-              classes: fancy
               default: two
               options:
                 one: Option Eins
@@ -133,7 +123,6 @@ form:
             range:
               type: range
               label: Bereich
-              classes: fancy
               default: 5
               validate:
                 min: 1
@@ -141,7 +130,6 @@ form:
             select:
               type: select
               label: Auswahl
-              classes: fancy
               default: two
               options:
                 one: Option Eins
@@ -153,7 +141,6 @@ form:
             select_multiple:
               type: select
               label: Mehrfachauswahl
-              classes: fancy
               default: two
               multiple: true
               options:
@@ -166,7 +153,6 @@ form:
             select_optgroup:
               type: select_optgroup
               label: Gruppenauswahl
-              classes: fancy
               options:
                 - Gruppe 1:
                     - Option Eins
@@ -177,7 +163,6 @@ form:
             toggle:
               type: toggle
               label: Schalter
-              classes: fancy
               highlight: 1
               options:
                 1: Ja
@@ -187,19 +172,16 @@ form:
             url:
               type: url
               label: URL
-              classes: fancy
               placeholder: https://crabston.ch
-
 
   buttons:
     submit:
       type: submit
       value: Senden
-      classes: fancy btn btn-primary
+      classes: btn btn-primary
     reset:
       type: reset
       value: Zurücksetzen
-      classes: fancy
 
   process:
     # NOTE: commented out to prevent spam
