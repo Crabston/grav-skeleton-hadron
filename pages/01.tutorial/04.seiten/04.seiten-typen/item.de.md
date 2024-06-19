@@ -87,8 +87,10 @@ Ein Formular ist eine Komponente, um ein Formular anzuzeigen, welches durch eine
 
 **Weitere Informationen:**
 - Seiten Template: `Form`
-- Beispiel: _noch kein Beispiel vorhanden_
-<!-- TODO: Formular Beispiel hinzufügen -->
+- Beispiel: [Beispiele/Formular](/beispiele/formular)
+- Originaldatei: [/pages/04.beispiele/07.formular/form.de.md](https://github.com/Crabston/grav-demo/blob/main/pages/04.beispiele/07.formular/form.de.md?plain=1)
+- weitere Referenzen:
+  - [Tutorials / Seiten / Kontaktformular erstellen](/tutorial/seiten/kontaktformular-erstellen)
 
 ### H5P
 
