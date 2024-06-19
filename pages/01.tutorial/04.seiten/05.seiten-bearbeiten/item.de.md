@@ -86,25 +86,6 @@ Dies sind die Einstellungen der Seitenleiste. Hier kann beispielsweise festgeleg
 - **Zeige Inhaltsverzeichnis**: ob das Inhaltsverzeichnis angezeigt wird
 - **Zeige Suche**: ob ein Suchfeld angezeigt wird
 
-### 4. Sitemap (Plugin)
-
-Das Sitemap Plugin unterstützt die Erstellung einer Sitemap für die Website. Hier können Seitenspezifische Einstellungen vorgenommen werden.
-
-- **Ignoriere Seite**: ob die Seite in der Sitemap ignoriert wird (sie wird nicht indexiert)
-- **zuletzt geändert**: Zeitpunkt, an dem die Seite zuletzt geändert wurde$
-- **Änderungshäufigkeit**: wie oft sich die Seite ändert (Schätzung; Tipp für Suchmaschinen zur Indexierung)
-- **Priorität**: Priorität der Seite zwischen 0.0 und 1.0 (0.5 ist eine normale Seite)
-
-### 5. Externe Links (Plugin)
-
-Das External Links Plugin ermöglicht das Hinzufügen von Icons bei externen Links, um diese zu kennzeichnen.
-
-- **Aktiviere externe Links**: ob externe Links aktiviert sind
-- **Zeige Standardtitel**: ob der Standardtitel angezeigt werden soll
-- **Füge `rel="nofollow"` hinzu**: fügt den `rel="nofollow"` Header zu externen Links hinzu. Dies ist ein Hinweis an Crawler, dass der Link weiterverfolgt werden soll.
-- **Setze `target` Attribut**: setzt das `target` Attribut für externe Links
-- **Modus**: Modus für externe Links (ob ein Icon angezeigt wird oder nicht)
-
 ## Erweitert
 
 Hier können administrative Einstellungen der Seite bearbeitet werden. Dies betrifft beispielsweise die URL oder die Seitentypen.
@@ -148,26 +129,7 @@ Hier können administrative Einstellungen der Seite bearbeitet werden. Dies betr
 
 ### 5. administrative Anpassungen
 
-- **Sortierung der Unterseiten**: Nach was die Unterseiten sortiert werden sollen
-
-### 6. Inhaltsverzeichnis (Plugin)
-
-- **Inhaltsverzeichnis generieren**: Ob ein Inhaltsverzeichnis generiert werden soll
-- **Starte bei Überschrift**: Ab welcher Überschrift das Inhaltsverzeichnis generiert werden soll
-- **Ende bei Überschrift**: Bis zu welcher Überschrift das Inhaltsverzeichnis generiert werden soll
-- **CSS Klassen**: CSS Klassen, die angewendet werden sollen
-
-### 7. Anker (Plugin)
-
-- **Starte bei Überschrift**: Ab welcher Überschrift Anker generiert werden sollen
-- **Ende bei Überschrift**: Bis zu welcher Überschrift Anker generiert werden sollen
-- **Verlinke Anker**: Ob Anker verlinkt werden sollen
-- **Aria Label**: Aria Label für Anker (für Barrierefreiheit)
-- **CSS Klassen**: CSS Klassen, die angewendet werden sollen
-- **Anker Icon**: Zeichen, welches für Anker verwendet werden soll
-- **Anker Icon Position**: Position des Anker Icons
-- **Maximale Slug Länge**: Maximale Länge des Slugs
-- **Slug Präfix**: Präfix des Slugs
+- **Sortierung der Unterseiten**: Wonach die Unterseiten sortiert werden sollen
 
 ## Sicherheit
 
@@ -188,3 +150,7 @@ Hier können die Berechtigungen der Seite bearbeitet werden. Dies betrifft beisp
 
 - **Berechtigungen erben**: ob die Berechtigungen von übergeordneten Seiten geerbt werden
 - **Seitengruppen**: Spezielle Berechtigungen für Gruppen, nach CRUD (Create, Read, Update, Delete)/ (Erstellen, Lesen, Aktualisieren, Löschen)
+
+### weiteres
+
+Je nach Seitentyp und Konfiguration des Systems können weitere Optionen zur Verfügung stehen. Dies ist zum Beispiel bei Blogs & Beiträgen der Fall. Auch durch Plugins können weitere Optionen hinzugefügt werden. Eine Anleitung zu diesen Optionen findest du im [Tutorial Seiten bearbeiten - erweitert](/tutorial/seiten/seiten-bearbeiten-erweitert).

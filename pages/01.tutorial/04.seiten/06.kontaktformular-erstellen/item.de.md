@@ -19,6 +19,8 @@ hero_classes: 'text-dark overlay-dark parallax'
 
 ===
 
+!!! Diese Anleitung zeigt nicht, wie Formulare im Admin Panel erstellt werden können. Eine Anleitung zu den Optionen über das Admin Panel findest du über [Tutorials / Seiten / Seiten bearbeiten - erweitert #Formular](/tutorial/seiten/seiten-bearbeiten-erweitert#formular).
+
 ! Für diese Anleitung ist etwas mehr Erfahrung mit Grav erforderlich, um alle Informationen in dieser Anleitung zu verstehen und anzuwenden. Optimal hast du auch bereits mit dem Frontmatter gearbeitet.
 ! Ein Standard Formular kann jedoch auch ohne Vorkenntnisse erstellt werden.
 
