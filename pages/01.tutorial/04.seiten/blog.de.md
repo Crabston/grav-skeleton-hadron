@@ -8,7 +8,7 @@ sitemap:
 date: 20-04-2024
 taxonomy:
   category: [ Seiten ]
-  tag: [ Seiten ]
+  tag: [ Seiten, Kategorie ]
   author: Crabston GmbH
 hero_classes: 'text-light overlay-dark parallax'
 body_classes: 'header-dark header-transparent'
@@ -27,9 +27,11 @@ content:
 hide_summary: true
 ---
 
-Seiten sind die Hauptbestandteile einer Website. Sie können beliebig viele Seiten erstellen und diese in einer beliebigen Hierarchie anordnen. Seiten können auch in mehreren Sprachen erstellt werden.
+Das Verwalten und Erstellen von Seiten ist der Kern von Grav CMS. In diesen Tutorials lernst du, wie du Seiten erstellst und diese verwaltest. Dabei werden die verschiedenen Einstellungen und Optionen vorgestellt.
 
 ===
 
 # Grav Tutorial - Seiten
 ## Seiten in Grav CMS
+
+Das Verwalten und Erstellen von Seiten ist der Kern von Grav CMS. In diesen Tutorials lernst du, wie du Seiten erstellst und diese verwaltest. Dabei werden die verschiedenen Einstellungen und Optionen vorgestellt.
