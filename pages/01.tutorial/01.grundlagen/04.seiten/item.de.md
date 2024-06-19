@@ -13,8 +13,7 @@ hero_image: hero.webp
 hero_classes: 'text-light overlay-dark parallax'
 ---
 
-!!! Wie du Seiten erstellen, bearbeiten und löschen kannst.  
-!!! Welche Einstellungen für Seiten vorgenommen werden können.
+!!! In dieser Anleitung lernst du, wie du in Grav Seiten erstellen, bearbeiten und löschen kannst und welche Einstellungen für Seiten vorgenommen werden können.
 
 ===
 
@@ -24,7 +23,6 @@ hero_classes: 'text-light overlay-dark parallax'
 ![Screenshot Seitenübersicht](seiten-übersicht.webp?lightbox)
 
 ## Übersicht
-
 Die 3 Spalten zeigen dir die Seiten und Ordner auf verschiedenen Ebenen, 1. Ebene _(rot markiert)_, 2. Ebene _(grün markiert)_ und 3. Ebene _(blau markiert)_. Die Ebenen repräsentieren die Hierarchie der Seiten. Je nachdem können weitere Ebenen hinzukommen.
 
 1. Ebene: Startseite, Hauptseiten
@@ -35,7 +33,6 @@ Die 3 Spalten zeigen dir die Seiten und Ordner auf verschiedenen Ebenen, 1. Eben
 Oben rechts _(pink markiert)_ kannst du eine Blogseite, Standardseite oder modulspezifische Komponenten erstellen. Je nach Konfiguration der Seite sind verschiedene Optionen verfügbar.
 
 ### Legende Symbole
-
 ![Screenshot Seitenübersicht](seiten-übersicht.webp?lightbox)
 
 | Komponente  | Beschreibung  | Bedeutung                |
@@ -49,7 +46,6 @@ Oben rechts _(pink markiert)_ kannst du eine Blogseite, Standardseite oder modul
 |             | 🔴 _rot_      | unveröffentlichte Seite  |
 
 ### Legende Optionen
-
 ![Seitenlegende](seiten-legende.webp?lightbox)
 
 | P  | Beschreibung              |
@@ -66,8 +62,9 @@ Oben rechts _(pink markiert)_ kannst du eine Blogseite, Standardseite oder modul
 | 10 | zuletzt bearbeitet        |
 | 11 | Unterseiten anzeigen      |
 
-## Seite erstellen {#create-page}
+## Seite
 
+### Seite erstellen
 Du kannst eine neue Seite erstellen, indem du entweder den Knopf «Neue Seite erstellen» drückst oder eine Seite duplizierst. Dann musst du folgende Angaben machen:
 
 - `Seitentitel*`: Name der Seite der angezeigt wird
@@ -76,35 +73,28 @@ Du kannst eine neue Seite erstellen, indem du entweder den Knopf «Neue Seite er
 - `Seiten Template`: Vorlage, die für die Seite verwendet werden soll
 - `Veröffentlicht/Sichtbar*`: Ob die Seite veröffentlicht sein soll oder nicht
 
-[size=20]mit `*` gekennzeichnete Angaben sind auszufüllen[/size]
+[size=14]mit `*` gekennzeichnete Angaben sind auszufüllen[/size]
 
-## Seite bearbeiten {#edit-page}
-
+### Seite bearbeiten
 Um eine Seite zu bearbeiten, klicke ein Element in der Seitenübersicht an. Du kannst nun die Seite bearbeiten.
-
 ![Screenshot Seite bearbeiten](seite-bearbeiten.webp?lightbox)
 
 In der Navigation oben _(rot markiert)_ kannst du zwischen Inhalt und verschiedenen Optionen wechseln.
 
-In der Mitte _(grün markiert)_ kannst du den Inhalt der Seite bearbeiten. Am oberen Rand des Feldes hast du Formatierungsoptionen zur Verfügung, um den Text entsprechend zu formatieren. Andernfalls kannst du auch Markdown verwenden. Die Formatierungsoptionen/ Komponenten findest du [hier](/komponenten).
+In der Mitte _(grün markiert)_ kannst du den Inhalt der Seite bearbeiten. Am oberen Rand des Feldes hast du Formatierungsoptionen zur Verfügung, um den Text entsprechend zu formatieren. Andernfalls kannst du auch Markdown verwenden. Die Formatierungsoptionen/ Komponenten findest du in der [Übersicht der Komponenten](/komponenten).
 Um eine grobe Vorschau der Seite zu sehen, klicke auf das Auge oben links. So erkennst du, ob es Fehler in Markdown gibt. Erweiterte Komponenten werden nicht angezeigt.
 
 Zu unterst _(orange markiert)_ kannst du Bilder, Videos und andere Medien hochladen.
 
-## Seite löschen {#delete-page}
-
+### Seite löschen
 Um eine Seite zu löschen, klicke auf die drei Punkte neben dem Element in der Seitenübersicht. Klicke dann auf «Löschen». Du wirst gefragt, ob du die Seite wirklich löschen möchtest. Klicke auf «Löschen».
 
 !! Änderungen können nicht rückgängig gemacht werden
 
-## Seiteneinstellungen {#page-settings}
-
-Es gibt verschiedene Einstellungen, die du für ein Element vornehmen kannst.
+## Optionen
 
 ### Optionen
-
 In den Optionen findest du gängige Einstellungen, die du für eine Seite vornehmen kannst. Diese sind in den meisten Fällen relevant.
-
 ![Screenshot Optionen](seite-optionen.webp?lightbox)
 
 | Option                   | Beschreibung                                                       |
@@ -117,10 +107,10 @@ In den Optionen findest du gängige Einstellungen, die du für eine Seite vorneh
 | `Category` _(Blog)_      | Kategorie, die für die Seite verwendet werden soll                 |
 | `Tags` _(Blog)_          | Tags, die für die Seite verwendet werden sollen                    |
 
+!!! Eine vollständige Liste der verfügbaren Optionen findest du unter [Tutorials / Seiten / Seiten bearbeiten # Optionen](/tutorial/seiten/seiten-bearbeiten#optionen)
+
 ### Erweiterte Optionen
-
 Die erweiterten Optionen bieten weitere Einstellungen, die jedoch für die meisten Benutzer nicht relevant sind.
-
 ![Screenshot erweiterte Optionen](seite-erweiterte-optionen.webp?lightbox)
 
 | Option               | Beschreibung                                                    |
@@ -133,7 +123,9 @@ Die erweiterten Optionen bieten weitere Einstellungen, die jedoch für die meist
 | `Body CSS Klassen`   | CSS-Klassen, die für den Body der Seite verwendet werden sollen |
 | `Slug`               | URL, an der die Seite erreichbar sein soll                      |
 
-## Module {#modules}
+!!! Eine vollständige Liste der verfügbaren erweiterten Optionen findest du unter [Tutorials / Seiten / Seiten bearbeiten # Erweitert](/tutorial/seiten/seiten-bearbeiten#erweitert)
+
+## Module
 
 Module werden verwendet, um auf einer Seite verschiedene Komponenten oder Abschnitte zu erstellen. Sie funktionieren grundsätzlich wie normale Seiten, was die Bearbeitung und die Optionen und Aktionsmöglichkeiten betrifft. 
 

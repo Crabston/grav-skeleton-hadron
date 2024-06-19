@@ -13,7 +13,7 @@ hero_image: hero.webp
 hero_classes: 'text-light overlay-dark parallax'
 ---
 
-!!! Wie du dich beim Grav Admin Panel anmeldest
+!!! In dieser Anleitung lernst du, wie du dich im Admin Panel deiner Grav Website anmeldest.
 
 ===
 

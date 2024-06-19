@@ -8,7 +8,7 @@ sitemap:
 date: 19-04-2024
 taxonomy:
   category: [ Grundlagen ]
-  tag: [ Grundlagen ]
+  tag: [ Grundlagen, Kategorie ]
   author: Crabston GmbH
 hero_classes: 'text-light overlay-dark parallax'
 body_classes: 'header-dark header-transparent'
@@ -27,9 +27,11 @@ content:
 hide_summary: true
 ---
 
-Die Grundlagen von Grav sind die Basis für das Verständnis des CMS. In diesen Tutorials lernen Sie die wichtigsten Konzepte und Funktionen kennen, die Sie für die Arbeit mit Grav benötigen.
+Die Grundlagen von Grav sind die Basis für das Verständnis des CMS. In diesen Tutorials lernst du die wichtigsten Konzepte und Funktionen kennen, die du für die Arbeit mit Grav benötigst.
 
 ===
 
 # Grav Tutorial - Grundlagen
 ## Grundlagen zu Grav CMS
+
+Die Grundlagen von Grav sind die Basis für das Verständnis des CMS. In diesen Tutorials lernst du die wichtigsten Konzepte und Funktionen kennen, die du für die Arbeit mit Grav benötigst.
