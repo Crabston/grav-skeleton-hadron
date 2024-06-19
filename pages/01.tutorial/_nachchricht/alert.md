@@ -7,10 +7,9 @@ visible: true
 
 **Willkommen zum Grav Tutorial!**
 
-Mit dieser Demoseite und den Tutorials zu Grav CMS lernst du die wichtigsten Funktionen des Grav CMS kennen und kannst diese bei deiner Website anwenden.
+_Bitte lesen Sie zuerst sorgfältig die [Hinweise über diese Seite](/über) bevor Sie mit den Anleitungen beginnen. Vielen Dank._
 
 Hier sind noch weitere Links, die nützlich sein können:
-
 - [Offizielle Grav CMS Dokumentation](https://learn.getgrav.org) _(englisch)_
   - [Markdown Syntax](https://learn.getgrav.org/17/content/markdown)
   - [Admin Panel](https://learn.getgrav.org/17/admin-panel/introduction)
