@@ -20,11 +20,10 @@ sidebar:
 bricklayer_layout: true
 child_type: item
 content:
-  items:
-    - '@self.children'
+  items: '@self.children'
   order:
-    by: folder
-    dir: asc
+    by: date
+    dir: dsc
 hide_summary: true
 ---
 
