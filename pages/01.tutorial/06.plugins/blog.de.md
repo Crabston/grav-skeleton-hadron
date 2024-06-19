@@ -8,7 +8,7 @@ sitemap:
 date: 31-05-2024
 taxonomy:
   category: [ Plugins ]
-  tag: [ Plugins ]
+  tag: [ Plugins, Kategorie ]
   author: Crabston GmbH
 hero_classes: 'text-light overlay-dark parallax'
 body_classes: 'header-dark header-transparent'
@@ -27,9 +27,11 @@ content:
 hide_summary: true
 ---
 
-Plugins sind Erweiterungen für Grav, die zusätzliche Funktionen bereitstellen. In diesem Tutorial erfährst du, wie du Plugins installierst, konfigurierst und verwaltest.
+Plugins sind Erweiterungen für Grav, die zusätzliche Funktionen bereitstellen. In diesen Tutorials werden die Optionen und Einstellungen verschiedener Plugins vorgestellt.
 
 ===
 
 # Grav Tutorial - Plugins
 ## Plugins in Grav CMS
+
+Plugins sind Erweiterungen für Grav, die zusätzliche Funktionen bereitstellen. In diesen Tutorials werden die Optionen und Einstellungen verschiedener Plugins vorgestellt.
