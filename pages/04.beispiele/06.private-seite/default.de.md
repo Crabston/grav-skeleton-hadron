@@ -5,11 +5,12 @@ language: de
 sitemap:
   changefreq: monthly
   priority: 0.2
-  lastmod: 20.10.2023
+  lastmod: 20-10-2023
+date: 20-10-2023
 login:
-    visibility_requires_access: true
+  visibility_requires_access: true
 access:
-    site.login: true
+  site.login: true
 ---
 
 # Private Seite

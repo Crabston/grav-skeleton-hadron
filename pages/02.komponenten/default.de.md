@@ -5,6 +5,7 @@ sitemap:
   changefreq: monthly
   priority: 0.8
   lastmod: 06-05-2024
+date: 06-05-2024
 ---
 
 [div class="columns"]
@@ -263,25 +264,11 @@ https://www.youtube.com/watch?v=K4TOrB7at0Y
 
 ### PDF
 
-> Syntax: `[raw][pdf url="datei.pdf"][/raw]`
+_siehe [Tutorial > Plugins > Shortcode Media](/tutorial/plugins/shortcode-media#pdf)_
 
-[pdf url="beispiel-pdf.pdf"]
+### Dokumente
 
-```md
-[raw][pdf url="beispiel-pdf.pdf"][/raw]
-```
-
-### andere Dateien
-
-> Mit dem `docviewer` kannst du viele verschiedene Dateitypen mit dem Google Viewer anzeigen lassen.
-
-> Syntax: `[raw][docviewer url="datei.pdf" google=true][/raw]`
-
-[docviewer url="beispiel-pdf.pdf" google=true]
-
-```md
-[raw][docviewer url="beispiel-pdf.pdf" google=true][/raw]
-```
+_siehe [Tutorial > Plugins > Shortcode Media](/tutorial/plugins/shortcode-media#docviewwer)_
 
 ## Code
 

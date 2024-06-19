@@ -7,7 +7,7 @@ published: true
 visible: false
 cache_enable: false
 sitemap:
-  changefreq: never
-  priority: 0.2
-  lastmod: 3.4.2024
+  ignore: true
+  lastmod: 03-04-2024
+date: 03-04-2024
 ---

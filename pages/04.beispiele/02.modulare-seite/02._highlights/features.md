@@ -21,8 +21,6 @@ features:
     - header: Free / Open Source
       text: "Grav is an open source project, so you can spend your money on other stuff"
       icon: fa fa-money
-
-
 ---
 
 # Why Grav?

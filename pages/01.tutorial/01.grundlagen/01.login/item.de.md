@@ -5,6 +5,7 @@ sitemap:
   changefreq: yearly
   priority: 0.5
   lastmod: 19-04-2024
+date: 19-04-2024
 taxonomy:
   tag: [ Grundlagen, Login ]
 header_image_file: hero.webp
@@ -12,7 +13,7 @@ hero_image: hero.webp
 hero_classes: 'text-light overlay-dark parallax'
 ---
 
-!!! Wie du dich beim Grav Admin Panel anmeldest
+!!! In dieser Anleitung lernst du, wie du dich im Admin Panel deiner Grav Website anmeldest.
 
 ===
 

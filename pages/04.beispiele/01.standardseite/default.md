@@ -5,8 +5,8 @@ published: true
 sitemap:
   changefreq: never
   priority: 0.2
-  lastmod: 3.4.2024
-
+  lastmod: 03-04-2024
+date: 03-04-2024
 ---
 
 Diese Seite zeigt ein Beispiel für eine **Standard** Seite, auf der der Inhalt einer einzelnen Seite angezeigt wird. Hier wird auch gezeigt, wie Klassen zu Markdown-Bildern hinzugefügt werden, um Bilder links oder rechts schwebend anzuzeigen, mit und ohne Bildunterschriften.
