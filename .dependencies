@@ -87,8 +87,7 @@ git:
     page-toc:
         url: https://github.com/trilbymedia/grav-plugin-page-toc
         path: user/plugins/page-toc
-        # TODO: change to master once the plugin is updated and problems are fixed
-        branch: 3.2.2
+        branch: master
     pagination:
         url: https://github.com/getgrav/grav-plugin-pagination
         path: user/plugins/pagination
