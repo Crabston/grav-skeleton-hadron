@@ -43,11 +43,6 @@ git:
         url: https://github.com/hibbitts-design/grav-plugin-external-links
         path: user/plugins/external_links
         branch: master
-    featherlight:
-        url: https://github.com/getgrav/grav-plugin-featherlight
-        path: user/plugins/featherlight
-        # TODO: change to master when plugin gets new release
-        branch: develop
     feed:
         url: https://github.com/getgrav/grav-plugin-feed
         path: user/plugins/feed
@@ -159,4 +154,8 @@ git:
     youtube:
         url: https://github.com/getgrav/grav-plugin-youtube
         path: user/plugins/youtube
+        branch: master
+    zooming:
+        url: https://github.com/JulianSchoenbaechler/grav-plugin-zooming
+        path: user/plugins/zooming
         branch: master
