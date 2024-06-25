@@ -5,13 +5,19 @@ links:
     link: 'https://grav.demo.crabston.dev/'
     tooltip: 'Dokumentation und Tutorials'
     external: true
+    authorize:
+      - 'admin.login'
   -
     icon: 'fa fa-life-ring'
     link: 'https://crabston.atlassian.net/servicedesk'
     tooltip: 'Crabston Helpdesk'
     external: true
+    authorize:
+      - 'admin.login'
   -
     icon: 'fa fa-envelope'
     link: 'mailto:support@crabston.dev'
     tooltip: 'Email Crabston Helpdesk'
     external: true
+    authorize:
+      - 'admin.login'
