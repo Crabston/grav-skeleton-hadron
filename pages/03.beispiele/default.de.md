@@ -1,7 +1,6 @@
 ---
 title: Beispiele
 slug: beispiele
-language: de
 sitemap:
   changefreq: yearly
   priority: 0.5
