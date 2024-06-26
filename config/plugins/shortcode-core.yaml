@@ -6,7 +6,7 @@ parser: regular
 include_default_shortcodes: true
 css:
   notice_enabled: true
-custom_shortcodes: /user/custom/shortcodes
+custom_shortcodes: /user/themes/local/shortcodes
 fontawesome:
   load: true
   url: //maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css

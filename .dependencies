@@ -43,11 +43,6 @@ git:
         url: https://github.com/hibbitts-design/grav-plugin-external-links
         path: user/plugins/external_links
         branch: master
-    featherlight:
-        url: https://github.com/getgrav/grav-plugin-featherlight
-        path: user/plugins/featherlight
-        # TODO: change to master when plugin gets new release
-        branch: develop
     feed:
         url: https://github.com/getgrav/grav-plugin-feed
         path: user/plugins/feed
@@ -87,8 +82,7 @@ git:
     page-toc:
         url: https://github.com/trilbymedia/grav-plugin-page-toc
         path: user/plugins/page-toc
-        # TODO: change to master once the plugin is updated and problems are fixed
-        branch: 3.2.2
+        branch: master
     pagination:
         url: https://github.com/getgrav/grav-plugin-pagination
         path: user/plugins/pagination
@@ -149,6 +143,10 @@ git:
         url: https://github.com/trilbymedia/grav-plugin-tntsearch
         path: user/plugins/tntsearch
         branch: master
+    translate-date:
+        url: https://github.com/Karmalakas/grav-plugin-translate-date
+        path: user/plugins/translate-date
+        branch: main
     umami-analytics:
         url: https://github.com/Crabston/grav-plugin-umami-analytics
         path: user/plugins/umami-analytics
@@ -156,4 +154,8 @@ git:
     youtube:
         url: https://github.com/getgrav/grav-plugin-youtube
         path: user/plugins/youtube
+        branch: master
+    zooming:
+        url: https://github.com/JulianSchoenbaechler/grav-plugin-zooming
+        path: user/plugins/zooming
         branch: master

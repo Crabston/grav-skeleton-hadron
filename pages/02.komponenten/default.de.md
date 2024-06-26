@@ -6,6 +6,8 @@ sitemap:
   priority: 0.8
   lastmod: 06-05-2024
 date: 06-05-2024
+page-toc:
+  depth: 3
 ---
 
 [div class="columns"]
