@@ -1,3 +1,15 @@
+# v0.0.4
+##  26-06-2024
+
+1. [](#new)
+	  * more tutorials
+	  * private and about pages
+    * cron scheduler for backups and more
+1. [](#improved)
+	  * several pages
+1. [](#bugfix)
+	  * several bugfixes from plugins
+
 # v0.0.3
 ##  29-05-2024
 
