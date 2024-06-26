@@ -9,12 +9,12 @@ profiles:
     root: /user
     exclude_paths: "/plugins\n/themes/quark\n/themes/quark-open-publishing\n/themes/minimal"
     exclude_files: ".DS_Store\n.git\n.svn\n.hg\n.idea\n.vscode\nnode_modules"
-    schedule: false
-    schedule_at: '* * * * *'
+    schedule: true
+    schedule_at: '0 0 * * 1'
   -
     name: Systembackup
     root: /
     exclude_paths: "/backup\n/cache\n/images\n/logs\n/tmp"
     exclude_files: ".DS_Store\n.git\n.svn\n.hg\n.idea\n.vscode\nnode_modules"
-    schedule: false
-    schedule_at: '0 3 * * *'
+    schedule: true
+    schedule_at: '0 0 1 * *'

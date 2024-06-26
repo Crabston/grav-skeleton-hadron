@@ -1,0 +1,6 @@
+status:
+  tntsearch-index: enabled
+  cache-purge: enabled
+  cache-clear: enabled
+  datenbackup: enabled
+  systembackup: enabled
