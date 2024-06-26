@@ -2,22 +2,22 @@ enabled: true
 links:
   -
     icon: 'fa fa-book'
-    link: 'https://grav.demo.crabston.dev/'
-    tooltip: 'Dokumentation und Tutorials'
+    link: 'https://tutorials.crabston.ch'
+    tooltip: 'Anleitungen zu Grav'
     external: true
     authorize:
-      - 'admin.login'
+      admin.login: true
   -
     icon: 'fa fa-life-ring'
     link: 'https://crabston.atlassian.net/servicedesk'
-    tooltip: 'Crabston Helpdesk'
+    tooltip: 'Crabston Support (Portal)'
     external: true
     authorize:
-      - 'admin.login'
+      admin.login: true
   -
     icon: 'fa fa-envelope'
     link: 'mailto:support@crabston.dev'
-    tooltip: 'Email Crabston Helpdesk'
+    tooltip: 'Crabston Support (E-Mail)'
     external: true
     authorize:
-      - 'admin.login'
+      admin.login: true
