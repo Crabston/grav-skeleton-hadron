@@ -13,7 +13,7 @@ date: 19-06-2024
 !!! Dieser Guide beinhaltet alle notwendigen Schritte, um eine neue Grav Website von einer Vorlage zu erstellen. Dies beinhaltet vom Klonen des Repositories über das Anpassen der Konfigurationen und Theme bis hin zum Veröffentlichen der Website.
 
 ## 1. Repository klonen
-Als muss das Repository geklont werden, um lokal auf dem Computer zu arbeiten. Dafür gibt es folgende Möglichkeiten:
+Es muss das Repository geklont werden, um lokal auf dem Computer zu arbeiten. Dafür gibt es folgende Möglichkeiten:
 1. Repository Code herunterladen
 2. Release herunterladen
 3. Repository forken/ kopieren
@@ -170,7 +170,7 @@ Nun kann die Seite lokal geöffnet werden über http://127.0.0.1:8000. Falls noc
 Nun können weitere Einstellungen angepasst, das lokale Theme kann erweitert und neue Seiten erstellt und bearbeitet werden.
 
 `TODO: Theme customization & branding:`
-```
+```yaml
 # config/theme/local.yaml
 # Logo Konfiguration
 custom_logo:
@@ -219,11 +219,6 @@ setup:
   project: PROJECT_NAME
   config: prd
 ```
-
-## TODO
-
-- index tntsearch
-- accounts
 
 [/div]
 
