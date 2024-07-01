@@ -1,0 +1,26 @@
+schemes:
+  account:
+    type: ReadOnlyStream
+    prefixes:
+      '': ['user://accounts']
+  #page:
+  #  type: ReadOnlyStream
+  #  prefixes:
+  #    '': ['environment://user']
+  image:
+    type: Stream
+    prefixes:
+      '': ['environment://images', 'system://images/']
+  'user-data':
+    type: Stream
+    prefixes:
+      '': ['environment://data']
+  cache:
+    type: Stream
+    prefixes:
+      '': ['cache/tutorials.crabston.ch']
+      images: ['images/tutorials.crabston.ch']
+  log:
+    type: Stream
+    prefixes:
+      '': ['logs/tutorials.crabston.ch']
