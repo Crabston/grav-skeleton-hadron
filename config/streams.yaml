@@ -1,20 +1,8 @@
 schemes:
-  account:
-    type: ReadOnlyStream
-    prefixes:
-      '': ['user://accounts']
-  #page:
-  #  type: ReadOnlyStream
-  #  prefixes:
-  #    '': ['environment://user']
   image:
     type: Stream
     prefixes:
       '': ['environment://images', 'system://images/']
-  'user-data':
-    type: Stream
-    prefixes:
-      '': ['environment://data']
   cache:
     type: Stream
     prefixes:
@@ -24,3 +12,24 @@ schemes:
     type: Stream
     prefixes:
       '': ['logs/tutorials.crabston.ch']
+  backup:
+    type: Stream
+    prefixes:
+      '': ['backup/tutorials.crabston.ch']
+
+  account:
+    type: Stream
+    prefixes:
+      '': ['user://accounts']
+  #'user-data':
+  #  type: Stream
+  #  prefixes:
+  #    '': ['user://data']
+  #themes:
+  #  type: Stream
+  #  prefixes:
+  #    '': ['environment://themes', 'user://themes']
+  #theme:
+  #  type: Stream
+  #  prefixes:
+  #    '': ['environment://themes']
