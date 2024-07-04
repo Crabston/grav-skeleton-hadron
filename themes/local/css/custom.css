@@ -1,3 +1,69 @@
+body:not(.header-dark) .mobile-menu #toggle:not(.active) span,
+#header.scrolled ~ .mobile-menu #toggle:not(.active) span {
+  background: #3a414e;
+}
 
+body.header-dark .mobile-menu #toggle span,
+.mobile-menu #toggle.active span {
+  background: white;
+}
+
+body:not(.header-dark) #header, #header.scrolled {
+  background-color: white;
+  color: #3a414e;
+}
+body:not(.header-dark) #header .dropmenu a:is(.active, :focus, :hover), #header.scrolled .dropmenu a:is(.active, :focus, :hover) {
+  color: #005CD4 !important;
+}
+
+body.header-dark #header:not(.scrolled) {
+  background-color: white;
+  color: rgba(223, 223, 223, 0.625);
+}
+body.header-dark #header:not(.scrolled) .dropmenu a:is(.active, :focus, :hover) {
+  color: white !important;
+}
+
+#footer {
+  background-color: white !important;
+  color: #3a414e;
+}
+#footer a, #footer a:is(:hover) {
+  color: #005CD4;
+}
+
+.label.label-secondary {
+  color: #005CD4;
+  background-color: rgba(143, 184, 236, 0.325);
+}
+
+body {
+  background-color: white;
+  color: #3a414e;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  color: #3a414e;
+}
+body a:not(:has(.title), :is(.mobile-container a)) {
+  color: #005CD4;
+}
+body a:not(:has(.title), :is(.mobile-container a)):hover, body a:not(:has(.title), :is(.mobile-container a)):focus, body a:not(:has(.title), :is(.mobile-container a)):active, body a:not(:has(.title), :is(.mobile-container a)):visited {
+  color: rgba(0, 88, 202, 0.8125);
+}
+body a:not(:has(.title), :is(.mobile-container a)).btn {
+  border-color: rgba(0, 88, 202, 0.8125);
+}
+body table th {
+  background-color: #005CD4;
+  color: white;
+}
+body table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+body input:focus, body input:focus-visible, body textarea:focus, body textarea:focus-visible, body select:focus, body select:focus-visible {
+  border-color: #005CD4;
+  outline: #005CD4;
+  box-shadow: 0 0 0 0.1rem rgba(0, 92, 212, 0.25);
+}
 
 /*# sourceMappingURL=custom.css.map */

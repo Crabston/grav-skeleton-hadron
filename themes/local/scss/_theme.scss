@@ -1,5 +1,38 @@
-// colors
-$bg-color: #ffffff;
-$pri-text-color: #3d3d3d;
-$sec-text-color: #ffffff;
-$pri-bg-color: #ffffff;
+@use 'sass:color';
+@use '../../minimal/scss/theme' as minimal;
+
+// logical variables
+$dark-mode: false;
+$mobile-menu-colored: false;
+
+// color definitions
+$light-overlay: minimal.$light-overlay;
+$dark-overlay: minimal.$dark-overlay;
+$primary-color: #005CD4;
+$accent-color: mix($primary-color, $dark-overlay, 75%);
+$grey: minimal.$grey;
+
+// sizes
+$responsive-breakpoint-mobile: minimal.$responsive-breakpoint-mobile;
+$responsive-breakpoint-tablet: minimal.$responsive-breakpoint-tablet;
+$responsive-breakpoint-desktop: minimal.$responsive-breakpoint-desktop;
+
+// elements
+$background-color: white;
+$text-color: $grey;
+$text-color-light: mix($text-color, $light-overlay, 25%);
+$text-color-secondary: white;
+$text-color-secondary-dark: mix($text-color-secondary, $dark-overlay);
+$link-color: $primary-color;
+$link-color__active: $accent-color;
+
+// header & footer
+$header-background: $background-color;
+$header-text: $text-color;
+$header-text__active: $text-color-secondary;
+$footer-background: $background-color;
+$footer-text: $text-color;
+$footer-text-link: $link-color;
+
+// sizes
+$nav-item-height: 4rem;
