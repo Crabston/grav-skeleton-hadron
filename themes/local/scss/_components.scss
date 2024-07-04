@@ -99,10 +99,11 @@ body {
 		}
 	}
 
-	input {
-		&.form-input:focus {
-			border-color: $accent-color;
-			box-shadow: 0 0 0 .1rem rgba($accent-color, .25);
+	input, textarea, select {
+		&:focus, &:focus-visible {
+			border-color: $primary-color;
+			outline: $primary-color;
+			box-shadow: 0 0 0 .1rem rgba($primary-color, .25);
 		}
 	}
 }
