@@ -6,12 +6,11 @@ $dark-mode: false;
 $mobile-menu-colored: false;
 
 // color definitions
-$primary-color: #005CD4;
-$accent-color: #005CD4;
-//$grey: minimal.$grey;
-$grey: #3A414E;
 $light-overlay: minimal.$light-overlay;
 $dark-overlay: minimal.$dark-overlay;
+$primary-color: #005CD4;
+$accent-color: mix($primary-color, $dark-overlay, 75%);
+$grey: minimal.$grey;
 
 // sizes
 $responsive-breakpoint-mobile: minimal.$responsive-breakpoint-mobile;
@@ -24,8 +23,8 @@ $text-color: $grey;
 $text-color-light: mix($text-color, $light-overlay, 25%);
 $text-color-secondary: white;
 $text-color-secondary-dark: mix($text-color-secondary, $dark-overlay);
-$link-color: #3E8DEF;
-$link-color__active: mix($link-color, $dark-overlay, 50%);
+$link-color: $primary-color;
+$link-color__active: $accent-color;
 
 // header & footer
 $header-background: $background-color;
