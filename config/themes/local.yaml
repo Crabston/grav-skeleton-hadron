@@ -33,17 +33,24 @@ menu:
 dropdown:
   enabled: false
 blog_page_hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
+favicon:
+  user/themes/local/images/favicon.png:
+    name: favicon.png
+    full_path: favicon.png
+    type: image/png
+    size: 8187
+    path: user/themes/local/images/favicon.png
 custom_logo:
   user/themes/local/images/logo/logo.png:
     name: logo.png
     full_path: logo.png
     type: image/png
-    size: 77545
+    size: 8187
     path: user/themes/local/images/logo/logo.png
 custom_logo_mobile:
   user/themes/local/images/logo/logo.png:
     name: logo.png
     full_path: logo.png
     type: image/png
-    size: 77545
+    size: 8187
     path: user/themes/local/images/logo/logo.png
