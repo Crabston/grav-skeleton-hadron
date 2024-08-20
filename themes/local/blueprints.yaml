@@ -96,6 +96,16 @@ form:
               type: section
               title: THEME_LOCAL.QUARK_OPTIONS.HEADER.TITLE
               underline: true
+            favicon:
+              type: file
+              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.FAVICON.LABEL
+              size: large
+              destination: 'theme://images'
+              multiple: false
+              markdown: true
+              description: THEME_LOCAL.QUARK_OPTIONS.HEADER.FAVICON.DESCRIPTION
+              accept:
+                - 'image/*'
             custom_logo:
               type: file
               label: THEME_LOCAL.QUARK_OPTIONS.HEADER.CUSTOM_LOGO.LABEL
