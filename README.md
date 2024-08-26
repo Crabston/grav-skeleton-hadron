@@ -1,6 +1,6 @@
-# Grav Tutorial
+# Grav Demo Site
 
-Demo site & Tutorials to Grav CMS
+Demo site for Grav CMS by Crabston.
 
 ## Installation
 
