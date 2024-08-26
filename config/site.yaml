@@ -19,4 +19,4 @@ summary:
 redirects: null
 routes: null
 blog:
-  route: '/tutorial'
+  route: '/blog'
