@@ -8,7 +8,7 @@ standalone_sitemap_news: false
 sitemap_news_path: /sitemap-news.xml
 news_max_age_days: 14
 news_enabled_paths:
-  - /tutorial
+  - /blog
 ignores:
   - /blog/blog-post-to-ignore
   - /ignore-this-route

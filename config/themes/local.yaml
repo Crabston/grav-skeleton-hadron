@@ -18,7 +18,7 @@ header-animated: true
 header-dark: false
 header-transparent: false
 sticky-footer: true
-blog-page: /tutorial
+blog-page: /blog
 spectre:
   exp: false
   icons: false
@@ -31,26 +31,26 @@ menu:
     url: 'https://getgrav.org/'
     target: _blank
 dropdown:
-  enabled: false
+  enabled: true
 blog_page_hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 favicon:
-  user/themes/local/images/favicon.png:
-    name: favicon.png
-    full_path: favicon.png
-    type: image/png
-    size: 8187
-    path: user/themes/local/images/favicon.png
+  user/themes/local/images/favicon.svg:
+    name: favicon.svg
+    full_path: favicon.svg
+    type: image/svg+xml
+    size: 4868
+    path: user/themes/local/images/favicon.svg
 custom_logo:
-  user/themes/local/images/logo/logo.png:
-    name: logo.png
-    full_path: logo.png
-    type: image/png
-    size: 8187
-    path: user/themes/local/images/logo/logo.png
+  user/themes/local/images/logo/logo.svg:
+    name: logo.svg
+    full_path: logo.svg
+    type: image/svg+xml
+    size: 4868
+    path: user/themes/local/images/logo/logo.svg
 custom_logo_mobile:
-  user/themes/local/images/logo/logo.png:
-    name: logo.png
-    full_path: logo.png
-    type: image/png
-    size: 8187
-    path: user/themes/local/images/logo/logo.png
+  user/themes/local/images/logo/logo.svg:
+    name: logo.svg
+    full_path: logo.svg
+    type: image/svg+xml
+    size: 4868
+    path: user/themes/local/images/logo/logo.svg

@@ -1,4 +1,4 @@
-title: 'Grav Tutorial'
+title: 'Grav Website Demo'
 default_lang: de
 author:
   name: 'Crabston GmbH'
@@ -10,7 +10,7 @@ taxonomies:
   - author
   - filter
 metadata:
-  description: 'Mit dieser Demoseite und den Tutorials zu Grav CMS lernst du die und wichtigsten Funktionen von Grav CMS kennen und kannst diese bei deiner Website anwenden.'
+  description: 'Dies ist eine inoffizielle Demoseite der Crabston GmbH über Grav CMS. Sie dient als Beispiel für die Verwendung von Grav und zeigt die Möglichkeiten des CMS.'
 summary:
   enabled: true
   format: short
@@ -19,4 +19,4 @@ summary:
 redirects: null
 routes: null
 blog:
-  route: '/tutorial'
+  route: '/blog'

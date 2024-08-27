@@ -1,4 +1,6 @@
 ---
+# TODO: remove
+published: false
 title: Kontakt
 sitemap:
   changefreq: yearly
@@ -63,7 +65,7 @@ form:
     email:
       from: '{{ config.plugins.email.from }}'
       to:
-        - '{{ config.site.author.email }}'
+        - '{{ config.plugins.email.to }}'
       subject: '[Kontaktformular]: {{ form.value.subject|e }}'
       body: '{% include ''forms/data.html.twig'' %}'
     display: thankyou
@@ -72,4 +74,4 @@ form:
 
 # Kontakt
 
-Kontaktiere uns bei technischen Anliegen via E-Mail an [contact@crabston.dev](mailto:contact@crabston.dev) oder über das Kontaktformular.
+Kontaktiere uns via E-Mail an [`kontakt@domain.tld`](mailto:kontakt@domain.tld) oder über das Kontaktformular.

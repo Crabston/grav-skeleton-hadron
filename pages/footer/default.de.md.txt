@@ -1,0 +1,12 @@
+---
+# TODO: remove
+published: false
+title: Footer
+routable: false
+visible: false
+---
+
+[Kontakt](/über/kontakt) | [Impressum](/über/impressum) | [Datenschutz](/über/datenschutz)
+<hr />
+© {{ 'now' | date('Y') }} <code>ORGANISATION</code> <br />
+[size=15]designed by [Crabston GmbH](https://crabston.ch)[/size]
