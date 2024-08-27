@@ -1,7 +1,7 @@
 enabled: true
 limit: 10
-title: 'Grav Tutorial'
-description: 'Mit dieser Demoseite und den Tutorials zu Grav CMS lernst du die und wichtigsten Funktionen von Grav CMS kennen und kannst diese bei deiner Website anwenden.'
+title: 'Grav Website Demo'
+description: 'Dies ist eine inoffizielle Demoseite der Crabston GmbH über Grav CMS. Sie dient als Beispiel für die Verwendung von Grav und zeigt die Möglichkeiten des CMS.'
 length: 500
 enable_json_feed: true
 show_last_modified: false
