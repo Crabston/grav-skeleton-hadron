@@ -18,7 +18,7 @@ Auf dieser Demoseite gibt es diverse Beispielseiten, welche die Funktionalität 
 - [Beispiele](/beispiele) - konkrete Beispiele für mögliche Seiteninhalte und deren Darstellung
 - [Blog](/blog) - eine Beispiel-Blogseite mit verschiedenen Beiträgen
 
-## Tools
+## CMS
 
 Diese Seite wurde mit dem [Grav CMS](https://getgrav.org) erstellt. Grav ist ein modernes Open-Source-Flat-File-CMS, das auf PHP basiert. Es ist einfach zu bedienen und bietet viele Funktionen, die es zu einer guten Wahl für viele Websites machen.
 
