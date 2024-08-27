@@ -31,7 +31,7 @@ menu:
     url: 'https://getgrav.org/'
     target: _blank
 dropdown:
-  enabled: false
+  enabled: true
 blog_page_hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 favicon:
   user/themes/local/images/favicon.svg:
