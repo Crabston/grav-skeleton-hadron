@@ -1,0 +1,17 @@
+enabled: true
+include_css: true
+active: true
+start: 1
+depth: 6
+hclass: null
+anchors:
+  start: 2
+  depth: 6
+  link: true
+  aria: Anchor
+  class: null
+  icon: '#'
+  position: before
+  copy_to_clipboard: true
+  slug_maxlen: 25
+  slug_prefix: null
