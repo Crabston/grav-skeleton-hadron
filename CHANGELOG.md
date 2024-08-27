@@ -1,3 +1,12 @@
+# v0.1.0
+##  27-08-2024
+1. [](#new)
+	  * Tutorials are now in [separate repository](https://github.com/Crabston/grav-tutorial)
+    * added `clearboth` shortcode
+1. [](#improved)
+	  * updated used plugins
+    * updated demo content
+
 # v0.0.4
 ##  26-06-2024
 
