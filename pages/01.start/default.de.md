@@ -2,25 +2,62 @@
 title: Über
 sitemap:
   changefreq: yearly
-  priority: 0.5
-  lastmod: 19-06-2024
-date: 19-06-2024
+  priority: 1.0
+  lastmod: 27-08-2024
+date: 27-08-2024
 ---
 
 # Über diese Seite
 
-Diese Seite ist eine inoffizielle Demoseite für [Grav CMS](https://getgrav.org) und dient als Beispiel für die Verwendung von Grav. Sie enthält Tutorials und Anleitungen, die Ihnen helfen, Ihre Grav Website zu verwalten und zu pflegen.
+Dies ist eine inoffizielle Demoseite der [Crabston GmbH](https://crabston.ch) über [Grav CMS](https://getgrav.org). Sie dient als Beispiel für die Verwendung von Grav und zeigt die Möglichkeiten des CMS.
 
-## Hinweise
+## Inhalt
 
-1. Diese Anleitungen beziehen sich nur auf das Verwalten von einer existierenden Website mit Grav, nicht auf die Installation von Grav selbst oder das Erstellen einer neuen Website. Informieren Sie sich dafür bei der [offiziellen Grav Dokumentation](https://learn.getgrav.org).
-2. Je nach Konfiguration Ihrer Website (Plugins, Themes, etc.) ist es möglich, dass diese nicht dieselben Funktionen und Optionen hat wie in den Anleitungen beschrieben.
-3. Bitte lesen Sie die Anleitungen sorgfältig durch und testen Sie Ihre Änderungen auf einer Testumgebung oder in einem privaten Bereich, bevor Sie sie auf Ihrer Live Website anwenden. 
-4. Da diese Anleitungen für Kunden der [Crabston GmbH](https://crabston.ch) erstellt wurden, können einige Anleitungen spezifisch für diese Websites sein, da sie eigene Konfigurationen enthalten die Ihre Website möglicherweise nicht besitzt. Sie dürfen diese Anleitungen jedoch trotzdem verwenden und teilen.
-5. Obwohl die Anleitungen sorgfältig erstellt werden und auf den neusten Informationen basieren, kann es sein, dass sie nicht mehr aktuell sind oder nicht mehr funktionieren. Wir sind bemüht, die Anleitungen regelmässig zu überprüfen und zu aktualisieren, können jedoch keine Garantie für die Richtigkeit und Funktionalität geben.
+Auf dieser Demoseite gibt es diverse Beispielseiten, welche die Funktionalität von Grav und den verwendeten Plugins demonstrieren:
+- [Komponenten](/komponenten) - Liste aller verfügbaren Komponenten, die auf der Seite verwendet werden können
+- [Beispiele](/beispiele) - konkrete Beispiele für mögliche Seiteninhalte und deren Darstellung
+- [Blog](/blog) - eine Beispiel-Blogseite mit verschiedenen Beiträgen
+
+## Tools
+
+Diese Seite wurde mit dem [Grav CMS](https://getgrav.org) erstellt. Grav ist ein modernes Open-Source-Flat-File-CMS, das auf PHP basiert. Es ist einfach zu bedienen und bietet viele Funktionen, die es zu einer guten Wahl für viele Websites machen.
+
+### Theme
+
+Diese Seite nutzt das [Quark Theme](https://github.com/getgrav/grav-theme-quark) als Basis. Quark ist ein flexibles und vielseitiges Theme, das viele Anpassungsmöglichkeiten bietet. Es ist einfach zu bedienen und bietet viele Funktionen, die es zu einer guten Wahl für viele Websites machen.  
+Darauf aufbauend wird ebenfalls das [Quark Open Publishing Theme](https://github.com/hibbitts-design/grav-theme-quark-open-publishing) verwendet, welches speziell für die Verwendung von Grav als Open-Publishing-Plattform entwickelt wurde.  
+Die Crabston GmbH hat darauf aufbauend ein eigenes Theme, [Minimal](https://github.com/Crabston/grav-theme-minimal), entwickelt, welches speziell auf die Bedürfnisse der Kunden zugeschnitten ist.
+
+### Plugins
+
+Diese Seite verwendet verschiedene Plugins, um die Funktionalität zu erweitern. Einige der wichtigsten Plugins sind:
+
+| Plugin                                                                                   | Funktionalität                                                                            |
+|:-----------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------|
+| [Admin](https://github.com/getgrav/grav-plugin-admin)                                    | Verleiht der Website ein Admin Panel, mit dem die Website verwaltet werden kann           |
+| [Auto SEO](https://github.com/francodacosta/grav-plugin-autoseo)                         | Fügt Metadaten aus dem Inhalt der Website hinzu für die Suchmaschinenoptimierung          |
+| [Email](https://github.com/getgrav/grav-plugin-email)                                    | Erlaubt Grav das versenden von Emails, z. B. bei Formularen                               |
+| [Feed](https://github.com/getgrav/grav-plugin-feed)                                      | Erstellt einen Atom/ RSS Feed aus Blog Beiträgen                                          |
+| [Form](https://github.com/getgrav/grav-plugin-form)                                      | Erlaubt das Erstellen von diversen Formularen via Grav                                    |
+| [Healthcheck](https://github.com/Crabston/grav-plugin-healthcheck)                       | Fügt der Website einen Endpunkt hinzu, um den Status der Website zu überprüfen            |
+| [Markdown Notices](https://github.com/getgrav/grav-plugin-markdown-notices)              | Mit einer bestimmten Syntax können Hinweistextblöcke mit Markdown erstellt werden         |
+| [Page ToC](https://github.com/trilbymedia/grav-plugin-page-toc)                          | Erstellt automatisch Inhaltsverzeichnisse, die der Website hinzugefügt werden können      |
+| [Shortcode Core](https://github.com/getgrav/grav-plugin-shortcode-core)                  | Basis Plugin für andere Shortcode Plugins; stellt erweiterte Formatierungsoptionen bereit |
+| [Shortcode Gallery++](https://github.com/sal0max/grav-plugin-shortcode-gallery-plusplus) | Erlaubt das Erstellen von Galerien mit der Shortcode Syntax                               |
+| [Shortcode Media](https://github.com/getgrav/grav-plugin-shortcode-media)                | Stellt Shortcodes zum Einbinden von Dokumenten und anderen Inhalten bereit                |
+| [Shortcode UI](https://github.com/getgrav/grav-plugin-shortcode-ui)                      | Fügt der Shortcode Syntax diverse komplexe Elemente hinzu, die verwendet werden können    |
+| [Sitemap](https://github.com/getgrav/grav-plugin-sitemap)                                | Erstellt automatisch eine Liste der Seiten mit Metadaten für Suchmaschinen                |
+| [TNT Search](https://github.com/trilbymedia/grav-plugin-tntsearch)                       | Fügt der Website ein Suchfeld hinzu, mit dem die Seite durchsucht werden kann             |
+| [Umami Analytics](https://github.com/Crabston/grav-plugin-umami-analytics)               | Integration von Umami, ein datenschutzorientiertes Tool für Webseitenanalyse, in Grav     |
+| [YouTube](https://github.com/getgrav/grav-plugin-youtube)                                | Einfache Einbindung von YouTube Videos in Grav                                            |
+| [Zooming](https://github.com/JulianSchoenbaechler/grav-plugin-zooming)                   | Fügt Bildern eine Zoom Funktion hinzu                                                     |
 
 ## Kontakt
 
-Wenn Sie Fragen oder Anregungen zu den Anleitungen oder zu dieser Seite haben, dürfen Sie uns gerne kontaktieren. Wir freuen uns über Ihr Feedback und helfen Ihnen gerne weiter. Unsere Kontaktdaten finden Sie uf der [Kontaktseite](/über/kontakt).
+Wenn Sie Fragen oder Anregungen zu dieser Seite haben, dürfen Sie uns gerne kontaktieren. Wir freuen uns über Ihr Feedback und helfen Ihnen gerne weiter. Unsere Kontaktdaten finden Sie auf der [Kontaktseite](https://crabston.ch/über/kontakt).
 
-Sollten Sie technische Probleme mit Ihrer Website haben, die nicht durch die Anleitungen gelöst werden können, kontaktieren Sie bitte Ihren Webmaster oder wenden Sie sich an uns via [support@crabston.dev](mailto:support@crabston.dev) (nur für Kunden der Crabston GmbH mit einem Supportvertrag oder gegen eine Entschädigung).
+Sollten Sie technische Probleme mit Ihrer Website haben, kontaktieren Sie bitte Ihren Webmaster oder wenden Sie sich an uns via [support@crabston.dev](mailto:support@crabston.dev) (nur für Kunden der Crabston GmbH mit einem Supportvertrag oder gegen eine Entschädigung).
+
+## Rechtliches
+
+Weitere Informationen zu den rechtlichen Aspekten dieser Seite finden Sie auf dem [Impressum](https://crabston.ch/über/impressum) und [Datenschutz](https://crabston.ch/über/datenschutz) der Crabston GmbH.
