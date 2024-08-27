@@ -1,6 +1,6 @@
 ---
-title: Modulare Seite
-slug: modulare-seite
+title: Grav Standard Modular
+slug: grav-standard-modular
 content:
   items: '@self.modular'
 published: true
