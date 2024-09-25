@@ -266,11 +266,11 @@ https://www.youtube.com/watch?v=K4TOrB7at0Y
 
 ### PDF
 
-_siehe [Tutorial > Plugins > Shortcode Media](/tutorial/plugins/shortcode-media#pdf)_
+_siehe [Tutorial > Plugins > Shortcode Media](https://tutorials.crabston.ch/grav/plugins/shortcode-media#pdf)_
 
 ### Dokumente
 
-_siehe [Tutorial > Plugins > Shortcode Media](/tutorial/plugins/shortcode-media#docviewwer)_
+_siehe [Tutorial > Plugins > Shortcode Media](https://tutorials.crabston.ch/grav/plugins/shortcode-media#docviewwer)_
 
 ## Code
 
