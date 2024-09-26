@@ -7,7 +7,7 @@ profiles:
   -
     name: Datenbackup
     root: /user
-    exclude_paths: "/plugins\n/themes/quark\n/themes/quark-open-publishing\n/themes/hadron" # TODO: remove open-publish
+    exclude_paths: "/plugins\n/themes/quark\n/themes/hadron"
     exclude_files: ".DS_Store\n.git\n.svn\n.hg\n.idea\n.vscode\nnode_modules"
     schedule: true
     schedule_at: '0 0 * * 1'
