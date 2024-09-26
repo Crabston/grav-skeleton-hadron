@@ -12,7 +12,6 @@ license: MIT
 dependencies:
   - { name: grav, version: '>=1.6.0' }
   - hadron
-  - quark-open-publishing # TODO: remove
   - quark
 
 form:
