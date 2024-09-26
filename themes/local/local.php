@@ -3,7 +3,7 @@
 
     use Grav\Common\Theme;
 
-    class Local extends Minimal
+    class Local extends Hadron
     {
         // Access plugin events in this class
     }

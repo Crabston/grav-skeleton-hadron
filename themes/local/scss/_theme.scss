@@ -1,21 +1,21 @@
 @use 'sass:color';
-@use '../../minimal/scss/theme' as minimal;
+@use '../../hadron/scss/theme' as hadron;
 
 // logical variables
 $dark-mode: false;
 $mobile-menu-colored: false;
 
 // color definitions
-$light-overlay: minimal.$light-overlay;
-$dark-overlay: minimal.$dark-overlay;
+$light-overlay: hadron.$light-overlay;
+$dark-overlay: hadron.$dark-overlay;
 $primary-color: #005CD4;
 $accent-color: mix($primary-color, $dark-overlay, 75%);
-$grey: minimal.$grey;
+$grey: hadron.$grey;
 
 // sizes
-$responsive-breakpoint-mobile: minimal.$responsive-breakpoint-mobile;
-$responsive-breakpoint-tablet: minimal.$responsive-breakpoint-tablet;
-$responsive-breakpoint-desktop: minimal.$responsive-breakpoint-desktop;
+$responsive-breakpoint-mobile: hadron.$responsive-breakpoint-mobile;
+$responsive-breakpoint-tablet: hadron.$responsive-breakpoint-tablet;
+$responsive-breakpoint-desktop: hadron.$responsive-breakpoint-desktop;
 
 // elements
 $background-color: white;
