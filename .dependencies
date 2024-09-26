@@ -67,9 +67,9 @@ git:
         url: https://github.com/getgrav/grav-plugin-markdown-notices
         path: user/plugins/markdown-notices
         branch: master
-    minimal:
-        url: https://github.com/Crabston/grav-theme-minimal
-        path: user/themes/minimal
+    hadron:
+        url: https://github.com/Crabston/grav-theme-hadron
+        path: user/themes/hadron
         branch: main
     # Demo only
     page-toc:
