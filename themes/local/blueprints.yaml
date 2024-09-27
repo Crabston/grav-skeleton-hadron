@@ -23,28 +23,28 @@ form:
       fields:
         hadron:
           type: tab
-          title: THEME_LOCAL.HADRON.TITLE
+          title: THEME.HADRON.TITLE
           fields:
             h5p:
               type: section
-              title: THEME_LOCAL.HADRON.H5P.TITLE
+              title: THEME.HADRON.H5P.TITLE
               underline: true
             h5pembedrootpath:
               type: text
               size: long
-              label: THEME_LOCAL.HADRON.H5P.EMBED_URL.LABEL
+              label: THEME.HADRON.H5P.EMBED_URL.LABEL
               default: 'https://h5p.org/h5p/embed/'
-              help: THEME_LOCAL.HADRON.H5P.EMBED_URL.HELP
-              description: THEME_LOCAL.HADRON.H5P.EMBED_URL.DESCRIPTION
+              help: THEME.HADRON.H5P.EMBED_URL.HELP
+              description: THEME.HADRON.H5P.EMBED_URL.DESCRIPTION
               validate:
                 type: URL
             menu:
               type: section
-              title: THEME_LOCAL.HADRON.MENU.TITLE
+              title: THEME.HADRON.MENU.TITLE
               underline: true
             dropdown.enabled:
               type: toggle
-              label: THEME_LOCAL.HADRON.MENU.DISPLAY_DROPDOWNS.LABEL
+              label: THEME.HADRON.MENU.DISPLAY_DROPDOWNS.LABEL
               highlight: 1
               default: 1
               options:
@@ -54,12 +54,12 @@ form:
                 type: bool
         quark:
           type: tab
-          title: THEME_LOCAL.QUARK.TITLE
+          title: THEME.QUARK.TITLE
           fields:
             production-mode:
               type: toggle
-              label: THEME_LOCAL.QUARK.PRODUCTION_MODE.LABEL
-              help: THEME_LOCAL.QUARK.PRODUCTION_MODE.HELP
+              label: THEME.QUARK.PRODUCTION_MODE.LABEL
+              help: THEME.QUARK.PRODUCTION_MODE.HELP
               highlight: 1
               default: 1
               options:
@@ -69,41 +69,41 @@ form:
                 type: bool
             grid-size:
               type: select
-              label: THEME_LOCAL.QUARK.GRID_SIZE.LABEL
-              help: THEME_LOCAL.QUARK.GRID_SIZE.HELP
+              label: THEME.QUARK.GRID_SIZE.LABEL
+              help: THEME.QUARK.GRID_SIZE.HELP
               size: small
               options:
-                '': THEME_LOCAL.QUARK.GRID_SIZE.OPTIONS.NONE
-                grid-xl: THEME_LOCAL.QUARK.GRID_SIZE.OPTIONS.GRID_XL
-                grid-lg: THEME_LOCAL.QUARK.GRID_SIZE.OPTIONS.GRID_LG
-                grid-md: THEME_LOCAL.QUARK.GRID_SIZE.OPTIONS.GRID_MD
+                '': THEME.QUARK.GRID_SIZE.OPTIONS.NONE
+                grid-xl: THEME.QUARK.GRID_SIZE.OPTIONS.GRID_XL
+                grid-lg: THEME.QUARK.GRID_SIZE.OPTIONS.GRID_LG
+                grid-md: THEME.QUARK.GRID_SIZE.OPTIONS.GRID_MD
             header_section:
               type: section
-              title: THEME_LOCAL.QUARK.HEADER.TITLE
+              title: THEME.QUARK.HEADER.TITLE
               underline: true
             favicon:
               type: file
-              label: THEME_LOCAL.QUARK.HEADER.FAVICON.LABEL
+              label: THEME.QUARK.HEADER.FAVICON.LABEL
               size: large
               destination: 'theme://images'
               multiple: false
               markdown: true
-              description: THEME_LOCAL.QUARK.HEADER.FAVICON.DESCRIPTION
+              description: THEME.QUARK.HEADER.FAVICON.DESCRIPTION
               accept:
                 - 'image/*'
             custom_logo:
               type: file
-              label: THEME_LOCAL.QUARK.HEADER.CUSTOM_LOGO.LABEL
+              label: THEME.QUARK.HEADER.CUSTOM_LOGO.LABEL
               size: large
               destination: 'theme://images/logo'
               multiple: false
               markdown: true
-              description: THEME_LOCAL.QUARK.HEADER.CUSTOM_LOGO.DESCRIPTION
+              description: THEME.QUARK.HEADER.CUSTOM_LOGO.DESCRIPTION
               accept:
                 - 'image/*'
             custom_logo_mobile:
               type: file
-              label: THEME_LOCAL.QUARK.HEADER.CUSTOM_LOGO_MOBILE.LABEL
+              label: THEME.QUARK.HEADER.CUSTOM_LOGO_MOBILE.LABEL
               size: large
               destination: 'theme://images/logo'
               multiple: false
@@ -111,8 +111,8 @@ form:
                 - 'image/*'
             header-fixed:
               type: toggle
-              label: THEME_LOCAL.QUARK.HEADER.HEADER_FIXED.LABEL
-              help: THEME_LOCAL.QUARK.HEADER.HEADER_FIXED.HELP
+              label: THEME.QUARK.HEADER.HEADER_FIXED.LABEL
+              help: THEME.QUARK.HEADER.HEADER_FIXED.HELP
               highlight: 1
               default: 1
               options:
@@ -122,8 +122,8 @@ form:
                 type: bool
             header-animated:
               type: toggle
-              label: THEME_LOCAL.QUARK.HEADER.HEADER_ANIMATED.LABEL
-              help: THEME_LOCAL.QUARK.HEADER.HEADER_ANIMATED.HELP
+              label: THEME.QUARK.HEADER.HEADER_ANIMATED.LABEL
+              help: THEME.QUARK.HEADER.HEADER_ANIMATED.HELP
               highlight: 1
               default: 1
               options:
@@ -133,8 +133,8 @@ form:
                 type: bool
             header-dark:
               type: toggle
-              label: THEME_LOCAL.QUARK.HEADER.HEADER_DARK.LABEL
-              help: THEME_LOCAL.QUARK.HEADER.HEADER_DARK.HELP
+              label: THEME.QUARK.HEADER.HEADER_DARK.LABEL
+              help: THEME.QUARK.HEADER.HEADER_DARK.HELP
               highlight: 0
               default: 0
               options:
@@ -144,8 +144,8 @@ form:
                 type: bool
             header-transparent:
               type: toggle
-              label: THEME_LOCAL.QUARK.HEADER.HEADER_TRANSPARENT.LABEL
-              help: THEME_LOCAL.QUARK.HEADER.HEADER_TRANSPARENT.HELP
+              label: THEME.QUARK.HEADER.HEADER_TRANSPARENT.LABEL
+              help: THEME.QUARK.HEADER.HEADER_TRANSPARENT.HELP
               highlight: 0
               default: 1
               options:
@@ -155,12 +155,12 @@ form:
                 type: bool
             footer_section:
               type: section
-              title: THEME_LOCAL.QUARK.FOOTER.TITLE
+              title: THEME.QUARK.FOOTER.TITLE
               underline: true
             sticky-footer:
               type: toggle
-              label: THEME_LOCAL.QUARK.FOOTER.STICKY_FOOTER.LABEL
-              help: THEME_LOCAL.QUARK.FOOTER.STICKY_FOOTER.HELP
+              label: THEME.QUARK.FOOTER.STICKY_FOOTER.LABEL
+              help: THEME.QUARK.FOOTER.STICKY_FOOTER.HELP
               highlight: 1
               default: 1
               options:
@@ -170,27 +170,27 @@ form:
                 type: bool
             blog_section:
               type: section
-              title: THEME_LOCAL.QUARK.BLOG.TITLE
+              title: THEME.QUARK.BLOG.TITLE
               underline: true
             blog-page:
               type: text
-              label: THEME_LOCAL.QUARK.BLOG.BLOG_PAGE.LABEL
-              help: THEME_LOCAL.QUARK.BLOG.BLOG_PAGE.HELP
+              label: THEME.QUARK.BLOG.BLOG_PAGE.LABEL
+              help: THEME.QUARK.BLOG.BLOG_PAGE.HELP
               size: medium
               default: /blog
             blog_page_hero_classes:
               type: text
-              label: THEME_LOCAL.QUARK.BLOG.HERO_CLASSES.LABEL
+              label: THEME.QUARK.BLOG.HERO_CLASSES.LABEL
               markdown: true
-              description: THEME_LOCAL.QUARK.BLOG.HERO_CLASSES.DESCRIPTION
+              description: THEME.QUARK.BLOG.HERO_CLASSES.DESCRIPTION
             spectre_section:
               type: section
-              title: THEME_LOCAL.QUARK.SPECTRE.TITLE
+              title: THEME.QUARK.SPECTRE.TITLE
               underline: true
             spectre.exp:
               type: toggle
-              label: THEME_LOCAL.QUARK.SPECTRE.EXPERIMENTAL.LABEL
-              help: THEME_LOCAL.QUARK.SPECTRE.EXPERIMENTAL.HELP
+              label: THEME.QUARK.SPECTRE.EXPERIMENTAL.LABEL
+              help: THEME.QUARK.SPECTRE.EXPERIMENTAL.HELP
               highlight: 0
               default: 0
               options:
@@ -200,8 +200,8 @@ form:
                 type: bool
             spectre.icons:
               type: toggle
-              label: THEME_LOCAL.QUARK.SPECTRE.ICONS.LABEL
-              help: THEME_LOCAL.QUARK.SPECTRE.ICONS.HELP
+              label: THEME.QUARK.SPECTRE.ICONS.LABEL
+              help: THEME.QUARK.SPECTRE.ICONS.HELP
               highlight: 0
               default: 0
               options:
