@@ -15,13 +15,31 @@ page-toc:
 
 # Komponenten
 
-!!! Hier findest du eine Übersicht über alle verfügbaren Komponenten, die du in deine Seite einfügen kannst.
+!!! Diese Seite beinhaltet wichtigen Komponenten mit Beispielen & Syntax, die in Grav verwendet werden können.  
+
+! Einzelne der hier gezeigten Komponenten erfordern spezifische Plugins. Zudem können je nach Theme die Darstellung und Funktionalität variieren _(siehe «[Über diese Seite](/)» für weitere Informationen)_.
 
 ===
 
+## Kommentar
+
+!!! **Standardkomponente**  
+!!! Kommentare können im Markdown eingefügt werden, um Text zu verstecken, der nicht auf der Seite angezeigt werden soll, jedoch für andere Autoren sichtbar sein soll.
+
+<!--
+Dieser Kommentar wird auf der Seite nicht angezeigt.
+-->
+
+```md
+<!--
+Dieser Kommentar wird auf der Seite nicht angezeigt.
+-->
+```
+
 ## Überschriften
 
-> Überschriften dienen dazu, den Text zu strukturieren und zu gliedern.
+!!! **Standardkomponente**  
+!!! Überschriften dienen dazu, den Text zu strukturieren und zu gliedern.
 
 # H1 Überschrift
 
@@ -51,7 +69,8 @@ page-toc:
 
 ## Paragraphen
 
-> Paragraphen sind Abschnitte von Text, die durch eine Leerzeile getrennt sind.
+!!! **Standardkomponente**  
+!!! Paragraphen sind Abschnitte von Text, die durch eine Leerzeile getrennt sind.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus.
 Etiam euismod ornare consequat.
@@ -63,58 +82,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dic
 Etiam euismod ornare consequat.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
-```
-
-## Kommentar
-
-> Kommentare können im Markdown eingefügt werden, um Text zu verstecken, der nicht auf der Seite angezeigt werden soll, jedoch für andere Autoren sichtbar sein soll.
-
-<!--
-Dieser Kommentar wird auf der Seite nicht angezeigt.
--->
-
-```md
-<!--
-Dieser Kommentar wird auf der Seite nicht angezeigt.
--->
-```
-
-
-## Ausrichtung
-
-> Mit der Ausrichtung können Texte links, zentriert oder rechts ausgerichtet werden.
-
-[left]
-Dieser Text ist links ausgerichtet.
-[/left]
-
-[center]
-Dieser Text ist zentriert.
-[/center]
-
-[right]
-Dieser Text ist rechts ausgerichtet.
-[/right]
-
-```md
-[raw]
-[left]
-Dieser Text ist links ausgerichtet.
-[/left]
-
-[center]
-Dieser Text ist zentriert.
-[/center]
-
-[right]
-Dieser Text ist rechts ausgerichtet.
-[/right]
-[/raw]
 ```
 
 ## Markdown Elemente
 
-> Markdown Elemente sind spezielle Textformatierungen, die in Markdown verwendet werden können. Diese können auch in anderen Markdown Editoren verwendet werden.
+!!! **Standardkomponente**  
+!!! Markdown Elemente sind spezielle Textformatierungen, die in Markdown verwendet werden können. Diese können auch in anderen Markdown Editoren verwendet werden.
 
 **Fett** `**Fett**`
 
@@ -133,25 +106,12 @@ _Kursiv_ `_Kursiv_`
 ---
 Horizontale Linie: `---`
 
-## Shortcode Elemente
-
-> Shortcodes sind spezielle Tags, die in Markdown verwendet werden können, um spezielle Funktionen oder Komponenten hinzuzufügen. Diese werden in eckigen Klammern `[]` geschrieben und benötigen das Shortcode Plugin.
-
-Dies ist ein beispielhafter Text [mark]mit diesem **hervorgehobenen** Teil und _Markdown_ Syntax[/mark] und der Rest ist normal.
-
-Dies ist ein [u]unterstrichener Text[/u].
-
-```md
-[raw]
-Dies ist ein beispielhafter Text [mark]mit diesem **hervorgehobenen** Teil und _Markdown_ Syntax[/mark] und der Rest ist normal.
-
-Dies ist ein [u]unterstrichener Text[/u].
-[/raw]
-```
-
 ## HTML Text Elemente
 
-> HTML Elemente können in Markdown verwendet werden, um spezielle Textformatierungen hinzuzufügen, die in Markdown nicht unterstützt werden.
+!!! **Standardkomponente**  
+!!! HTML Elemente können in Markdown verwendet werden, um spezielle Textformatierungen hinzuzufügen, die in Markdown nicht unterstützt, jedoch generell auf Websites verwendet werden können.
+
+<!-- TODO: update -->
 
 <abbr>I18N</abbr> `<abbr>`
 
@@ -167,16 +127,15 @@ Text<sub>Subscripted</sub> `<sub>`
 
 ## Medien
 
-> Medien werden in Markdown ähnlich wie Links eingefügt, jedoch mit einem Ausrufezeichen `!` vor dem Link.  
-> Zu den unterstützten Medien gehören Bilder, Videos und Audiodateien.
+!!! **Standardkomponente**  
+!!! Medien werden in Markdown ähnlich wie Links eingefügt, jedoch mit einem Ausrufezeichen (`!`) vor dem Link.  
+!!! Zu den unterstützten Medien gehören Bilder, Videos und Audiodateien.
 
-!!! Weitere Informationen findest du in der [offiziellen Grav Dokumentation](https://learn.getgrav.org/17/content/media)
+!!! Weitere Informationen zu Medien findest du in der [offiziellen Grav Dokumentation](https://learn.getgrav.org/17/content/media)
 
 ### Bilder
 
-#### normales Bild
-
-> Syntax: `![Bild](Bildpfad)`
+!!! Syntax: `![Bild](Bildpfad)`
 
 ![Bild](grav-logo.png)
 
@@ -186,8 +145,8 @@ Text<sub>Subscripted</sub> `<sub>`
 
 #### Bild mit Link
 
-> Ein Bild, welches zusätzlich als Link funktioniert.  
-> Syntax: `[![Bild](Bildpfad)](Link)`
+!!! Ein Bild, welches zusätzlich als Link funktioniert.  
+!!! Syntax: `[![Bild](Bildpfad)](Link)`
 
 [![Bild](grav-logo.png)](https://grav.demo.crabston.dev)
 
@@ -197,9 +156,9 @@ Text<sub>Subscripted</sub> `<sub>`
 
 #### Bild mit Optionen
 
-> Syntax: `![Bild](Bildpfad?Option1&Option2&Option3)`
-> - `lightbox` - öffnet das Bild in einem Lightbox-Modus
-> - `resize=200` - ändert die Größe des Bildes auf 200px
+!!! Syntax: `![Bild](Bildpfad?Option1&Option2&Option3)`
+!!! - `lightbox` - öffnet das Bild in einem Lightbox-Modus
+!!! - `resize=200` - ändert die Größe des Bildes auf 200px
 
 ![Bild](grav-logo.png?lightbox&resize=200)
 
@@ -209,11 +168,11 @@ Text<sub>Subscripted</sub> `<sub>`
 
 ### Videos
 
-> Syntax: `![Video](Videopfad?Optionen)`
-> - `autoplay[=1|0]` - 1: startet das Video automatisch (Standard: 0)
-> - `loop[=1|0]` - 1: wiederholt das Video (Standard: 0)
-> - `controls[=1|0]` - 1: zeigt die Steuerungselemente (Standard: 1)
-> - `muted[=1|0]` - 1: schaltet den Ton stumm (Standard: 0)
+!!! Syntax: `![Video](Videopfad?Optionen)`
+!!! - `autoplay[=1|0]` - 1: startet das Video automatisch (Standard: 0)
+!!! - `loop[=1|0]` - 1: wiederholt das Video (Standard: 0)
+!!! - `controls[=1|0]` - 1: zeigt die Steuerungselemente (Standard: 1)
+!!! - `muted[=1|0]` - 1: schaltet den Ton stumm (Standard: 0)
 
 ![Beispiel Video](beispiel-video.mp4?autoplay&loop&muted&resize=600)
 
@@ -223,11 +182,11 @@ Text<sub>Subscripted</sub> `<sub>`
 
 ### Audio
 
-> Syntax: `![Audio](Audiopfad?Optionen)`
-> - `autoplay[=1|0]` - 1: startet das Audio automatisch (Standard: 0)
-> - `loop[=1|0]` - 1: wiederholt das Audio (Standard: 0)
-> - `controls[=1|0]` - 1: zeigt die Steuerungselemente (Standard: 1)
-> - `muted[=1|0]` - 1: schaltet den Ton stumm (Standard: 0)
+!!! Syntax: `![Audio](Audiopfad?Optionen)`
+!!! - `autoplay[=1|0]` - 1: startet das Audio automatisch (Standard: 0)
+!!! - `loop[=1|0]` - 1: wiederholt das Audio (Standard: 0)
+!!! - `controls[=1|0]` - 1: zeigt die Steuerungselemente (Standard: 1)
+!!! - `muted[=1|0]` - 1: schaltet den Ton stumm (Standard: 0)
 
 ![Beispiel Audio](beispiel-audio.mp3)
 
@@ -237,7 +196,8 @@ Text<sub>Subscripted</sub> `<sub>`
 
 ### YouTube (Variante 1)
 
-> Syntax: `[plugin:youtube](Videopfad)`
+!!! **benötigt [YouTube Plugin](https://github.com/getgrav/grav-plugin-youtube)**  
+!!! Syntax: `[plugin:youtube](Videopfad)`
 
 [plugin:youtube](https://www.youtube.com/watch?v=K4TOrB7at0Y)
 
@@ -247,10 +207,11 @@ Text<sub>Subscripted</sub> `<sub>`
 
 ### YouTube (Variante 2)
 
-> Syntax: `[\youtube OPTIONEN] https://www.youtube.com/watch?v=VIDEOPFAD [/youtube]`
-> - `autoplay[=1|0]` - 1: startet das Video automatisch (Standard: 0)
-> - `controls[=1|0]` - 1: zeigt die Steuerungselemente (Standard: 1)
-> - `loop[=1|0]` - 1: wiederholt das Video (Standard: 0)
+!!! **benötigt [YouTube Plugin](https://github.com/getgrav/grav-plugin-youtube)**  
+!!! Syntax: `[\youtube OPTIONEN] https://www.youtube.com/watch?v=VIDEOPFAD [/youtube]`
+!!! - `autoplay[=1|0]` - 1: startet das Video automatisch (Standard: 0)
+!!! - `controls[=1|0]` - 1: zeigt die Steuerungselemente (Standard: 1)
+!!! - `loop[=1|0]` - 1: wiederholt das Video (Standard: 0)
 
 [youtube autoplay=1 controls=0 loop=1]
 https://www.youtube.com/watch?v=K4TOrB7at0Y
@@ -266,15 +227,20 @@ https://www.youtube.com/watch?v=K4TOrB7at0Y
 
 ### PDF
 
+<!-- TODO: add example and link to tutorial for more options -->
+
 _siehe [Tutorial > Plugins > Shortcode Media](https://tutorials.crabston.ch/grav/plugins/shortcode-media#pdf)_
 
 ### Dokumente
+
+<!-- TODO: add example and link to tutorial for more options -->
 
 _siehe [Tutorial > Plugins > Shortcode Media](https://tutorials.crabston.ch/grav/plugins/shortcode-media#docviewwer)_
 
 ## Code
 
-> Codeblöcke können in Markdown eingefügt werden, um Code oder Skripte anzuzeigen. Diese können zudem mit Syntax-Highlighting versehen werden, indem man die Sprache des Codes angibt.
+!!! **Standardkomponente**  
+!!! Codeblöcke können in Markdown eingefügt werden, um Code oder Skripte anzuzeigen. Diese können zudem mit Syntax-Highlighting versehen werden, indem man die Sprache des Codes angibt.
 
 ```js
 // Code
@@ -298,9 +264,8 @@ console.log(bar());
 
 ## Blockquote
 
-> Blockquotes sind Elemente, die in Markdown verwendet werden können, um Texte hervorzuheben. Sie können auch mit anderen Markdown Elementen kombiniert werden.
-
-<br>
+!!! **Standardkomponente**  
+!!! Blockquotes sind Elemente, die in Markdown verwendet werden können, um Texte hervorzuheben. Sie können auch mit anderen Elementen kombiniert werden.
 
 > The advance of technology is based on making it fit in so that you don't really even notice it,
 > so it's part of everyday life.
@@ -316,7 +281,8 @@ console.log(bar());
 
 ## Listen
 
-> Mit Listen können Elemente in einer geordneten oder ungeordneten Reihenfolge angezeigt werden. Zudem können Listen verschachtelt werden.
+!!! **Standardkomponente**  
+!!! Mit Listen können Elemente in einer geordneten oder ungeordneten Reihenfolge angezeigt werden. Zudem können Listen verschachtelt werden.
 
 ### ungeordnete Listen
 
@@ -324,15 +290,15 @@ console.log(bar());
 - List Item 2
   - List Item 2.1
   - List Item 2.2
-  - List Item 2.3
+      - List Item 2.2.1
 - List Item 3
 
 ```md
 - List Item 1
 - List Item 2
-    - List Item 2.1
-    - List Item 2.2
-    - List Item 2.3
+  - List Item 2.1
+  - List Item 2.2
+    - List Item 2.2.1
 - List Item 3
 ```
 
@@ -340,29 +306,30 @@ console.log(bar());
 
 1. List Item 1
 2. List Item 2
-    1. List Item 2.1
-    2. List Item 2.2
-    3. List Item 2.3
+   1. List Item 2.1
+   2. List Item 2.2
+      1. List Item 2.2.1
 3. List Item 3
 
 ```md
 1. List Item 1
 2. List Item 2
-    1. List Item 2.1
-    2. List Item 2.2
-    3. List Item 2.3
+   1. List Item 2.1
+   2. List Item 2.2
+      1. List Item 2.2.1
 3. List Item 3
 ```
 
 ## Tabellen
 
-> Tabellen können in Markdown erstellt werden, um Daten in einer tabellarischen Form anzuzeigen.  
-> Dazu gibt es zu beachten, dass in der zweitetn Zeile die Ausrichtung der Spalten definiert wird:
-> - `:---`: linksbündig
-> - `:---:`: zentriert
-> - `---:`: rechtsbündig
->
-> Ein Vorteil von Tabellen ist, dass sie auch richtig angezeigt werden, wenn die Formatierung mit den Leerzeichen nicht korrekt ist.
+!!! **Standardkomponente**  
+!!! Tabellen können in Markdown erstellt werden, um Daten in einer tabellarischen Form anzuzeigen.  
+!!! Dazu gibt es zu beachten, dass in der zweiten Zeile die Ausrichtung der Spalten definiert wird:
+!!! - `:---`: linksbündig
+!!! - `:---:`: zentriert
+!!! - `---:`: rechtsbündig
+!!!
+!!! Eine weitere Funktion von Tabellen ist, dass sie auch richtig angezeigt werden, wenn die Formatierung mit den Leerzeichen nicht korrekt ist.
 
 | Name                     |           Genre           |   Veröffentlichung |
 |:-------------------------|:-------------------------:|-------------------:|
@@ -384,7 +351,10 @@ console.log(bar());
 
 ### mobilfreundliche Tabellen
 
-> Um eine Tabelle auch auf mobilen Geräten gut darzustellen (gerade bei breiten Tabellen) können folgende Zeilen um die Tabelle hinzugefügt werden:
+!!! **benötigt [Hadron Theme](https://github.com/Crabston/grav-theme-hadron)**  
+!!! Mit einer manuellen Funktion des Hadron Themes werden Tabellen auch auf mobilen Geräten gut dargestellt (hauptsächlich bei breiten Tabellen nötig). Die Tabelle wird dann wie folgt dargestellt:  
+!!! ![Darstellung Tabelle auf Mobilgeräten](responsive-tabelle.webp?lightbox)
+
 
 ```md
 [raw]
@@ -401,34 +371,60 @@ console.log(bar());
 [/raw]
 ```
 
-> Die Tabelle wird dann wie folgt dargestellt:  
-> ![Darstellung Tabelle auf Mobilgeräten](responsive-tabelle.webp?lightbox)
+## Shortcode Elemente
 
-## Anmerkungen
+!!! **benötigt [Shortcode Core Plugin](https://github.com/getgrav/grav-plugin-shortcode-core)**  
+!!! Shortcodes sind spezielle Tags, die in Markdown verwendet werden können, um spezielle Funktionen oder Komponenten hinzuzufügen. Diese werden in eckigen Klammern `[]` geschrieben und benötigen das Shortcode Plugin.
 
-> Anmerkungen können verwendet werden, um wichtige Informationen hervorzuheben.
+Dies ist ein beispielhafter Text [mark]mit diesem **hervorgehobenen** Teil und _Markdown_ Syntax[/mark] und der Rest ist normal.
 
-! Warnung
-
-!! Fehler
-
-!!! Info
-
-!!!! Erfolg
+Dies ist ein [u]unterstrichener Text[/u].
 
 ```md
-! Warnung
+[raw]
+Dies ist ein beispielhafter Text [mark]mit diesem **hervorgehobenen** Teil und _Markdown_ Syntax[/mark] und der Rest ist normal.
 
-!! Fehler
+Dies ist ein [u]unterstrichener Text[/u].
+[/raw]
+```
 
-!!! Info
+## Ausrichtung
 
-!!!! Erfolg
+!!! **benötigt [Shortcode Core Plugin](https://github.com/getgrav/grav-plugin-shortcode-core)**  
+!!! Mit der Ausrichtung können Texte links, zentriert oder rechts ausgerichtet werden.
+
+[left]
+Dieser Text ist links ausgerichtet.
+[/left]
+
+[center]
+Dieser Text ist zentriert.
+[/center]
+
+[right]
+Dieser Text ist rechts ausgerichtet.
+[/right]
+
+```md
+[raw]
+[left]
+Dieser Text ist links ausgerichtet.
+[/left]
+
+[center]
+Dieser Text ist zentriert.
+[/center]
+
+[right]
+Dieser Text ist rechts ausgerichtet.
+[/right]
+[/raw]
 ```
 
 ## Kolonnen
 
-> Kolonnen dienen dazu, Texte in mehrere Spalten aufzuteilen.
+!!! **benötigt [Shortcode Core Plugin](https://github.com/getgrav/grav-plugin-shortcode-core)**  
+!!! Kolonnen dienen dazu, Texte in mehrere Spalten aufzuteilen.
 
 !!! [Dokumentation: Shortcode Core Plugin](https://github.com/getgrav/grav-plugin-shortcode-core#columns)
 
@@ -460,7 +456,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Details
 
-> Details sind eine gute Möglichkeit, Inhalte zu verbergen, die nicht wichtig für den Hauptfluss des Dokuments sind. Diese können durch Klicken auf die Schaltfläche angezeigt werden.
+!!! **benötigt [Shortcode Core Plugin](https://github.com/getgrav/grav-plugin-shortcode-core)**  
+!!! Details sind eine gute Möglichkeit, Inhalte zu verbergen, die nicht wichtig für den Hauptfluss des Dokuments sind. Diese können durch Klicken auf die Schaltfläche angezeigt werden.
 
 !!! [Dokumentation: Shortcode Core Plugin](https://github.com/getgrav/grav-plugin-shortcode-core#detailssummary)
 
@@ -476,9 +473,33 @@ Hier ist zusätzliche Informationen, die Sie durch Klicken auf die Schaltfläche
 [/raw]
 ```
 
+## Anmerkungen
+
+!!! **benötigt [Markdown Notices Plugin](https://github.com/getgrav/grav-plugin-markdown-notices)**  
+!!! Anmerkungen können verwendet werden, um wichtige Informationen hervorzuheben.
+
+! Warnung
+
+!! Fehler
+
+!!! Info
+
+!!!! Erfolg
+
+```md
+! Warnung
+
+!! Fehler
+
+!!! Info
+
+!!!! Erfolg
+```
+
 ## Akkordeon
 
-> Akkordeons können verwendet werden, um Inhalte in Abschnitte zu unterteilen, die bei Bedarf geöffnet oder geschlossen werden können.
+!!! **benötigt [Shortcode UI Plugin](https://github.com/getgrav/grav-plugin-shortcode-ui)**  
+!!! Akkordeons können verwendet werden, um Inhalte in Abschnitte zu unterteilen, die bei Bedarf geöffnet oder geschlossen werden können.
 
 !!! [Dokumentation: Shortcode UI Plugin](https://github.com/getgrav/grav-plugin-shortcode-ui#accordion)
 
@@ -512,7 +533,8 @@ Bacon ipsum dolor amet beef burgdoggen shoulder, meatball prosciutto kevin brisk
 
 ## Tabs
 
-> Tabs können verwendet werden, um Inhalte in verschiedenen Reitern anzuzeigen.
+!!! **benötigt [Shortcode UI Plugin](https://github.com/getgrav/grav-plugin-shortcode-ui)**  
+!!! Tabs können verwendet werden, um Inhalte in verschiedenen Reitern anzuzeigen.
 
 !!! [Dokumentation: Shortcode UI Plugin](https://github.com/getgrav/grav-plugin-shortcode-ui#tabs)
 
@@ -548,10 +570,11 @@ Phasellus cursus odio ex, in mattis lorem tincidunt vel. [Donec nibh odio](#), d
 
 ## Galerie
 
-> Galerien können verwendet werden, um mehrere Bilder in einer Galerie anzuzeigen.  
-> Optionen:
-> - `lastRow=justify` - Letzte Reihe ausrichten
-> - `captions=false` - Bildunterschriften ausblenden
+!!! **benötigt [Shortcode Gallery Plugin](https://github.com/sal0max/grav-plugin-shortcode-gallery-plusplus)**  
+!!! Galerien können verwendet werden, um mehrere Bilder in einer Galerie anzuzeigen.  
+!!! Optionen:
+!!! - `lastRow=justify` - Letzte Reihe ausrichten
+!!! - `captions=false` - Bildunterschriften ausblenden
 
 !!! [Dokumentation: Shortcode Gallery++ Plugin](https://github.com/sal0max/grav-plugin-shortcode-gallery-plusplus#gallery-settings)
 
@@ -587,13 +610,14 @@ Phasellus cursus odio ex, in mattis lorem tincidunt vel. [Donec nibh odio](#), d
 
 ## Owl Carousel
 
-> Owl Carousel ist ein Plugin, das verwendet wird, um Bilder in einem Karussell anzuzeigen.  
-> Optionen:
-> - `items=1` - Anzahl der Elemente die angezeigt werden
-> - `margin=10` - Abstand zwischen den Elementen
-> - `loop=true` - Endlosschleife
-> - `nav=true` - Navigation anzeigen
-> - `stagePadding=200` - Abstand zum Rand
+!!! **benötigt [Shortcode Owl Carousel Plugin](https://github.com/getgrav/grav-plugin-shortcode-owl-carousel)**  
+!!! Owl Carousel ist ein Plugin, das verwendet wird, um Bilder in einem Karussell anzuzeigen.  
+!!! Optionen:
+!!! - `items=1` - Anzahl der Elemente die angezeigt werden
+!!! - `margin=10` - Abstand zwischen den Elementen
+!!! - `loop=true` - Endlosschleife
+!!! - `nav=true` - Navigation anzeigen
+!!! - `stagePadding=200` - Abstand zum Rand
 
 !!! [Dokumentation: Shortcode Owl Carousel Plugin](https://github.com/getgrav/grav-plugin-shortcode-owl-carousel)
 
