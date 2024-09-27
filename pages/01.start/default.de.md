@@ -29,9 +29,7 @@ Diese Seite wurde mit dem [Grav CMS](https://getgrav.org) erstellt. Grav ist ein
 ### Theme
 
 Diese Seite nutzt das [Quark Theme](https://github.com/getgrav/grav-theme-quark) als Basis. Quark ist ein flexibles und vielseitiges Theme, das viele Anpassungsmöglichkeiten bietet. Es ist einfach zu bedienen und bietet viele Funktionen, die es zu einer guten Wahl für viele Websites machen.  
-Darauf aufbauend wird ebenfalls das [Quark Open Publishing Theme](https://github.com/hibbitts-design/grav-theme-quark-open-publishing) verwendet, welches speziell für die Verwendung von Grav als Open-Publishing-Plattform entwickelt wurde.  
-Die Crabston GmbH hat darauf aufbauend ein eigenes Theme, [Hadron](https://github.com/Crabston/grav-theme-hadron), 
-entwickelt, welches speziell auf die Bedürfnisse der Kunden zugeschnitten ist.
+Die Crabston GmbH hat darauf aufbauend ein eigenes Theme, [Hadron](https://github.com/Crabston/grav-theme-hadron), entwickelt, welches the Möglichkeiten des Quark Themes erweitert und speziell auf die Bedürfnisse ihrer Kunden zugeschnitten ist. Das Hadron Theme ist jedoch öffentlich und kann von jedem frei verwendet werden.
 
 ### Plugins
 
