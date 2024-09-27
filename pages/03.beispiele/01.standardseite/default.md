@@ -9,9 +9,13 @@ sitemap:
 date: 03-04-2024
 ---
 
-Diese Seite zeigt ein Beispiel für eine **Standard** Seite, auf der der Inhalt einer einzelnen Seite angezeigt wird. Hier wird auch gezeigt, wie Klassen zu Markdown-Bildern hinzugefügt werden, um Bilder links oder rechts schwebend anzuzeigen, mit und ohne Bildunterschriften.
+!!! Diese Seite zeigt ein Beispiel für eine **Standardseite**. Dies ist der einfachste Seitentyp in Grav und wird für einfache Seitenlayouts verwendet. Folgende Funktionen sind in diesem Beispiel enthalten:  
+!!! 1. Bilder können die volle Grösse haben oder mit einer benutzerdefinierten Grösse angezeigt werden.
+!!! 2. Bilder können mit einer Bildunterschrift versehen werden.
+!!! 3. Bilder können links oder rechts ausgerichtet werden.
+!!! 4. Bilder können vergrössert werden, wenn darauf geklickt wird.
 
-![Sky and Mountain](chase-moyer-730496-unsplash.jpg)
+![Sky and Mountain](chase-moyer-730496-unsplash.jpg?lightbox)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie iaculis nisl sed interdum. Praesent mi nisl, efficitur in felis vel, molestie sollicitudin eros. Mauris urna quam, euismod nec lacinia non, dignissim eu odio. Donec nisl nibh, facilisis at nisl vitae, porttitor hendrerit libero. Integer vel neque in ante condimentum malesuada. Mauris dictum nunc enim, non tincidunt arcu tincidunt vel. Aliquam gravida, massa id semper tincidunt, tellus sapien accumsan tortor, in placerat arcu justo ac urna. Vestibulum blandit ultrices neque, eget congue tortor vehicula id.
 
@@ -29,7 +33,7 @@ Aliquam nulla felis, fringilla nec lobortis a, faucibus a magna. Nulla faucibus 
 
 [clearboth]
 
-![Sky and Mountain](chase-moyer-730496-unsplash.jpg?resize=600,450&classes=left)
+![Sky and Mountain](chase-moyer-730496-unsplash.jpg?lightbox&resize=600,450&classes=left)
 
 Aenean maximus placerat mi. Proin a porttitor leo, quis commodo ex. Praesent sit amet neque turpis. Sed fermentum, massa et iaculis vehicula, ligula ipsum tempus diam, ut placerat ligula nisi sed arcu. Nulla dictum sagittis enim sed hendrerit. Nunc eget vestibulum nisl. Integer at ex quis nulla lacinia vulputate a vel neque. Nam elementum id justo vel scelerisque. Fusce finibus erat at purus tincidunt aliquet. Mauris molestie maximus pellentesque. Sed finibus mattis turpis, quis fringilla mi varius vel. Morbi dictum, magna et sollicitudin dignissim, enim libero varius sapien, sit amet sagittis mi quam nec ligula. Proin consectetur nec sapien ac tincidunt. Aliquam faucibus leo a diam ultricies, eu luctus felis consectetur. Ut malesuada turpis id purus viverra, faucibus tempus augue placerat.
 
