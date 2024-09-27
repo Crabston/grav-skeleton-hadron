@@ -3,35 +3,26 @@ streams:
     theme:
       type: ReadOnlyStream
       prefixes:
-        '': [user/themes/local, user/themes/hadron, user/themes/quark]
-chromeless:
-  enabled: false
-display_of_git_sync_repo_link: none
-type_of_git_sync_repo_link: view
-h5pembedrootpath: 'https://h5p.org/h5p/embed/'
-displaycustommenus:
-  enabled: false
-hidehomemenulink: true
-production-mode: true
+        '':
+          - user/themes/local
+          - user/themes/hadron
+          - user/themes/quark
+
+# TODO: check if grid-xl is better
+grid-size: grid-lg
+blog-page: /blog
+dropdown:
+  enabled: true
 header-fixed: true
 header-animated: true
 header-dark: false
 header-transparent: false
 sticky-footer: true
-blog-page: /blog
 spectre:
   exp: false
   icons: false
-# TODO: check if grid-xl is better
-grid-size: grid-lg
-menu:
-  -
-    text: Grav
-    icon: arrow-circle-right
-    url: 'https://getgrav.org/'
-    target: _blank
-dropdown:
-  enabled: true
+production-mode: true
+h5pembedrootpath: 'https://h5p.org/h5p/embed/'
 blog_page_hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 favicon:
   user/themes/local/images/favicon.svg:
