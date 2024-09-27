@@ -51,6 +51,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-form
         path: user/plugins/form
         branch: master
+    hadron:
+        url: https://github.com/Crabston/grav-theme-hadron
+        path: user/themes/hadron
+        branch: main
     healthcheck:
         url: https://github.com/Crabston/grav-plugin-healthcheck
         path: user/plugins/healthcheck
@@ -67,10 +71,6 @@ git:
         url: https://github.com/getgrav/grav-plugin-markdown-notices
         path: user/plugins/markdown-notices
         branch: master
-    hadron:
-        url: https://github.com/Crabston/grav-theme-hadron
-        path: user/themes/hadron
-        branch: main
     # Demo only
     page-toc:
         url: https://github.com/trilbymedia/grav-plugin-page-toc
