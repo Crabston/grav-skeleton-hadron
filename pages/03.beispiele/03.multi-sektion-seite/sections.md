@@ -14,7 +14,7 @@ content:
 child_type: section
 sitemap:
   changefreq: never
-  priority: 0.2
+  priority: 0.5
   lastmod: 03-04-2024
 date: 03-04-2024
 ---

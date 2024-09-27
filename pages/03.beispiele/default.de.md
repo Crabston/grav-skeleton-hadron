@@ -3,9 +3,9 @@ title: Beispiele
 slug: beispiele
 sitemap:
   changefreq: yearly
-  priority: 0.5
-  lastmod: 29-05-2024
-date: 29-05-2024
+  priority: 0.7
+  lastmod: 27-09-2024
+date: 27-09-2024
 content:
   items:
     - '@self.children'

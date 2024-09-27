@@ -4,9 +4,9 @@ slug: standardseite
 published: true
 sitemap:
   changefreq: never
-  priority: 0.2
-  lastmod: 03-04-2024
-date: 03-04-2024
+  priority: 0.5
+  lastmod: 27-09-2024
+date: 27-09-2024
 ---
 
 !!! Diese Seite zeigt ein Beispiel für eine **Standardseite**. Dies ist der einfachste Seitentyp in Grav und wird für einfache Seitenlayouts verwendet. Folgende Funktionen sind in diesem Beispiel enthalten:  
