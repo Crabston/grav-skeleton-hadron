@@ -17,9 +17,9 @@ filters:
 filter_combinator: and
 page_specific_config:
   -
-    route: /tutorial
+    route: /blog
     filters:
-      page@: /tutorial
+      page@: /blog
     filter_combinator: and
     order_by: null
     order_dir: null
