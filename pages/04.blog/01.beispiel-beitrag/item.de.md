@@ -4,7 +4,7 @@ slug: beispiel-beitrag
 visible: false
 sitemap:
   changefreq: never
-  priority: 0.4
+  priority: 0.5
   lastmod: 27-08-2024
 date: 27-08-2024
 taxonomy:

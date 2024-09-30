@@ -3,9 +3,9 @@ title: Beispiele
 slug: beispiele
 sitemap:
   changefreq: yearly
-  priority: 0.5
-  lastmod: 29-05-2024
-date: 29-05-2024
+  priority: 0.7
+  lastmod: 27-09-2024
+date: 27-09-2024
 content:
   items:
     - '@self.children'
@@ -23,26 +23,26 @@ display_child_page_titles: true
 Auf dieser Seite finden Sie eine Auswahl von Beispielen, die Ihnen die Möglichkeiten von Grav aufzeigen.
 
 ## Standard Seite
-[![Standard Seite](standardseite.webp?resize=500)](standardseite)
+[![Standard Seite](01-standardseite.webp?resize=500)](standardseite)
 
-## Modulare Seite
-[![Modulare Seite](modulare-seite.webp?resize=500)](modulare-seite)
+## Grav Standard Modulare Seite
+[![Modulare Seite](02-modulare-seite-grav.webp?resize=500)](modulare-seite-grav)
 
 ## Multi-Sektion Seite
-[![Multi-Sektion Seite](multi-sektion-seite.webp?resize=500)](multi-sektion-seite)
+[![Multi-Sektion Seite](03-multi-sektion-seite.webp?resize=500)](multi-sektion-seite)
 
-## Modulare Seite mit Injektion
-[![Modulare Seite mit Injektion](modulare-seite-injektion.webp?resize=500)](modulare-seite-injektion)
+## Modulare Seite
+[![Modulare Seite mit Injektion](04-modulare-seite.webp?resize=500)](modulare-seite)
 
-## Eingebettete Seite
-[![Eingebettete Seite](eingebettete-seiten.webp?resize=500)](eingebettete-seiten)
+## Eingebettete Seiten
+[![Eingebettete Seite](05-eingebettete-seiten.webp?resize=500)](eingebettete-seiten)
 
 ## Private Seite
 _(Benutzer: `demo`; Passwort: `Demo1234`)_
-[![Eingebettete Seite](private-seite.webp?resize=500)](private-seite)
+[![Eingebettete Seite](06-private-seite.webp?resize=500)](private-seite)
 
 ## Formular
-[![Formular](formular.webp?resize=500)](formular)
+[![Formular](07-formular.webp?resize=500)](formular)
 
 [/div]
 

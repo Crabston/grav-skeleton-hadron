@@ -3,24 +3,23 @@ title: Über
 sitemap:
   changefreq: yearly
   priority: 1.0
-  lastmod: 27-08-2024
-date: 27-08-2024
+  lastmod: 27-09-2024
+date: 27-09-2024
 ---
 
 # Über diese Seite
 
-!!! **Wichtige Information zu den Anleitungen**  
-!!! Die Anleitungen zu Grav CMS sind jetzt neu auf [tutorials.crabston.ch/grav](https://tutorials.crabston.ch/grav) zu finden. Bitte besuchen Sie die neue Seite, um die neuesten Anleitungen zu Grav zu erhalten.  
-!!! Diese Seite dient nur noch als Demoseite zu Grav CMS und wird nicht mehr aktualisiert.
+!!! **Wichtige Information zu den Grav Anleitungen**  
+!!! Die Anleitungen zu Grav CMS sind jetzt neu auf [tutorials.crabston.ch/grav](https://tutorials.crabston.ch/grav) zu finden. Diese Seite, Grav Website Demo, dient nur noch als Demoseite zu Grav CMS und wird nicht mehr laufend aktualisiert.
 
-Dies ist eine inoffizielle Demoseite der [Crabston GmbH](https://crabston.ch) über [Grav CMS](https://getgrav.org). Sie dient als Beispiel für die Verwendung von Grav und zeigt die Möglichkeiten des CMS.
+_Dies ist eine inoffizielle Demoseite der [Crabston GmbH](https://crabston.ch) über [Grav CMS](https://getgrav.org). Sie dient als Beispiel für die Verwendung von Grav und zeigt die Möglichkeiten des CMS._
 
 ## Inhalt
 
-Auf dieser Demoseite gibt es diverse Beispielseiten, welche die Funktionalität von Grav und den verwendeten Plugins demonstrieren:
+Auf dieser Demoseite gibt es diverse Seite, welche die Funktionalität von Grav und den verwendeten Plugins demonstrieren:
 - [Komponenten](/komponenten) - Liste aller verfügbaren Komponenten, die auf der Seite verwendet werden können
-- [Beispiele](/beispiele) - konkrete Beispiele für mögliche Seiteninhalte und deren Darstellung
-- [Blog](/blog) - eine Beispiel-Blogseite mit verschiedenen Beiträgen
+- [Beispiele](/beispiele) - konkrete Beispiele für mögliche Seiteninhalte und dessen Darstellung
+- [Blog](/blog) - eine Beispiel Blogseite mit verschiedenen Beiträgen
 
 ## CMS
 
@@ -29,9 +28,7 @@ Diese Seite wurde mit dem [Grav CMS](https://getgrav.org) erstellt. Grav ist ein
 ### Theme
 
 Diese Seite nutzt das [Quark Theme](https://github.com/getgrav/grav-theme-quark) als Basis. Quark ist ein flexibles und vielseitiges Theme, das viele Anpassungsmöglichkeiten bietet. Es ist einfach zu bedienen und bietet viele Funktionen, die es zu einer guten Wahl für viele Websites machen.  
-Darauf aufbauend wird ebenfalls das [Quark Open Publishing Theme](https://github.com/hibbitts-design/grav-theme-quark-open-publishing) verwendet, welches speziell für die Verwendung von Grav als Open-Publishing-Plattform entwickelt wurde.  
-Die Crabston GmbH hat darauf aufbauend ein eigenes Theme, [Hadron](https://github.com/Crabston/grav-theme-hadron), 
-entwickelt, welches speziell auf die Bedürfnisse der Kunden zugeschnitten ist.
+Die Crabston GmbH hat darauf aufbauend ein eigenes Theme, [Hadron](https://github.com/Crabston/grav-theme-hadron), entwickelt, welches the Möglichkeiten des Quark Themes erweitert und speziell auf die Bedürfnisse ihrer Kunden zugeschnitten ist. Das Hadron Theme ist jedoch öffentlich und kann von jedem frei verwendet werden.
 
 ### Plugins
 

@@ -2,7 +2,7 @@
 title: Formular
 slug: formular
 sitemap:
-  changefreq: yearly
+  changefreq: never
   priority: 0.5
   lastmod: 17-06-2024
 date: 17-06-2024
