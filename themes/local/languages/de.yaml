@@ -1,0 +1,69 @@
+THEME:
+  HADRON:
+    TITLE: Hadron Optionen
+    H5P:
+      TITLE: H5P Setup
+      EMBED_URL:
+        LABEL: H5P Quelle URL einbetten
+        HELP: Gib die URL der Quelle ein, bis, aber nicht einschliesslich, der H5P Content ID.
+        DESCRIPTION: URL der Quelle, bis, aber nicht einschliesslich, der H5P Content ID. Zum Beispiel https://h5p.org/h5p/embed/ oder https://[organization].h5p.com/content/.
+    MENU:
+      TITLE: Menü
+      DISPLAY_DROPDOWNS:
+        LABEL: Zeige Dropdowns im Menü
+  QUARK:
+    TITLE: Quark Optionen
+    PRODUCTION_MODE:
+      LABEL: Produktionsmodus
+      HELP: Wenn aktiviert, wird Quark mit minimiertem CSS angezeigt
+    GRID_SIZE:
+      LABEL: Grid Grösse
+      HELP: Die maximale Grösse des Themes
+      OPTIONS:
+        NONE: Keine (volle Breite)
+        GRID_XL: Extra Breit
+        GRID_LG: Breit
+        GRID_MD: Mittel
+    HEADER:
+      TITLE: Header Standards
+      FAVICON:
+        LABEL: Benutzerdefiniertes Favicon
+        DESCRIPTION: Wird verwendet anstelle des Standard Favicons `theme://images/favicon.png`
+      CUSTOM_LOGO:
+        LABEL: Benutzerdefiniertes Logo
+        DESCRIPTION: Wird verwendet anstelle des Standardlogos `theme://images/grav-logo.svg`
+      CUSTOM_LOGO_MOBILE:
+        LABEL: Mobiles benutzerdefiniertes Logo
+      HEADER_FIXED:
+        LABEL: Fester Header
+        HELP: Wenn aktiviert, wird der Header oben im Browser fixiert
+      HEADER_ANIMATED:
+        LABEL: Header animieren
+        HELP: Wenn aktiviert, wird der Header beim Scrollen animiert
+      HEADER_DARK:
+        LABEL: Dunkler Stil
+        HELP: Wenn aktiviert, wird ein dunkler Stil verwendet
+      HEADER_TRANSPARENT:
+        LABEL: Transparenter Header
+        HELP: Wenn aktiviert, wird der Header transparent
+    FOOTER:
+      TITLE: Footer Standards
+      STICKY_FOOTER:
+        LABEL: Sticky Footer
+        HELP: Wenn aktiviert, wird der Footer am unteren Rand des Browsers fixiert
+    BLOG:
+      TITLE: Blog Standards
+      BLOG_PAGE:
+        LABEL: Blog Seite
+        HELP: Der Pfad zur Blogseite bei Verwendung der Blog-Seitenleiste
+      HERO_CLASSES:
+        LABEL: Hero Klassen
+        DESCRIPTION: Es gibt mehrere Hero-Klassenoptionen, die hier aufgelistet werden können (durch Leerzeichen getrennt):<br />`text-light`, `text-dark`, `title-h1h2`, `parallax`, `overlay-dark-gradient`, `overlay-light-gradient`, `overlay-dark`, `overlay-light`, `hero-fullscreen`, `hero-large`, `hero-medium`, `hero-small`, `hero-tiny`<br />Bitte konsultiere die [Quark Dokumentation](https://github.com/getgrav/grav-theme-quark#hero-options) für weitere Details.
+    SPECTRE:
+      TITLE: Spectre.css Optionen
+      EXPERIMENTAL:
+        LABEL: Experimentelles CSS
+        HELP: Wenn aktiviert, wird die `spectre-exp.css` Datei eingebunden
+      ICONS:
+        LABEL: Icons CSS
+        HELP: Wenn aktiviert, wird die `spectre-icons.css` Datei eingebunden

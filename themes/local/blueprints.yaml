@@ -1,4 +1,4 @@
-name: 'Local'
+name: 'Local Theme'
 version: '1.0.0'
 description: 'Local Theme Configuration'
 icon: crosshairs
@@ -21,44 +21,30 @@ form:
       type: tabs
       active: 1
       fields:
-        general_info:
+        hadron:
           type: tab
-          title: THEME_LOCAL.OPEN_PUBLISHING.TITLE
+          title: THEME.HADRON.TITLE
           fields:
-            chromelessoptions:
+            h5p:
               type: section
-              title: THEME_LOCAL.OPEN_PUBLISHING.CHROMELESS.TITLE
-              underline: true
-            chromeless.enabled:
-              type: toggle
-              label: THEME_LOCAL.OPEN_PUBLISHING.CHROMELESS.ENABLE_CHROMELESS.LABEL
-              highlight: 1
-              default: 0
-              options:
-                0: PLUGIN_ADMIN.DISABLED
-                1: PLUGIN_ADMIN.ENABLED
-              validate:
-                type: bool
-            h5psetup:
-              type: section
-              title: THEME_LOCAL.OPEN_PUBLISHING.H5P.TITLE
+              title: THEME.HADRON.H5P.TITLE
               underline: true
             h5pembedrootpath:
               type: text
               size: long
-              label: THEME_LOCAL.OPEN_PUBLISHING.H5P.EMBED_URL.LABEL
+              label: THEME.HADRON.H5P.EMBED_URL.LABEL
               default: 'https://h5p.org/h5p/embed/'
-              help: THEME_LOCAL.OPEN_PUBLISHING.H5P.EMBED_URL.HELP
-              description: THEME_LOCAL.OPEN_PUBLISHING.H5P.EMBED_URL.DESCRIPTION
+              help: THEME.HADRON.H5P.EMBED_URL.HELP
+              description: THEME.HADRON.H5P.EMBED_URL.DESCRIPTION
               validate:
                 type: URL
-            menuoptions:
+            menu:
               type: section
-              title: THEME_LOCAL.OPEN_PUBLISHING.MENU.TITLE
+              title: THEME.HADRON.MENU.TITLE
               underline: true
             dropdown.enabled:
               type: toggle
-              label: THEME_LOCAL.OPEN_PUBLISHING.MENU.DISPLAY_DROPDOWNS.LABEL
+              label: THEME.HADRON.MENU.DISPLAY_DROPDOWNS.LABEL
               highlight: 1
               default: 1
               options:
@@ -66,14 +52,14 @@ form:
                 1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
-        theme_info:
+        quark:
           type: tab
-          title: THEME_LOCAL.QUARK_OPTIONS.TITLE
+          title: THEME.QUARK.TITLE
           fields:
             production-mode:
               type: toggle
-              label: THEME_LOCAL.QUARK_OPTIONS.PRODUCTION_MODE.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.PRODUCTION_MODE.HELP
+              label: THEME.QUARK.PRODUCTION_MODE.LABEL
+              help: THEME.QUARK.PRODUCTION_MODE.HELP
               highlight: 1
               default: 1
               options:
@@ -83,41 +69,41 @@ form:
                 type: bool
             grid-size:
               type: select
-              label: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.HELP
+              label: THEME.QUARK.GRID_SIZE.LABEL
+              help: THEME.QUARK.GRID_SIZE.HELP
               size: small
               options:
-                '': THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.NONE
-                grid-xl: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.GRID_XL
-                grid-lg: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.GRID_LG
-                grid-md: THEME_LOCAL.QUARK_OPTIONS.GRID_SIZE.OPTIONS.GRID_MD
+                '': THEME.QUARK.GRID_SIZE.OPTIONS.NONE
+                grid-xl: THEME.QUARK.GRID_SIZE.OPTIONS.GRID_XL
+                grid-lg: THEME.QUARK.GRID_SIZE.OPTIONS.GRID_LG
+                grid-md: THEME.QUARK.GRID_SIZE.OPTIONS.GRID_MD
             header_section:
               type: section
-              title: THEME_LOCAL.QUARK_OPTIONS.HEADER.TITLE
+              title: THEME.QUARK.HEADER.TITLE
               underline: true
             favicon:
               type: file
-              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.FAVICON.LABEL
+              label: THEME.QUARK.HEADER.FAVICON.LABEL
               size: large
               destination: 'theme://images'
               multiple: false
               markdown: true
-              description: THEME_LOCAL.QUARK_OPTIONS.HEADER.FAVICON.DESCRIPTION
+              description: THEME.QUARK.HEADER.FAVICON.DESCRIPTION
               accept:
                 - 'image/*'
             custom_logo:
               type: file
-              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.CUSTOM_LOGO.LABEL
+              label: THEME.QUARK.HEADER.CUSTOM_LOGO.LABEL
               size: large
               destination: 'theme://images/logo'
               multiple: false
               markdown: true
-              description: THEME_LOCAL.QUARK_OPTIONS.HEADER.CUSTOM_LOGO.DESCRIPTION
+              description: THEME.QUARK.HEADER.CUSTOM_LOGO.DESCRIPTION
               accept:
                 - 'image/*'
             custom_logo_mobile:
               type: file
-              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.CUSTOM_LOGO_MOBILE.LABEL
+              label: THEME.QUARK.HEADER.CUSTOM_LOGO_MOBILE.LABEL
               size: large
               destination: 'theme://images/logo'
               multiple: false
@@ -125,8 +111,8 @@ form:
                 - 'image/*'
             header-fixed:
               type: toggle
-              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_FIXED.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_FIXED.HELP
+              label: THEME.QUARK.HEADER.HEADER_FIXED.LABEL
+              help: THEME.QUARK.HEADER.HEADER_FIXED.HELP
               highlight: 1
               default: 1
               options:
@@ -136,8 +122,8 @@ form:
                 type: bool
             header-animated:
               type: toggle
-              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_ANIMATED.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_ANIMATED.HELP
+              label: THEME.QUARK.HEADER.HEADER_ANIMATED.LABEL
+              help: THEME.QUARK.HEADER.HEADER_ANIMATED.HELP
               highlight: 1
               default: 1
               options:
@@ -147,8 +133,8 @@ form:
                 type: bool
             header-dark:
               type: toggle
-              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_DARK.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_DARK.HELP
+              label: THEME.QUARK.HEADER.HEADER_DARK.LABEL
+              help: THEME.QUARK.HEADER.HEADER_DARK.HELP
               highlight: 0
               default: 0
               options:
@@ -158,8 +144,8 @@ form:
                 type: bool
             header-transparent:
               type: toggle
-              label: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_TRANSPARENT.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.HEADER.HEADER_TRANSPARENT.HELP
+              label: THEME.QUARK.HEADER.HEADER_TRANSPARENT.LABEL
+              help: THEME.QUARK.HEADER.HEADER_TRANSPARENT.HELP
               highlight: 0
               default: 1
               options:
@@ -169,12 +155,12 @@ form:
                 type: bool
             footer_section:
               type: section
-              title: THEME_LOCAL.QUARK_OPTIONS.FOOTER.TITLE
+              title: THEME.QUARK.FOOTER.TITLE
               underline: true
             sticky-footer:
               type: toggle
-              label: THEME_LOCAL.QUARK_OPTIONS.FOOTER.STICKY_FOOTER.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.FOOTER.STICKY_FOOTER.HELP
+              label: THEME.QUARK.FOOTER.STICKY_FOOTER.LABEL
+              help: THEME.QUARK.FOOTER.STICKY_FOOTER.HELP
               highlight: 1
               default: 1
               options:
@@ -184,27 +170,27 @@ form:
                 type: bool
             blog_section:
               type: section
-              title: THEME_LOCAL.QUARK_OPTIONS.BLOG.TITLE
+              title: THEME.QUARK.BLOG.TITLE
               underline: true
             blog-page:
               type: text
-              label: THEME_LOCAL.QUARK_OPTIONS.BLOG.BLOG_PAGE.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.BLOG.BLOG_PAGE.HELP
+              label: THEME.QUARK.BLOG.BLOG_PAGE.LABEL
+              help: THEME.QUARK.BLOG.BLOG_PAGE.HELP
               size: medium
               default: /blog
             blog_page_hero_classes:
               type: text
-              label: THEME_LOCAL.QUARK_OPTIONS.BLOG.HERO_CLASSES.LABEL
+              label: THEME.QUARK.BLOG.HERO_CLASSES.LABEL
               markdown: true
-              description: THEME_LOCAL.QUARK_OPTIONS.BLOG.HERO_CLASSES.DESCRIPTION
+              description: THEME.QUARK.BLOG.HERO_CLASSES.DESCRIPTION
             spectre_section:
               type: section
-              title: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.TITLE
+              title: THEME.QUARK.SPECTRE.TITLE
               underline: true
             spectre.exp:
               type: toggle
-              label: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.EXPERIMENTAL.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.EXPERIMENTAL.HELP
+              label: THEME.QUARK.SPECTRE.EXPERIMENTAL.LABEL
+              help: THEME.QUARK.SPECTRE.EXPERIMENTAL.HELP
               highlight: 0
               default: 0
               options:
@@ -214,8 +200,8 @@ form:
                 type: bool
             spectre.icons:
               type: toggle
-              label: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.ICONS.LABEL
-              help: THEME_LOCAL.QUARK_OPTIONS.SPECTRE.ICONS.HELP
+              label: THEME.QUARK.SPECTRE.ICONS.LABEL
+              help: THEME.QUARK.SPECTRE.ICONS.HELP
               highlight: 0
               default: 0
               options:
@@ -223,45 +209,3 @@ form:
                 1: PLUGIN_ADMIN.ENABLED
               validate:
                 type: bool
-        custommenu_options:
-          type: tab
-          title: THEME_LOCAL.CUSTOM_MENU.TITLE
-          fields:
-            displaycustommenus.enabled:
-              type: toggle
-              label: THEME_LOCAL.CUSTOM_MENU.DISPLAY.LABEL
-              help: THEME_LOCAL.CUSTOM_MENU.DISPLAY.HELP
-              default: 0
-              highlight: 1
-              options:
-                0: PLUGIN_ADMIN.DISABLED
-                1: PLUGIN_ADMIN.ENABLED
-              validate:
-                type: bool
-            menu:
-              name: menu
-              type: list
-              label: THEME_LOCAL.CUSTOM_MENU.MENU.LABEL
-              fields:
-                .text:
-                  type: text
-                  label: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TEXT.LABEL
-                  description: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TEXT.DESCRIPTION
-                .icon:
-                  type: text
-                  label: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.ICON.LABEL
-                  description: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.ICON.DESCRIPTION
-                .url:
-                  type: text
-                  label: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.URL.LABEL
-                  description: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.URL.DESCRIPTION
-                .target:
-                  type: select
-                  label: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.LABEL
-                  default: _self
-                  size: medium
-                  options:
-                    _blank: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.OPTIONS.BLANK
-                    _parent: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.OPTIONS.PARENT
-                    _top: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.OPTIONS.TOP
-                    _self: THEME_LOCAL.CUSTOM_MENU.MENU.FIELDS.TARGET.OPTIONS.SELF
