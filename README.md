@@ -11,6 +11,15 @@ If you want to see the Hadron skeleton & theme in action, you can visit the [Had
 ## Features
 _Learn more about all the features of Hadron in detail on [tutorials.crabston.ch/hadron](https://tutorials.crabston.ch/hadron)._
 
+The Skeleton includes the following features & enhancements:
+- **Ready-to-use Grav instance with Hadron theme**
+- Default groups configuration to easily manage user permissions via admin
+- Default pages for standard, blog, contact, modular, and other pages
+- Default plugins + config to enhance the site for publishing
+- Default config for sendgrid email support
+- Default config for doppler secrets manager (needs our [custom Grav Core](https://github.com/Crabston/grav))
+
+### Hadron Theme Features
 - Responsive tables
 - Menu with dropdown support
 - Featured posts for blog
