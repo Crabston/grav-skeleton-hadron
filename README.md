@@ -1,6 +1,32 @@
-# Grav Demo Site
+# Grav Hadron Skeleton
 
-Demo site for Grav CMS by Crabston.
+The Grav Hadron skeleton is a Grav skeleton based on the [Hadron](https://github.com/Crabston/grav-theme-hadron) & [Quark](https://github.com/getgrav/grav-theme-quark) themes and includes a user folder giving an example of a hadron site utilizing pages developed using Grav.
+
+## Hadron
+Hadron is a modern [Grav](https://getgrav.org) theme based on [Quark](https://github.com/getgrav/grav-theme-quark). As a child/ inherited theme of Quark, it includes more advanced features than the original Quark theme. It also offers advanced styling options.
+
+## Demo
+If you want to see the Hadron skeleton & theme in action, you can visit the [Hadron Demo Site](https://grav.demo.crabston.dev/). There you will find a short introduction to the skeleton/ theme and its features too. There are a components page and some example pages too.
+
+## Features
+_Learn more about all the features of Hadron in detail on [tutorials.crabston.ch/hadron](https://tutorials.crabston.ch/hadron)._
+
+- Responsive tables
+- Menu with dropdown support
+- Featured posts for blog
+- Built-in Support for Embed.ly
+- Built-in Support for H5P
+- more theme customization options
+- other enhancements
+
+### Inherited Quark Features
+- Lightweight and minimal for optimal performance
+- Spectre CSS Framework
+- Fully responsive with full-page mobile navigation
+- SCSS based CSS source files for easy customization
+- Built-in support for on-page navigation
+- Multiple page template types
+- Fontawesome icon support
 
 ## Installation
 
