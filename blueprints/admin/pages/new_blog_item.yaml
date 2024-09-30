@@ -2,12 +2,12 @@ form:
   validation: loose
   fields:
     section:
-        type: section
-        title: Add Blog Item
+      type: section
+      title: ADMIN.PAGES.MODALS.NEW_BLOG_ITEM.MODAL.TITLE
 
     title:
       type: text
-      label: Blog Item Title
+      label: ADMIN.PAGES.MODALS.NEW_BLOG_ITEM.TITLE.LABEL
       validate:
         required: true
 
@@ -17,7 +17,7 @@ form:
 
     route:
       type: parents
-      label: PLUGIN_ADMIN.PARENT
+      label: ADMIN.PAGES.MODALS.NEW_BLOG_ITEM.PARENT.LABEL
       classes: fancy
       validate:
         required: true

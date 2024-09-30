@@ -48,12 +48,12 @@ google_fonts: false
 frontend_pages_target: _blank
 add_modals:
   -
-    label: 'Neuer Blog Beitrag'
-    blueprint: admin/pages/new_blog_item
+    label: ADMIN.PAGES.MODALS.NEW_STANDARD_PAGE.BAR.LABEL
+    blueprint: admin/pages/new_standard_page
     show_in: bar
   -
-    label: 'Neue Standard Seite'
-    blueprint: admin/pages/new_standard_page
+    label: ADMIN.PAGES.MODALS.NEW_BLOG_ITEM.BAR.LABEL
+    blueprint: admin/pages/new_blog_item
     show_in: bar
 pagemedia:
   resize_width: 0
