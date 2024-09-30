@@ -41,6 +41,10 @@ popularity:
     daily: '30'
     monthly: '12'
     visitors: '20'
+whitelabel:
+  codemirror_md_font: mono
+  codemirror_theme: paper
+  codemirror_fontsize: md
 warnings:
   delete_page: true
 pages_list_display_field: title
