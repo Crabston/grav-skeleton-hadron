@@ -37,6 +37,10 @@ The Skeleton includes the following features & enhancements:
 - Multiple page template types
 - Fontawesome icon support
 
+## Get Started
+
+To get started with the Hadron skeleton, you can check the [installation instructions](#installation) below. If you want to learn more about the Hadron theme, you can visit the [Hadron Documentation](https://tutorials.crabston.ch/hadron). There you will also find a detailed guide on how to install the skeleton and publish your first site.
+
 ## Installation
 
 See [Crabston/grav/blob/main/docs/install.md](https://github.com/Crabston/grav/blob/main/docs/install.md)
