@@ -1,3 +1,11 @@
+# 2.0.0
+##  _unreleased_
+1. [](#bugfix)
+   - Fix sitemap error bug
+1. [](#improved)
+   - add translations for admin > pages > modals (navigation)
+   - update README with more details
+
 # 1.0.0
 ## 30-09-2024
 1. [](#improved)
