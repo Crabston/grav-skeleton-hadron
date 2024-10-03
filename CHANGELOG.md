@@ -1,7 +1,10 @@
 # 2.0.0
 ##  _unreleased_
+1. [](#new)
+   - add GitHub workflow to build skeleton
 1. [](#bugfix)
    - Fix sitemap error bug
+   - fix admin & archives plugin config
 1. [](#improved)
    - add translations for admin > pages > modals (navigation)
    - update README with more details
