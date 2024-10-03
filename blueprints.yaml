@@ -1,0 +1,14 @@
+name: Hadron
+version: 2.0.0
+description: 'The Grav Hadron skeleton is a Grav skeleton based on the Hadron & Quark themes and includes a user folder giving an example of a hadron site utilizing pages developed using Grav'
+icon: circle
+author:
+  name: 'Crabston GmbH'
+  email: contact@crabston.dev
+  url: 'https://crabston.dev'
+homepage: https://github.com/Crabston/grav-skeleton-hadron
+demo: https://grav.demo.crabston.dev
+keywords: grav, skeleton, hadron, quark, modern, advanced, styling, options
+bugs: https://github.com/Crabston/grav-skeleton-hadron/issues
+readme: https://github.com/Crabston/grav-skeleton-hadron/blob/main/README.md
+license: MIT
