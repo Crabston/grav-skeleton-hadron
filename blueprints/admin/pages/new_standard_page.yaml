@@ -2,12 +2,12 @@ form:
   validation: loose
   fields:
     section:
-        type: section
-        title: Add Standard Page
+      type: section
+      title: ADMIN.PAGES.MODALS.NEW_STANDARD_PAGE.MODAL.TITLE
 
     title:
       type: text
-      label: Page Title
+      label: ADMIN.PAGES.MODALS.NEW_STANDARD_PAGE.TITLE.LABEL
       validate:
         required: true
 
@@ -17,7 +17,7 @@ form:
 
     route:
       type: parents
-      label: PLUGIN_ADMIN.PARENT
+      label: ADMIN.PAGES.MODALS.NEW_STANDARD_PAGE.PARENT.LABEL
       classes: fancy
       validate:
         required: true
