@@ -5,6 +5,7 @@
 1. [](#bugfix)
    - Fix sitemap error bug
    - fix admin & archives plugin config
+   - Fix transparent navigation bug (#31)
 1. [](#improved)
    - add translations for admin > pages > modals (navigation)
    - update README with more details
