@@ -8,19 +8,21 @@ body.header-dark .mobile-menu #toggle span,
   background: white;
 }
 
-body:not(.header-dark) #header, #header.scrolled {
+body:is(.header-light, .header-transparent) #header, #header.scrolled {
   background-color: white;
   color: #3a414e;
 }
-body:not(.header-dark) #header .dropmenu a:is(.active, :focus, :hover), #header.scrolled .dropmenu a:is(.active, :focus, :hover) {
+body:is(.header-light, .header-transparent) #header .dropmenu ul > li > a:is(.active, :focus, :hover), #header.scrolled .dropmenu ul > li > a:is(.active, :focus, :hover) {
   color: #005CD4 !important;
 }
 
-body.header-dark #header:not(.scrolled) {
-  background-color: white;
-  color: rgba(223, 223, 223, 0.625);
+body:is(.header-dark) #header:not(.scrolled) {
+  color: rgba(223.125, 223.125, 223.125, 0.625);
 }
-body.header-dark #header:not(.scrolled) .dropmenu a:is(.active, :focus, :hover) {
+body:is(.header-dark) #header:not(.scrolled) .dropmenu ul > li > a:is(.active, :focus, :hover) {
+  color: #005CD4 !important;
+}
+body:is(.header-dark) #header:not(.scrolled) .dropmenu > ul > li > a:is(.active, :focus, :hover) {
   color: white !important;
 }
 
@@ -34,7 +36,7 @@ body.header-dark #header:not(.scrolled) .dropmenu a:is(.active, :focus, :hover) 
 
 .label.label-secondary {
   color: #005CD4;
-  background-color: rgba(143, 184, 236, 0.325);
+  background-color: rgba(143.4375, 183.6875, 236.1875, 0.325);
 }
 
 body {
@@ -48,10 +50,10 @@ body a:not(:has(.title), :is(.mobile-container a)) {
   color: #005CD4;
 }
 body a:not(:has(.title), :is(.mobile-container a)):hover, body a:not(:has(.title), :is(.mobile-container a)):focus, body a:not(:has(.title), :is(.mobile-container a)):active, body a:not(:has(.title), :is(.mobile-container a)):visited {
-  color: rgba(0, 88, 202, 0.8125);
+  color: rgba(0, 87.8181818182, 202.3636363636, 0.8125);
 }
 body a:not(:has(.title), :is(.mobile-container a)).btn {
-  border-color: rgba(0, 88, 202, 0.8125);
+  border-color: rgba(0, 87.8181818182, 202.3636363636, 0.8125);
 }
 body table th {
   background-color: #005CD4;
