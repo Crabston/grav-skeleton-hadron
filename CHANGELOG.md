@@ -2,6 +2,7 @@
 ##  _unreleased_
 1. [](#new)
    - add GitHub workflow to build skeleton
+   - Add multi-language support
 1. [](#bugfix)
    - Fix sitemap error bug
    - fix admin & archives plugin config

@@ -25,6 +25,7 @@ The Skeleton includes the following features & enhancements:
 - Featured posts for blog
 - Built-in Support for Embed.ly
 - Built-in Support for H5P
+- Built-in multi-language support
 - more theme customization options
 - other enhancements
 

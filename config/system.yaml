@@ -17,14 +17,15 @@ http_x_forwarded:
 languages:
   supported:
     - de
+    - en
   default_lang: de
   include_default_lang: false
   include_default_lang_file_extension: true
   translations: true
   translations_fallback: true
-  session_store_active: false
-  http_accept_language: false
-  override_locale: false
+  session_store_active: true
+  http_accept_language: true
+  override_locale: true
   pages_fallback_only: false
   debug: false
 home:
