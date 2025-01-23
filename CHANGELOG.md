@@ -1,5 +1,5 @@
 # 2.0.0
-##  _unreleased_
+## 23-01-2025
 1. [](#new)
    - add GitHub workflow to build skeleton
    - Add multi-language support
