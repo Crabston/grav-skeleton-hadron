@@ -1,3 +1,8 @@
+# pre:2.0.2
+## _unknown_
+1. [](#improved)
+   - add spam prevention to contact form
+
 # 2.0.1
 ## 28-01-2025
 1. [](#bugfix)
