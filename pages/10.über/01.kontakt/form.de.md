@@ -52,6 +52,10 @@ form:
       validate:
         required: '1'
 
+    turnstile:
+      type: turnstile
+      theme: light
+
   buttons:
     submit:
       type: submit
@@ -62,6 +66,7 @@ form:
       value: Zurücksetzen
 
   process:
+    turnstile: true
     email:
       from: '{{ config.plugins.email.from }}'
       to:
