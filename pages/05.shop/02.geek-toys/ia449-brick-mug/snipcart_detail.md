@@ -1,7 +1,8 @@
 ---
 title: Brick Mug
-price: 19.99
-product_id: ia449
+snipcart:
+  price: 19.99
+  product_id: ia449
 ---
 
 #### Aliquam lectus ipsum, condimentum vitae erat eleifend
