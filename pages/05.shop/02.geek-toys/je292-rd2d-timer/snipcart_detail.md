@@ -1,7 +1,8 @@
 ---
 title: R2D2 Timer
-price: 19.99
-product_id: je292
+snipcart:
+  price: 19.99
+  product_id: je292
 ---
 
 #### Curabitur egestas lacinia sem nec elementum

@@ -1,7 +1,8 @@
 ---
 title: Creepa Backpack
-price: 39.99
-product_id: ax389
+snipcart:
+  price: 39.99
+  product_id: ax389
 ---
 
 #### Nullam tristique, arcu non iaculis condimentum, nulla dui luctus elit

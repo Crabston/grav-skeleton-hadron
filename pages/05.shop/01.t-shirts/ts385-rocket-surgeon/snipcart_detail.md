@@ -1,7 +1,8 @@
 ---
 title: Rocket Doc T-Shirt
-price: 14.99
-product_id: ts385
+snipcart:
+  price: 14.99
+  product_id: ts385
 ---
 
 ## Aliquam lectus ipsum, condimentum vitae erat eleifend

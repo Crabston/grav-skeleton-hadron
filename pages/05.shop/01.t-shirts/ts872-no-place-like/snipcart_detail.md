@@ -1,7 +1,8 @@
 ---
 title: No place like T-Shirt
-price: 14.99
-product_id: ts872
+snipcart:
+  price: 14.99
+  product_id: ts872
 ---
 
 ## Curabitur egestas lacinia sem nec elementum

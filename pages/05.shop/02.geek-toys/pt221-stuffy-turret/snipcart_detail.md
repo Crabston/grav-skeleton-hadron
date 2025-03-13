@@ -1,7 +1,8 @@
 ---
 title: Stuffy Turret
-price: 19.99
-product_id: pt221
+snipcart:
+  price: 19.99
+  product_id: pt221
 ---
 
 #### Duis aliquam, diam ac mollis semper, tortor mauris tincidunt orci

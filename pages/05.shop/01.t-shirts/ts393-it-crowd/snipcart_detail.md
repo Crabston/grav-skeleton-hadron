@@ -1,7 +1,8 @@
 ---
 title: IT Crowd T-Shirt
-price: 19.99
-product_id: ts393
+snipcart:
+  price: 19.99
+  product_id: ts393
 ---
 
 ## Duis aliquam, diam ac mollis semper, tortor mauris tincidunt orci

@@ -1,7 +1,8 @@
 ---
 title: Reynholm Industries T-Shirt
-price: 14.99
-product_id: ts982
+snipcart:
+  price: 14.99
+  product_id: ts982
 ---
 
 ## Nullam tristique, arcu non iaculis condimentum, nulla dui luctus elit
