@@ -1,5 +1,5 @@
 # 2.1.0
-## 06-06-2025
+## 06-05-2025
 1. [](#improved)
    - add spam prevention to contact form
    - update local theme to match hadron v2.1.0
