@@ -1,6 +1,6 @@
 ---
 title: Image Cards
-cards:
+sbs:
   - layout: left
     image: /beispiele/modulare-seite/_image-cards/image-1.jpg
     title: 'Karte 1'
