@@ -1,7 +1,8 @@
-# pre:2.0.2
-## _unknown_
+# 2.1.0
+## 06-06-2025
 1. [](#improved)
    - add spam prevention to contact form
+   - update local theme to match hadron v2.1.0
 
 # 2.0.1
 ## 28-01-2025
