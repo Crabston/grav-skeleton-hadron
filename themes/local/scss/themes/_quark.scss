@@ -1,5 +1,5 @@
-@use '../theme ' as local;
 @use '../../../quark/scss/theme/variables' as quark;
+@use '../theme' as local;
 
 // Spectre Overrides
 $primary-color: local.$primary-color !default;

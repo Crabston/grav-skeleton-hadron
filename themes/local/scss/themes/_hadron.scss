@@ -1,15 +1,9 @@
-@use 'sass:color';
-@use '../../hadron/scss/theme' as hadron;
-
-// logical variables
-$dark-mode: false;
-$mobile-menu-colored: false;
+@use '../../../hadron/scss/theme' as hadron;
+@use '../theme' as local;
 
 // color definitions
-$primary-color: #4063CB;
-$accent-color: #4063CB;
-
-// TODO: remove when not necessary
+$primary-color: local.$primary-color !default;
+$accent-color: local.$accent-color !default;
 $grey: hadron.$grey;
 $light-overlay: hadron.$light-overlay;
 $dark-overlay: hadron.$dark-overlay;
