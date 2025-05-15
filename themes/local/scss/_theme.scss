@@ -6,10 +6,8 @@ $dark-mode: false;
 $mobile-menu-colored: false;
 
 // color definitions
-$light-overlay: hadron.$light-overlay;
-$dark-overlay: hadron.$dark-overlay;
-$primary-color: #005CD4;
-$accent-color: mix($primary-color, $dark-overlay, 75%);
+$primary-color: hadron.$primary-color;
+$accent-color: hadron.$accent-color;
 $grey: hadron.$grey;
 
 // sizes
@@ -17,11 +15,18 @@ $responsive-breakpoint-mobile: hadron.$responsive-breakpoint-mobile;
 $responsive-breakpoint-tablet: hadron.$responsive-breakpoint-tablet;
 $responsive-breakpoint-desktop: hadron.$responsive-breakpoint-desktop;
 
+// hero image
+$light-overlay: rgba(255, 255, 255, 0.25);
+$dark-overlay: rgba(0, 0, 0, 0.25);
+$overlay-dark: hadron.$overlay-dark;
+$overlay-dark-grad-from: hadron.$overlay-dark-grad-from;
+$overlay-dark-grad-to: hadron.$overlay-dark-grad-to;
+
 // elements
-$background-color: white;
+$background-color: hadron.$background-color;
 $text-color: $grey;
 $text-color-light: mix($text-color, $light-overlay, 25%);
-$text-color-secondary: white;
+$text-color-secondary: hadron.$text-color-secondary;
 $text-color-secondary-dark: mix($text-color-secondary, $dark-overlay);
 $link-color: $primary-color;
 $link-color__active: $accent-color;
@@ -35,4 +40,4 @@ $footer-text: $text-color;
 $footer-text-link: $link-color;
 
 // sizes
-$nav-item-height: 4rem;
+$nav-item-height: hadron.$nav-item-height;

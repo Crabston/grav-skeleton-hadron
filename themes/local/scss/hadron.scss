@@ -1,0 +1,30 @@
+// general
+@import 'theme';
+@import '../../hadron/scss/overrides';
+@import '../../hadron/scss/sizes';
+
+// components
+@import '../../hadron/scss/header-footer';
+@import '../../hadron/scss/navigation';
+@import '../../hadron/scss/hero';
+@import '../../hadron/scss/form';
+@import '../../hadron/scss/table';
+@import '../../hadron/scss/components';
+
+// css reset
+* { box-sizing: border-box; }
+
+// smooth scroll (for anchor links)
+html { scroll-behavior: smooth; }
+
+.f {
+	display: flex;
+
+	&.col { flex-direction: column; }
+
+	&.row { flex-direction: row; }
+
+	&.c { justify-content: center; }
+
+	&.a { align-items: center; }
+}
