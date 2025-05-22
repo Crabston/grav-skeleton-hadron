@@ -6,20 +6,13 @@ $dark-mode: false;
 $mobile-menu-colored: false;
 
 // color definitions
-$primary-color: #4063CB;
-$accent-color: #4063CB;
+$primary-color: #CB4040;
+$accent-color: #5ECB40;
 
 // TODO: remove when not necessary
 $grey: hadron.$grey;
 $light-overlay: hadron.$light-overlay;
 $dark-overlay: hadron.$dark-overlay;
-
-// elements
-$background-color: hadron.$background-color;
-$text-color: hadron.$text-color;
-$text-color-light: hadron.$text-color-light;
-$text-color-secondary: hadron.$text-color-secondary;
-$text-color-secondary-dark: hadron.$text-color-secondary-dark;
 
 // hero image
 $overlay-dark: hadron.$overlay-dark;
@@ -37,8 +30,8 @@ $text-color: hadron.$text-color;
 $text-color-light: hadron.$text-color-light;
 $text-color-secondary: hadron.$text-color-secondary;
 $text-color-secondary-dark: hadron.$text-color-secondary-dark;
-$link-color: hadron.$link-color;
-$link-color__active: hadron.$link-color__active;
+$link-color: $primary-color;
+$link-color__active: $accent-color;
 
 // header & footer
 $header-background: hadron.$header-background;
