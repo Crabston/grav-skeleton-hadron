@@ -7,7 +7,6 @@ streams:
           - user/themes/hadron
           - user/themes/quark
 
-# TODO: check if grid-xl is better
 grid-size: grid-lg
 blog-page: /blog
 dropdown:
