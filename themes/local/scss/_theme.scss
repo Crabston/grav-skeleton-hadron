@@ -1,45 +1,37 @@
 @use 'sass:color';
 @use '../../hadron/scss/theme' as hadron;
 
-// logical variables
-$dark-mode: false;
-$mobile-menu-colored: false;
+// theme variables
+$dark-mode: hadron.$dark-mode;
+$mobile-menu-colored: hadron.$mobile-menu-colored;
 
 // color definitions
 $primary-color: hadron.$primary-color;
 $accent-color: hadron.$accent-color;
-
-// TODO: remove when not necessary
 $grey: hadron.$grey;
 $light-overlay: hadron.$light-overlay;
 $dark-overlay: hadron.$dark-overlay;
-
-// hero image
-$overlay-dark: hadron.$overlay-dark;
-$overlay-dark-grad-from: hadron.$overlay-dark-grad-from;
-$overlay-dark-grad-to: hadron.$overlay-dark-grad-to;
 
 // sizes
 $responsive-breakpoint-mobile: hadron.$responsive-breakpoint-mobile;
 $responsive-breakpoint-tablet: hadron.$responsive-breakpoint-tablet;
 $responsive-breakpoint-desktop: hadron.$responsive-breakpoint-desktop;
 
-// elements
+// content
 $background-color: hadron.$background-color;
 $text-color: hadron.$text-color;
 $text-color-light: hadron.$text-color-light;
 $text-color-secondary: hadron.$text-color-secondary;
 $text-color-secondary-dark: hadron.$text-color-secondary-dark;
-$link-color: $primary-color;
-$link-color__active: $accent-color;
+$link-color: hadron.$link-color;
+$link-color__active: hadron.$link-color__active;
 
-// header & footer
+// header
 $header-background: hadron.$header-background;
 $header-text: hadron.$header-text;
-$header-text__active: hadron.$header-text__active;
+$header-text-dark: hadron.$header-text-dark;
+
+// footer
 $footer-background: hadron.$footer-background;
 $footer-text: hadron.$footer-text;
 $footer-text-link: hadron.$footer-text-link;
-
-// sizes
-$nav-item-height: hadron.$nav-item-height;
