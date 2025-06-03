@@ -6,8 +6,8 @@ $dark-mode: false;
 $mobile-menu-colored: false;
 
 // color definitions
-$primary-color: #CB4040;
-$accent-color: #5ECB40;
+$primary-color: hadron.$primary-color;
+$accent-color: hadron.$accent-color;
 
 // TODO: remove when not necessary
 $grey: hadron.$grey;
