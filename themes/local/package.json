@@ -1,0 +1,27 @@
+{
+	"name": "local",
+	"version": "1.0.0",
+	"description": "Local Theme Configuration",
+	"type": "commonjs",
+	"main": "gulpfile.js",
+	"scripts": {
+		"compileStyles": "gulp compileStyles",
+		"compressCSS": "gulp compressCSS",
+		"buildCSS": "gulp buildCSS",
+		"watchCSS": "gulp watchCSS",
+		"compileTypescript": "gulp compileTypescript",
+		"compressJavascript": "gulp compressJavascript",
+		"buildJS": "gulp buildJS",
+		"watchJS": "gulp watchJS"
+	},
+	"devDependencies": {
+		"gulp": "^5.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-sass": "^6.0.1",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-terser": "^2.1.0",
+		"gulp-typescript": "^6.0.0-alpha.1",
+		"sass": "^1.87.0",
+		"typescript": "^5.8.3"
+	}
+}
