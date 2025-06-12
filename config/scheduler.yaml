@@ -1,6 +1,15 @@
 status:
   tntsearch-index: enabled
+  rclone-backup: enabled
   cache-purge: enabled
   cache-clear: enabled
   datenbackup: enabled
   systembackup: enabled
+custom_jobs:
+  rclone-backup:
+    command: 'scripts/rclone-backup.sh'
+    args: 'CrabstonWebsiteBackup:test'
+    at: '0 1 * * *'
+    output: logs/rclone-backup.out
+    output_mode: append
+    email: null
