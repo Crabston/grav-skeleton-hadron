@@ -1,3 +1,9 @@
+# 2.1.1
+## _unreleased_
+1. [](#improved)
+   - optimized CSS for better performance
+   - add rClone remote backup functionality
+
 # 2.1.0
 ## 06-05-2025
 1. [](#improved)
