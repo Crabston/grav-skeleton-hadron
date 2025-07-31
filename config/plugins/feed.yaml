@@ -1,7 +1,7 @@
 enabled: true
 limit: 10
-title: 'Grav Website Demo'
-description: 'Dies ist eine inoffizielle Demoseite der Crabston GmbH über Grav CMS. Sie dient als Beispiel für die Verwendung von Grav und zeigt die Möglichkeiten des CMS.'
+title: 'Hadron'
+description: 'Hadron is a Grav theme and skeleton that serves as a template for beginners to create websites and webshops, but can also be used by professionals as a foundation for complex projects.'
 length: 500
 enable_json_feed: true
 show_last_modified: false
