@@ -6,7 +6,7 @@ The Grav Hadron skeleton is a Grav skeleton based on the [Hadron](https://github
 Hadron is a modern [Grav](https://getgrav.org) theme based on [Quark](https://github.com/getgrav/grav-theme-quark). As a child/ inherited theme of Quark, it includes more advanced features than the original Quark theme. It also offers advanced styling options.
 
 ## Demo
-If you want to see the Hadron skeleton & theme in action, you can visit the [Hadron Demo Site](https://grav.demo.crabston.dev/). There you will find a short introduction to the skeleton/ theme and its features too. There are a components page and some example pages too.
+If you want to see the Hadron skeleton & theme in action, you can visit the [Hadron Website](https://usehadron.dev/). There you will find a short introduction to the skeleton/ theme and its features too. There are a components page and some example pages too.
 
 ## Features
 _Learn more about all the features of Hadron in detail on [tutorials.crabston.ch/hadron](https://tutorials.crabston.ch/hadron)._

@@ -1,8 +1,8 @@
-title: 'Hadron Demo'
+title: 'Hadron'
 default_lang: de
 author:
   name: 'Crabston GmbH'
-  email: contact@crabston.dev
+  email: hadron@crabston.dev
 taxonomies:
   - category
   - tag
@@ -10,8 +10,8 @@ taxonomies:
   - author
   - filter
 metadata:
-  description: 'Dies ist eine inoffizielle Demoseite der Crabston GmbH über Grav CMS. Sie dient als Beispiel für die Verwendung von Grav und zeigt die Möglichkeiten des CMS.'
-summary:
+  description: 'Hadron ist ein Grav Theme und Skeleton, das für Einsteiger als Vorlage für Website uns Webshops dient, aber auch für Profis als Basis für komplexe Projekte genutzt werden kann.'
+  keywords: 'grav, theme, skeleton, hadron, website, webshop'
   enabled: true
   format: short
   size: 300

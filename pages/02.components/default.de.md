@@ -14,17 +14,15 @@ page-toc:
 [div class="column col-9 col-md-12 extra-spacing"]
 
 # Komponenten
-
-!!! Diese Seite beinhaltet wichtigen Komponenten mit Beispielen & Syntax, die in Grav verwendet werden können.  
-
-! Einzelne der hier gezeigten Komponenten erfordern spezifische Plugins. Zudem können je nach Theme die Darstellung und Funktionalität variieren _(siehe «[Über diese Seite](/)» für weitere Informationen)_.
+Auf dieser Seite sind alle Standardkomponenten von Hadron aufgelistet, die in Grav mit Markdown verwendet werden können. Die Komponenten erhalten Beschreibungen, Syntax und Beispiele, um die Verwendung zu erleichtern. Manche Komponenten benötigen zusätzliche Plugins, die jedoch im Hadron Skeleton bereits enthalten sind.
 
 ===
 
 ## Kommentar
 
 !!! **Standardkomponente**  
-!!! Kommentare können im Markdown eingefügt werden, um Text zu verstecken, der nicht auf der Seite angezeigt werden soll, jedoch für andere Autoren sichtbar sein soll.
+!!! Kommentare können im Markdown eingefügt werden, um Text zu verstecken, der nicht auf der Seite angezeigt werden soll, jedoch für andere Autoren sichtbar sein soll.  
+!!! Der Kommentar wird jedoch immer noch im Quelltext der Seite angezeigt, weswegen er nicht für vertrauliche Informationen verwendet werden sollte.
 
 <!--
 Dieser Kommentar wird auf der Seite nicht angezeigt.
@@ -39,7 +37,7 @@ Dieser Kommentar wird auf der Seite nicht angezeigt.
 ## Überschriften
 
 !!! **Standardkomponente**  
-!!! Überschriften dienen dazu, den Text zu strukturieren und zu gliedern.
+!!! Überschriften dienen dazu, den Text zu strukturieren und zu gliedern. Überschriften können Levels von H1 bis H6 haben, wobei H1 die höchste Ebene ist und H6 die niedrigste.
 
 # H1 Überschrift
 
@@ -70,15 +68,15 @@ Dieser Kommentar wird auf der Seite nicht angezeigt.
 ## Paragraphen
 
 !!! **Standardkomponente**  
-!!! Paragraphen sind Abschnitte von Text, die durch eine Leerzeile getrennt sind.
+!!! Paragraphen sind Abschnitte von Text, die durch eine Leerzeile getrennt sind. Zeilenumbrüche innerhalb eines Paragraphen werden ignoriert, es sei denn, sie sind durch zwei Leerzeichen am Ende der Zeile markiert.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus.  
 Etiam euismod ornare consequat.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
 
 ```md
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus.  
 Etiam euismod ornare consequat.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
@@ -99,9 +97,9 @@ _Kursiv_ `_Kursiv_`
 
 > Blockquote `> Blockquote`
 
-[Link](https://grav.demo.crabston.dev) `[Link](https://grav.demo.crabston.dev)`
+[Link](https://example.com) `[Link](https://example.com)`
 
-[Link mit Titel](https://grav.demo.crabston.dev "Titel des Links") `[Link mit Titel](https://grav.demo.crabston.dev "Titel des Links")`
+[Link mit Titel](https://example.com "Titel des Links") `[Link mit Titel](https://example.com "Titel des Links")`
 
 ---
 Horizontale Linie: `---`
@@ -148,10 +146,10 @@ Text<sub>Subscripted</sub> `<sub>`
 !!! Ein Bild, welches zusätzlich als Link funktioniert.  
 !!! Syntax: `[![Bild](Bildpfad)](Link)`
 
-[![Bild](grav-logo.png)](https://grav.demo.crabston.dev)
+[![Bild](grav-logo.png)](https://example.com)
 
 ```md
-[![Bild](grav-logo.png)](https://grav.demo.crabston.dev)
+[![Bild](grav-logo.png)](https://example.com)
 ```
 
 #### Bild mit Optionen

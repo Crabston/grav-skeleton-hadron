@@ -23,23 +23,24 @@ production-mode: true
 h5pembedrootpath: 'https://h5p.org/h5p/embed/'
 blog_page_hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 favicon:
-  user/themes/local/images/favicon.svg:
-    name: favicon.svg
-    full_path: favicon.svg
+  user/themes/hadron/images/hadron-favicon.svg:
+    name: hadron-favicon.svg
+    full_path: hadron-favicon.svg
     type: image/svg+xml
-    size: 4868
-    path: user/themes/local/images/favicon.svg
+    size: 566
+    path: user/themes/hadron/images/hadron-favicon.svg
 custom_logo:
-  user/themes/local/images/logo/logo.svg:
-    name: logo.svg
-    full_path: logo.svg
+  user/themes/hadron/images/logo/hadron-logo.svg:
+    name: hadron-logo.svg
+    full_path: hadron-logo.svg
     type: image/svg+xml
-    size: 4868
-    path: user/themes/local/images/logo/logo.svg
+    size: 3076
+    path: user/themes/hadron/images/logo/hadron-logo.svg
 custom_logo_mobile:
-  user/themes/local/images/logo/logo.svg:
-    name: logo.svg
-    full_path: logo.svg
+  user/themes/hadron/images/logo/hadron-logo.svg:
+    name: hadron-logo.svg
+    full_path: hadron-logo.svg
     type: image/svg+xml
-    size: 4868
-    path: user/themes/local/images/logo/logo.svg
+    size: 3076
+    path: user/themes/hadron/images/logo/hadron-logo.svg
+hide_title: true
