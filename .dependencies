@@ -116,6 +116,10 @@ git:
         url: https://github.com/Crabston/grav-plugin-sitemap
         path: user/plugins/sitemap
         branch: develop
+    snipcart: # TODO
+        url: https://github.com/Crabston/grav-plugin-snipcart
+        path: user/plugins/snipcart
+        branch: feature/v3
     taxonomylist:
         url: https://github.com/getgrav/grav-plugin-taxonomylist
         path: user/plugins/taxonomylist

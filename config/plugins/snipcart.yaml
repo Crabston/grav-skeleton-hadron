@@ -1,0 +1,6 @@
+enabled: true
+api_key: DOPPLER_SNIPCART_API_KEY
+version: null
+built_in_css: true
+default_currency: chf
+modal_style: modal
