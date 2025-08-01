@@ -1,4 +1,7 @@
 ---
+# TODO: add EN translations
+# TODO: add missing page types
+# TODO: reorder blog
 title: Beispiele
 slug: beispiele
 sitemap:

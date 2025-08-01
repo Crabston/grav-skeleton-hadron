@@ -1,4 +1,6 @@
 ---
+# TODO: add DE & EN translation with product descriptions but same products within snipcart
+# TODO: check if there are style enhancements needed
 title: Shop
 body_classes: fullwidth
 content:

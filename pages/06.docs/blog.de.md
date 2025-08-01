@@ -1,4 +1,5 @@
 ---
+# TODO: update docs to match current Hadron version and features
 title: Dokumentation
 slug: docs
 blog_url: /docs
