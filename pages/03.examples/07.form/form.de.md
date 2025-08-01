@@ -1,11 +1,10 @@
 ---
 title: Formular
-slug: formular
 sitemap:
   changefreq: never
-  priority: 0.5
-  lastmod: 17-06-2024
-date: 17-06-2024
+  priority: 0.3
+  lastmod: 01-08-2025
+date: 01-08-2025
 form:
   name: beispiel-formular
   fields:

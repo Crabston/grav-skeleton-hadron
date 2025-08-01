@@ -4,9 +4,9 @@ taxonomy:
   filter: [ view1 ]
 sitemap:
   changefreq: never
-  priority: 0.2
-  lastmod: 03-04-2024
-date: 03-04-2024
+  priority: 0.3
+  lastmod: 01-08-2025
+date: 01-08-2025
 ---
 
 Vivamus malesuada lacinia ante vitae tincidunt. Etiam hendrerit cursus tortor quis placerat. Suspendisse tincidunt mi tellus, a eleifend turpis egestas quis. Nunc vulputate enim a maximus iaculis. Cras at nisi nec dolor ullamcorper dapibus. Etiam in leo non tellus pretium ultricies. Duis non quam imperdiet, sodales est in, volutpat risus.

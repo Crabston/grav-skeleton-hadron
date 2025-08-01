@@ -1,12 +1,11 @@
 ---
 title: Private Seite
-slug: private-seite
 language: de
 sitemap:
   changefreq: never
-  priority: 0.5
-  lastmod: 20-10-2023
-date: 20-10-2023
+  priority: 0.3
+  lastmod: 01-08-2025
+date: 01-08-2025
 login:
   visibility_requires_access: true
 access:
