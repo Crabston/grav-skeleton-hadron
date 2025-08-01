@@ -39,7 +39,7 @@ content:
   url_taxonomy_filters: true
 ---
 
-# Blog Beispiel
-## Beispiel Blog Seite in Hadron
+# Blog Example
+## Example Blog Page in Hadron
 
-Dies ist eine Beispiel Blog Seite in Grav. Sie zeigt, wie ein Blog aussehen kann und welche Funktionen er bietet.
+This is an example blog page in Grav with Hadron. It shows how a blog can look alike and what features it offers.

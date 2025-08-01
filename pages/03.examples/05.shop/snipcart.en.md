@@ -1,0 +1,18 @@
+---
+# TODO: add DE & EN translation with product descriptions but same products within snipcart
+# TODO: check if there are style enhancements needed
+title: Shop
+body_classes: fullwidth
+content:
+  items: @self.children
+  order:
+    by: title
+    dir: asc
+sitemap:
+  changefreq: never
+  priority: 0.3
+  lastmod: 01-08-2025
+date: 01-08-2025
+---
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
