@@ -4,7 +4,7 @@ hero_classes: parallax text-light
 hero_image: header.webp
 ---
 
-# learn about **Hadron**
+# learn about [span class="hadron-font"]**Hadron**[/span]
 ## Website & Webshop: modern, fast, for beginners and professionals
 
 Hadron is more than just a modern and customizable [Grav](https://getgrav.org) theme and skeleton. It is optimized for beginners to quickly create a simple website, while also being suitable for professionals who want to use Hadron as a foundation for a complex website with custom-developed features.

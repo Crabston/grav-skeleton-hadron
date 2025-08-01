@@ -31,5 +31,5 @@ features:
     text: Hadron is open source under the MIT license and can be used for free.
 ---
 
-# Why Hadron?
+# Why [span class="hadron-font"]Hadron[/span]?
 ## because it has everything you want:

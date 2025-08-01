@@ -47,5 +47,5 @@ hide_summary: true
 
 ===
 
-# Hadron Dokumentation
+# [span class="hadron-font"]Hadron[/span] Dokumentation
 ## Technische Anleitungen für Entwickler
