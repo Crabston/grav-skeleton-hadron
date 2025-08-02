@@ -50,14 +50,11 @@ _(User: `demo`; Password: `Demo1234`)_
 ## 8. Multi-section page
 [![Multi-section page](08-sections.webp?resize=500)](sections)
 
-## 9. Cards (Layout)
-[![Cards](09-cards.webp?resize=500)](cards)
+## 9. H5P (Interactive Content)
+[![H5P](09-h5p.webp?resize=500)](h5p)
 
-## 10. H5P (Interactive Content)
-[![H5P](10-h5p.webp?resize=500)](h5p)
-
-## 11. Embedded pages
-[![Embedded pages](11-embedlycard.webp?resize=500)](embedlycard)
+## 10. Embedded pages
+[![Embedded pages](10-embedlycard.webp?resize=500)](embedlycard)
 
 [/div]
 

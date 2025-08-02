@@ -1,5 +1,4 @@
 ---
-# TODO: add EN translations
 # TODO: add missing page types
 title: Beispiele
 slug: beispiele
@@ -52,14 +51,11 @@ _(Benutzer: `demo`; Passwort: `Demo1234`)_
 ## 8. Multi-Sektion Seite
 [![Multi-Sektion Seite](08-sections.webp?resize=500)](sections)
 
-## 9. Karten (Layout)
-[![Karten](09-cards.webp?resize=500)](cards)
+## 9. H5P (Interaktive Inhalte)
+[![H5P](09-h5p.webp?resize=500)](h5p)
 
-## 10. H5P (Interaktive Inhalte)
-[![H5P](10-h5p.webp?resize=500)](h5p)
-
-## 11. Eingebettete Seiten
-[![Eingebettete Seite](11-embedlycard.webp?resize=500)](embedlycard)
+## 10. Eingebettete Seiten
+[![Eingebettete Seite](10-embedlycard.webp?resize=500)](embedlycard)
 
 [/div]
 
