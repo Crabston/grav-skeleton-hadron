@@ -6,7 +6,7 @@ body_classes: fullwidth
 content:
   items: @self.children
   order:
-    by: title
+    by: folder
     dir: asc
 sitemap:
   changefreq: never
@@ -15,4 +15,6 @@ sitemap:
 date: 01-08-2025
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# Demo Shop
+!!! **Das ist eine Demoseite für einen Shop mit Snipcart in Grav mit Hadron. Dies ist kein echter Shop.**  
+!!! Zu Demonstrationszwecken sind die Produkte nicht echt und die Preise nicht gültig. Produkte können zum Warenkorb hinzugefügt werden und den Checkout-Prozess durchlaufen, aber es wird keine echte Zahlung verarbeitet.
