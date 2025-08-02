@@ -2,8 +2,8 @@ enabled: true
 links:
   -
     icon: 'fa fa-book'
-    link: 'https://tutorials.crabston.ch'
-    tooltip: 'Anleitungen zu Grav'
+    link: 'https://tutorials.crabston.ch/grav'
+    tooltip: 'Grav | Crabston Tutorials'
     external: true
     authorize:
       admin.login: true

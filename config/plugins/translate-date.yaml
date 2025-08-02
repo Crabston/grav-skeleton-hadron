@@ -2,3 +2,4 @@ enabled: true
 processor: basic
 formats:
   de: 'd. M Y'
+  en: 'd. M Y'

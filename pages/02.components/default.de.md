@@ -1,11 +1,12 @@
 ---
+# TODO: check if there are missing components
 title: Komponenten
 slug: komponenten
 sitemap:
   changefreq: monthly
   priority: 0.8
-  lastmod: 27-09-2024
-date: 27-09-2024
+  lastmod: 02-08-2025
+date: 02-08-2025
 page-toc:
   depth: 3
 ---
@@ -14,7 +15,9 @@ page-toc:
 [div class="column col-9 col-md-12 extra-spacing"]
 
 # Komponenten
-Auf dieser Seite sind alle Standardkomponenten von Hadron aufgelistet, die in Grav mit Markdown verwendet werden können. Die Komponenten erhalten Beschreibungen, Syntax und Beispiele, um die Verwendung zu erleichtern. Manche Komponenten benötigen zusätzliche Plugins, die jedoch im Hadron Skeleton bereits enthalten sind.
+Auf dieser Seite sind alle Standardkomponenten von Hadron aufgelistet, die verwendet werden können. Diese Komponenten können in der Regel unabhängig des Seitentyps verwendet werden. 
+
+Diese Seite enthält zu den Komponenten Beschreibungen, Syntax und Beispiele, um die Verwendung zu erleichtern. Manche Komponenten benötigen zusätzliche Plugins, die jedoch im Hadron Skeleton bereits enthalten sind.
 
 ===
 
@@ -577,31 +580,31 @@ Phasellus cursus odio ex, in mattis lorem tincidunt vel. [Donec nibh odio](#), d
 !!! [Dokumentation: Shortcode Gallery++ Plugin](https://github.com/sal0max/grav-plugin-shortcode-gallery-plusplus#gallery-settings)
 
 [gallery lastRow=justify]
-![Bild 1](gallery/gallery-1.webp)
-![Bild 2](gallery/gallery-2.webp)
-![Bild 3](gallery/gallery-4.webp)
-![Bild 4](gallery/gallery-5.webp)
-![Bild 5](gallery/gallery-3.webp)
-![Bild 6](gallery/gallery-5.webp)
-![Bild 7](gallery/gallery-4.webp)
-![Bild 8](gallery/gallery-1.webp)
-![Bild 9](gallery/gallery-2.webp)
-![Bild 10](gallery/gallery-3.webp)
+![unsplash/jeremy-bishop](images/jeremy-bishop-EwKXn5CapA4-unsplash.webp)
+![unsplash/piotr-chrobot](images/piotr-chrobot-6oUsyeYXgTg-unsplash.webp)
+![unsplash/ben-o-bro](images/ben-o-bro-wpU4veNGnHg-unsplash.webp)
+![unsplash/aaron-burden](images/aaron-burden-dXYE1d08BiY-unsplash.webp)
+![unsplash/qingbao-meng](images/qingbao-meng-01_igFr7hd4-unsplash.webp)
+![unsplash/blake-verdoorn](images/blake-verdoorn-cssvEZacHvQ-unsplash.webp)
+![unsplash/robert-lukeman](images/robert-lukeman-_RBcxo9AU-U-unsplash.webp)
+![unsplash/max-bender](images/max-bender-VmX3vmBecFE-unsplash.webp)
+![unsplash/pedro-lastra](images/pedro-lastra-Nyvq2juw4_o-unsplash.webp)
+![unsplash/abhi-verma](images/abhi-verma-WH3gEB21roA-unsplash.webp)
 [/gallery]
 
 ```md
 [raw]
 [gallery lastRow=justify]
-![Bild 1](gallery/gallery-1.webp)
-![Bild 2](gallery/gallery-2.webp)
-![Bild 3](gallery/gallery-4.webp)
-![Bild 4](gallery/gallery-5.webp)
-![Bild 5](gallery/gallery-3.webp)
-![Bild 6](gallery/gallery-5.webp)
-![Bild 7](gallery/gallery-4.webp)
-![Bild 8](gallery/gallery-1.webp)
-![Bild 9](gallery/gallery-2.webp)
-![Bild 10](gallery/gallery-3.webp)
+![unsplash/jeremy-bishop](images/jeremy-bishop-EwKXn5CapA4-unsplash.webp)
+![unsplash/piotr-chrobot](images/piotr-chrobot-6oUsyeYXgTg-unsplash.webp)
+![unsplash/ben-o-bro](images/ben-o-bro-wpU4veNGnHg-unsplash.webp)
+![unsplash/aaron-burden](images/aaron-burden-dXYE1d08BiY-unsplash.webp)
+![unsplash/qingbao-meng](images/qingbao-meng-01_igFr7hd4-unsplash.webp)
+![unsplash/blake-verdoorn](images/blake-verdoorn-cssvEZacHvQ-unsplash.webp)
+![unsplash/robert-lukeman](images/robert-lukeman-_RBcxo9AU-U-unsplash.webp)
+![unsplash/max-bender](images/max-bender-VmX3vmBecFE-unsplash.webp)
+![unsplash/pedro-lastra](images/pedro-lastra-Nyvq2juw4_o-unsplash.webp)
+![unsplash/abhi-verma](images/abhi-verma-WH3gEB21roA-unsplash.webp)
 [/gallery]
 [/raw]
 ```
@@ -620,23 +623,25 @@ Phasellus cursus odio ex, in mattis lorem tincidunt vel. [Donec nibh odio](#), d
 !!! [Dokumentation: Shortcode Owl Carousel Plugin](https://github.com/getgrav/grav-plugin-shortcode-owl-carousel)
 
 [owl-carousel items=1 margin=10 loop=true nav=true stagePadding=200]
-![Bild 1](carousel/carousel-1.jpg)
-![Bild 2](carousel/carousel-2.jpg)
-![Bild 3](carousel/carousel-3.jpg)
-![Bild 4](carousel/carousel-4.jpg)
-![Bild 5](carousel/carousel-5.jpg)
-![Bild 6](carousel/carousel-6.jpg)
+![unsplash/aaron-burden](images/aaron-burden-dXYE1d08BiY-unsplash.webp)
+![unsplash/abhi-verma](images/abhi-verma-WH3gEB21roA-unsplash.webp)
+![unsplash/ben-o-bro](images/ben-o-bro-wpU4veNGnHg-unsplash.webp)
+![unsplash/pedro-lastra](images/pedro-lastra-Nyvq2juw4_o-unsplash.webp)
+![unsplash/piotr-chrobot](images/piotr-chrobot-6oUsyeYXgTg-unsplash.webp)
+![unsplash/qingbao-meng](images/qingbao-meng-01_igFr7hd4-unsplash.webp)
+![unsplash/robert-lukeman](images/robert-lukeman-_RBcxo9AU-U-unsplash.webp)
 [/owl-carousel]
 
 ```md
 [raw]
 [owl-carousel items=1 margin=10 loop=true nav=true stagePadding=200]
-![Bild 1](carousel/carousel-1.jpg)
-![Bild 2](carousel/carousel-2.jpg)
-![Bild 3](carousel/carousel-3.jpg)
-![Bild 4](carousel/carousel-4.jpg)
-![Bild 5](carousel/carousel-5.jpg)
-![Bild 6](carousel/carousel-6.jpg)
+![unsplash/aaron-burden](images/aaron-burden-dXYE1d08BiY-unsplash.webp)
+![unsplash/abhi-verma](images/abhi-verma-WH3gEB21roA-unsplash.webp)
+![unsplash/ben-o-bro](images/ben-o-bro-wpU4veNGnHg-unsplash.webp)
+![unsplash/pedro-lastra](images/pedro-lastra-Nyvq2juw4_o-unsplash.webp)
+![unsplash/piotr-chrobot](images/piotr-chrobot-6oUsyeYXgTg-unsplash.webp)
+![unsplash/qingbao-meng](images/qingbao-meng-01_igFr7hd4-unsplash.webp)
+![unsplash/robert-lukeman](images/robert-lukeman-_RBcxo9AU-U-unsplash.webp)
 [/owl-carousel]
 [/raw]
 ```

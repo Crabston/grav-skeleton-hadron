@@ -1,12 +1,11 @@
 ---
 title: Blog
-slug: blog
 blog_url: /blog
 sitemap:
-  changefreq: yearly
-  priority: 0.7
-  lastmod: 27-08-2024
-date: 27-08-2024
+  changefreq: never
+  priority: 0.3
+  lastmod: 01-08-2025
+date: 01-08-2025
 feed:
   limit: 10
 hero_classes: 'text-light overlay-dark-gradient hero-large parallax'
@@ -29,7 +28,7 @@ modular_content:
     by: folder
     dir: dsc
     custom:
-      - _nachricht
+      - _message
 content:
   items: '@self.children'
   limit: 8
@@ -41,6 +40,6 @@ content:
 ---
 
 # Blog Beispiel
-## Beispiel Blog Seite in Grav
+## Beispiel Blog Seite in Hadron
 
-Dies ist eine Beispiel Blog Seite in Grav. Sie zeigt, wie ein Blog in Grav aussehen kann und welche Funktionen er bietet.
+Dies ist eine Beispiel Blog Seite in Grav. Sie zeigt, wie ein Blog aussehen kann und welche Funktionen er bietet.

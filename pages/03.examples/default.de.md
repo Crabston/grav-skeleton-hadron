@@ -1,11 +1,12 @@
 ---
+# TODO: add missing page types
 title: Beispiele
 slug: beispiele
 sitemap:
   changefreq: yearly
   priority: 0.7
-  lastmod: 27-09-2024
-date: 27-09-2024
+  lastmod: 01-08-2025
+date: 01-08-2025
 content:
   items:
     - '@self.children'
@@ -20,29 +21,41 @@ display_child_page_titles: true
 
 # Beispiele
 
-Auf dieser Seite finden Sie eine Auswahl von Beispielen, die Ihnen die Möglichkeiten von Grav aufzeigen.
+Auf dieser Seite gibt es eine Auswahl von Beispielen, die die Möglichkeiten von Hadron und Grav zeigen.
 
-## Standard Seite
-[![Standard Seite](01-standardseite.webp?resize=500)](standardseite)
+## 0. Suche
+[![Suche](00-search.webp?resize=500)](search)
 
-## Grav Standard Modulare Seite
-[![Modulare Seite](02-modulare-seite-grav.webp?resize=500)](modulare-seite-grav)
+## 1. Standard Seite
+[![Standard Seite](01-default.webp?resize=500)](default)
 
-## Multi-Sektion Seite
-[![Multi-Sektion Seite](03-multi-sektion-seite.webp?resize=500)](multi-sektion-seite)
+## 2. Modulare Seite
+[![Modulare Seite](02-modular.webp?resize=500)](modular)
 
-## Modulare Seite
-[![Modulare Seite mit Injektion](04-modulare-seite.webp?resize=500)](modulare-seite)
+## 3. Modulare Seite (Grav)
+[![Modulare Seite (Grav)](03-modular_grav.webp?resize=500)](modular_grav)
 
-## Eingebettete Seiten
-[![Eingebettete Seite](05-eingebettete-seiten.webp?resize=500)](eingebettete-seiten)
+## 4. Blog
+[![Blog](04-blog.webp?resize=500)](blog)
 
-## Private Seite
+## 5. Shop
+[![Shop](05-shop.webp?resize=500)](shop)
+
+## 6. Private Seite
 _(Benutzer: `demo`; Passwort: `Demo1234`)_
-[![Eingebettete Seite](06-private-seite.webp?resize=500)](private-seite)
+[![Private Seite](06-private.webp?resize=500)](private)
 
-## Formular
-[![Formular](07-formular.webp?resize=500)](formular)
+## 7. Formular
+[![Formular](07-form.webp?resize=500)](form)
+
+## 8. Multi-Sektion Seite
+[![Multi-Sektion Seite](08-sections.webp?resize=500)](sections)
+
+## 9. H5P (Interaktive Inhalte)
+[![H5P](09-h5p.webp?resize=500)](h5p)
+
+## 10. Eingebettete Seiten
+[![Eingebettete Seite](10-embedlycard.webp?resize=500)](embedlycard)
 
 [/div]
 
