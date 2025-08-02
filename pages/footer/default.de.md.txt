@@ -9,4 +9,4 @@ visible: false
 [Kontakt](/über/kontakt) | [Impressum](/über/impressum) | [Datenschutz](/über/datenschutz)
 <hr />
 © {{ 'now' | date('Y') }} <code>ORGANISATION</code> <br />
-[size=15]designed by [Crabston GmbH](https://crabston.ch)[/size]
+[size=15]designed by [Crabston GmbH](https://crabston.ch/?utm_source=WEBSITE&utm_medium=footer-link)[/size]

@@ -231,13 +231,13 @@ https://www.youtube.com/watch?v=K4TOrB7at0Y
 
 <!-- TODO: add example and link to tutorial for more options -->
 
-_see [Crabston Tutorials > Plugins > Shortcode Media](https://tutorials.crabston.ch/grav/plugins/shortcode-media#pdf)_
+_see [Crabston Tutorials > Plugins > Shortcode Media](https://tutorials.crabston.ch/grav/plugins/shortcode-media#pdf?utm_source=usehadron.dev&utm_medium=hadron-docs)_
 
 ### Dokumente
 
 <!-- TODO: add example and link to tutorial for more options -->
 
-_see [Crabston Tutorials > Plugins > Shortcode Media](https://tutorials.crabston.ch/grav/plugins/shortcode-media#docviewwer)_
+_see [Crabston Tutorials > Plugins > Shortcode Media](https://tutorials.crabston.ch/grav/plugins/shortcode-media#docviewwer?utm_source=usehadron.dev&utm_medium=hadron-docs)_
 
 ## Code
 
