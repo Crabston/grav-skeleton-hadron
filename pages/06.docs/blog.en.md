@@ -30,17 +30,17 @@ modular_content:
   items: '@self.modular'
   order:
     by: folder
-    dir: dsc
+    dir: asc
     custom:
-      - _nachricht
+      - _notice
 content:
 	# TODO: use '@self.children' instead of '@self.descendants' when the blog is ready
 	# needs bugfix of empty tags getting displayed
   items: '@self.descendants'
   limit: 8
   order:
-    by: date
-    dir: dsc
+    by: folder
+    dir: asc
   pagination: true
   url_taxonomy_filters: true
 hide_summary: true

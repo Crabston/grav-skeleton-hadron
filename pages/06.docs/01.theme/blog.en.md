@@ -22,8 +22,8 @@ child_type: item
 content:
   items: '@self.children'
   order:
-    by: date
-    dir: dsc
+    by: folder
+    dir: asc
 hide_summary: true
 ---
 
