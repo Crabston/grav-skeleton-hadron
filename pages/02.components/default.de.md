@@ -1,5 +1,4 @@
 ---
-# TODO: add better images in gallery and carousel
 # TODO: check if there are missing components
 title: Komponenten
 slug: komponenten
