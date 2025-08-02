@@ -1,5 +1,4 @@
 ---
-# TODO: add EN translation
 # TODO: add better images in gallery and carousel
 # TODO: check if there are missing components
 title: Komponenten
@@ -7,8 +6,8 @@ slug: komponenten
 sitemap:
   changefreq: monthly
   priority: 0.8
-  lastmod: 27-09-2024
-date: 27-09-2024
+  lastmod: 02-08-2025
+date: 02-08-2025
 page-toc:
   depth: 3
 ---
@@ -17,7 +16,9 @@ page-toc:
 [div class="column col-9 col-md-12 extra-spacing"]
 
 # Komponenten
-Auf dieser Seite sind alle Standardkomponenten von Hadron aufgelistet, die in Grav mit Markdown verwendet werden können. Die Komponenten erhalten Beschreibungen, Syntax und Beispiele, um die Verwendung zu erleichtern. Manche Komponenten benötigen zusätzliche Plugins, die jedoch im Hadron Skeleton bereits enthalten sind.
+Auf dieser Seite sind alle Standardkomponenten von Hadron aufgelistet, die verwendet werden können. Diese Komponenten können in der Regel unabhängig des Seitentyps verwendet werden. 
+
+Diese Seite enthält zu den Komponenten Beschreibungen, Syntax und Beispiele, um die Verwendung zu erleichtern. Manche Komponenten benötigen zusätzliche Plugins, die jedoch im Hadron Skeleton bereits enthalten sind.
 
 ===
 
