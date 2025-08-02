@@ -583,31 +583,31 @@ Phasellus cursus odio ex, in mattis lorem tincidunt vel. [Donec nibh odio](#), d
 !!! [Docs: Shortcode Gallery++ Plugin](https://github.com/sal0max/grav-plugin-shortcode-gallery-plusplus#gallery-settings)
 
 [gallery lastRow=justify]
-![Image 1](gallery/gallery-1.webp)
-![Image 2](gallery/gallery-2.webp)
-![Image 3](gallery/gallery-4.webp)
-![Image 4](gallery/gallery-5.webp)
-![Image 5](gallery/gallery-3.webp)
-![Image 6](gallery/gallery-5.webp)
-![Image 7](gallery/gallery-4.webp)
-![Image 8](gallery/gallery-1.webp)
-![Image 9](gallery/gallery-2.webp)
-![Image 10](gallery/gallery-3.webp)
+![unsplash/jeremy-bishop](images/jeremy-bishop-EwKXn5CapA4-unsplash.webp)
+![unsplash/piotr-chrobot](images/piotr-chrobot-6oUsyeYXgTg-unsplash.webp)
+![unsplash/ben-o-bro](images/ben-o-bro-wpU4veNGnHg-unsplash.webp)
+![unsplash/aaron-burden](images/aaron-burden-dXYE1d08BiY-unsplash.webp)
+![unsplash/qingbao-meng](images/qingbao-meng-01_igFr7hd4-unsplash.webp)
+![unsplash/blake-verdoorn](images/blake-verdoorn-cssvEZacHvQ-unsplash.webp)
+![unsplash/robert-lukeman](images/robert-lukeman-_RBcxo9AU-U-unsplash.webp)
+![unsplash/max-bender](images/max-bender-VmX3vmBecFE-unsplash.webp)
+![unsplash/pedro-lastra](images/pedro-lastra-Nyvq2juw4_o-unsplash.webp)
+![unsplash/abhi-verma](images/abhi-verma-WH3gEB21roA-unsplash.webp)
 [/gallery]
 
 ```md
 [raw]
 [gallery lastRow=justify]
-![Image 1](gallery/gallery-1.webp)
-![Image 2](gallery/gallery-2.webp)
-![Image 3](gallery/gallery-4.webp)
-![Image 4](gallery/gallery-5.webp)
-![Image 5](gallery/gallery-3.webp)
-![Image 6](gallery/gallery-5.webp)
-![Image 7](gallery/gallery-4.webp)
-![Image 8](gallery/gallery-1.webp)
-![Image 9](gallery/gallery-2.webp)
-![Image 10](gallery/gallery-3.webp)
+![unsplash/jeremy-bishop](images/jeremy-bishop-EwKXn5CapA4-unsplash.webp)
+![unsplash/piotr-chrobot](images/piotr-chrobot-6oUsyeYXgTg-unsplash.webp)
+![unsplash/ben-o-bro](images/ben-o-bro-wpU4veNGnHg-unsplash.webp)
+![unsplash/aaron-burden](images/aaron-burden-dXYE1d08BiY-unsplash.webp)
+![unsplash/qingbao-meng](images/qingbao-meng-01_igFr7hd4-unsplash.webp)
+![unsplash/blake-verdoorn](images/blake-verdoorn-cssvEZacHvQ-unsplash.webp)
+![unsplash/robert-lukeman](images/robert-lukeman-_RBcxo9AU-U-unsplash.webp)
+![unsplash/max-bender](images/max-bender-VmX3vmBecFE-unsplash.webp)
+![unsplash/pedro-lastra](images/pedro-lastra-Nyvq2juw4_o-unsplash.webp)
+![unsplash/abhi-verma](images/abhi-verma-WH3gEB21roA-unsplash.webp)
 [/gallery]
 [/raw]
 ```
@@ -626,23 +626,25 @@ Phasellus cursus odio ex, in mattis lorem tincidunt vel. [Donec nibh odio](#), d
 !!! [Docs: Shortcode Owl Carousel Plugin](https://github.com/getgrav/grav-plugin-shortcode-owl-carousel)
 
 [owl-carousel items=1 margin=10 loop=true nav=true stagePadding=200]
-![Image 1](carousel/carousel-1.jpg)
-![Image 2](carousel/carousel-2.jpg)
-![Image 3](carousel/carousel-3.jpg)
-![Image 4](carousel/carousel-4.jpg)
-![Image 5](carousel/carousel-5.jpg)
-![Image 6](carousel/carousel-6.jpg)
+![unsplash/aaron-burden](images/aaron-burden-dXYE1d08BiY-unsplash.webp)
+![unsplash/abhi-verma](images/abhi-verma-WH3gEB21roA-unsplash.webp)
+![unsplash/ben-o-bro](images/ben-o-bro-wpU4veNGnHg-unsplash.webp)
+![unsplash/pedro-lastra](images/pedro-lastra-Nyvq2juw4_o-unsplash.webp)
+![unsplash/piotr-chrobot](images/piotr-chrobot-6oUsyeYXgTg-unsplash.webp)
+![unsplash/qingbao-meng](images/qingbao-meng-01_igFr7hd4-unsplash.webp)
+![unsplash/robert-lukeman](images/robert-lukeman-_RBcxo9AU-U-unsplash.webp)
 [/owl-carousel]
 
 ```md
 [raw]
 [owl-carousel items=1 margin=10 loop=true nav=true stagePadding=200]
-![Image 1](carousel/carousel-1.jpg)
-![Image 2](carousel/carousel-2.jpg)
-![Image 3](carousel/carousel-3.jpg)
-![Image 4](carousel/carousel-4.jpg)
-![Image 5](carousel/carousel-5.jpg)
-![Image 6](carousel/carousel-6.jpg)
+![unsplash/aaron-burden](images/aaron-burden-dXYE1d08BiY-unsplash.webp)
+![unsplash/abhi-verma](images/abhi-verma-WH3gEB21roA-unsplash.webp)
+![unsplash/ben-o-bro](images/ben-o-bro-wpU4veNGnHg-unsplash.webp)
+![unsplash/pedro-lastra](images/pedro-lastra-Nyvq2juw4_o-unsplash.webp)
+![unsplash/piotr-chrobot](images/piotr-chrobot-6oUsyeYXgTg-unsplash.webp)
+![unsplash/qingbao-meng](images/qingbao-meng-01_igFr7hd4-unsplash.webp)
+![unsplash/robert-lukeman](images/robert-lukeman-_RBcxo9AU-U-unsplash.webp)
 [/owl-carousel]
 [/raw]
 ```
