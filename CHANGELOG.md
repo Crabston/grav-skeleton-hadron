@@ -1,3 +1,11 @@
+# 2.2.1
+## 03-08-2025
+1. [](#bugfix)
+   - fixed config options
+1. [](#improved)
+   - full EN & DE translations for all pages
+   - updated thumbnail and blueprint
+
 # 2.2.0
 ## 01-08-2025
 1. [](#new)
