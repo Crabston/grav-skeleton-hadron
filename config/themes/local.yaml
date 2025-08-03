@@ -17,8 +17,7 @@ dropdown:
 custommenus:
   enabled: false
 menu:
-  -
-    text: Grav
+  - text: Grav
     icon: external-link
     url: 'https://getgrav.org/'
     target: _blank
@@ -42,6 +41,7 @@ fontawesome:
   brands: false
   brand: false
 blog_page_hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
+invert_logo: true
 favicon:
   user/themes/local/images/favicon.svg:
     name: favicon.svg
