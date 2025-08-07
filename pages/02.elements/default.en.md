@@ -1,7 +1,6 @@
 ---
 # TODO: check if there are missing components
-title: Components
-slug: components
+title: Elements
 sitemap:
   changefreq: monthly
   priority: 0.8
@@ -14,7 +13,7 @@ page-toc:
 [div class="columns"]
 [div class="column col-9 col-md-12 extra-spacing"]
 
-# Components
+# Elements
 On this page are all standard components of Hadron listed that can be used. These components can usually be used most of the time independently of the page type.
 
 This page contains descriptions, syntax, and examples for the components to facilitate their use. Some components require additional plugins, which are already included in the Hadron Skeleton.
