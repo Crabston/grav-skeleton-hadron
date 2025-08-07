@@ -1,7 +1,5 @@
 ---
-# TODO: add missing page types
-title: Beispiele
-slug: beispiele
+title: Vorlagen
 sitemap:
   changefreq: yearly
   priority: 0.7
@@ -19,9 +17,8 @@ display_child_page_titles: true
 [div class="columns"]
 [div class="column col-9 col-md-12 extra-spacing"]
 
-# Beispiele
-
-Auf dieser Seite gibt es eine Auswahl von Beispielen, die die Möglichkeiten von Hadron und Grav zeigen.
+# Vorlagen
+Diese Seite zeigt eine Übersicht der verfügbaren Vorlager oder «Templates» der Seiten in Hadron und Grav. Templates sind vorgefertigte Layouts, die auf einer Seite angewendet werden können und die es ermöglichen, verschiedene Arten von Inhalten zu präsentieren. Die Vorlagen sind in der Regel so gestaltet, dass sie den Bedürfnissen der meisten Benutzer entsprechen und eine einfache Anpassung ermöglichen.
 
 ## 0. Suche
 [![Suche](00-search.webp?resize=500)](search)

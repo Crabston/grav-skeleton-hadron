@@ -1,12 +1,12 @@
 ---
 title: Karten
 cards:
-  - image: /examples/modular/image.webp
+  - image: /templates/modular/image.webp
     title: Titel der Karte
     text: Dies ist ein Beispieltext für die Karte. Hier können Sie eine kurze Beschreibung oder Information hinzufügen.
     page: /home
     link_text: Dies ist ein Link
-  - image: /examples/modular/image.webp
+  - image: /templates/modular/image.webp
     title: Eine weitere Karte
     text: Auch dies ist ein Beispieltext für eine weitere Karte. Hier können Sie zusätzliche Informationen bereitstellen.
     page: /home

@@ -3,7 +3,7 @@ title: SbS Item
 sbs:
   layout: left
   alignment: center-left
-  image: /examples/modular/image.webp
+  image: /templates/modular/image.webp
   image_alt: 'The image description'
 ---
 

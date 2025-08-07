@@ -1,12 +1,12 @@
 ---
 title: Cards
 cards:
-  - image: /examples/modular/image.webp
+  - image: /templates/modular/image.webp
     title: Title of the Card
     text: This is an example text for the card. Here you can add a brief description or information.
     page: /home
     link_text: This is a link
-  - image: /examples/modular/image.webp
+  - image: /templates/modular/image.webp
     title: Another Card
     text: This is also an example text for another card. Here you can provide additional information.
     page: /home

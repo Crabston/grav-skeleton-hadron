@@ -1,6 +1,5 @@
 ---
-title: Examples
-slug: examples
+title: Templates
 sitemap:
   changefreq: yearly
   priority: 0.7
@@ -18,9 +17,8 @@ display_child_page_titles: true
 [div class="columns"]
 [div class="column col-9 col-md-12 extra-spacing"]
 
-# Examples
-
-On this page, you will find a selection of examples that showcase the capabilities of Hadron and Grav.
+# Templates
+This page provides an overview of the available templates in Hadron and Grav. Templates are pre-designed layouts that can be applied to a page, allowing for the presentation of various types of content. They are typically designed to meet the needs of most users and allow for easy customization.
 
 ## 0. Search
 [![Search](00-search.webp?resize=500)](search)

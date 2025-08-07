@@ -2,7 +2,7 @@
 title: SbS Liste
 sbs:
   - layout: left
-    image: /examples/modular/image.webp
+    image: /templates/modular/image.webp
     title: Karte 1
     text: Diese Karte ist links oben positioniert mit dem Bild auf der linken Seite. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     page: '#1'
@@ -10,7 +10,7 @@ sbs:
     alignment: top-left
 
   - layout: right
-    image: /examples/modular/image.webp
+    image: /templates/modular/image.webp
     title: Karte 2
     text: Diese Karte ist zentriert positioniert mit dem Bild auf der rechten Seite. Vitae elit laoreet pulvinar consequat gravida nostra phasellus torquent inceptos suspendisse. Vitae elit laoreet pulvinar consequat gravida nostra phasellus torquent inceptos suspendisse.
     page: '#2'
@@ -18,7 +18,7 @@ sbs:
     alignment: center-center
 
   - layout: left
-    image: /examples/modular/image.webp
+    image: /templates/modular/image.webp
     title: Karte 3
     text: Diese Karte ist rechts unten positioniert mit dem Bild auf der linken Seite. Pellentesque viverra parturient dignissim quam morbi scelerisque lobortis ullamcorper praesent elementum.
     page: '#3'
