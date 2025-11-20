@@ -79,4 +79,4 @@ form:
 
 # Kontakt
 
-Kontaktiere uns via E-Mail an [`kontakt@domain.tld`](mailto:kontakt@domain.tld) oder über das Kontaktformular.
+Kontaktiere uns via E-Mail an [safe-email autolink="true" icon="envelope-o"]`kontakt@domain.tld`[/safe-email] oder über das Kontaktformular.

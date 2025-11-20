@@ -20,7 +20,7 @@ Bei Fragen oder Anregungen in Bezug auf die `ORGANISATION` oder den Inhalt der W
 `VORNAME` `NAME` <br />
 `ADRESSE` <br />
 `PLZ` `ORT` <br />
-[`email@example.com`](mailto:email@example.com) <br />
+[safe-email autolink="true" icon="envelope-o"]`email@example.com`[/safe-email] <br />
 [`+41 12 345 67 89`](tel:+41123456789) <br />
 `WEITERES`
 
