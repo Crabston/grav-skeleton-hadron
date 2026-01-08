@@ -169,7 +169,7 @@ debugger:
 images:
   default_image_quality: 85
   cache_all: true
-  cache_perms: '0755'
+  cache_perms: '0775'
   debug: false
   auto_fix_orientation: true
   seofriendly: true
