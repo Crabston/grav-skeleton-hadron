@@ -8,7 +8,7 @@ status:
 custom_jobs:
   rclone-backup:
     command: 'scripts/rclone-backup.sh'
-    args: 'CrabstonWebsiteBackup:hadron-demo' # TODO: update this with your rclone remote name and directory path
+    args: 'CrabstonWebsiteBackup:usehadron.dev' # TODO: update this with your rclone remote name and directory path
     at: '0 1 * * *'
     output: logs/rclone-backup.out
     output_mode: append
