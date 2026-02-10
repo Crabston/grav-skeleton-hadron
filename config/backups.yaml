@@ -1,8 +1,8 @@
 purge:
-  trigger: space # TODO: change to 'time' or 'count' if preferred
+  trigger: time # TODO: change to 'space' or 'count' if preferred
   max_backups_count: 25
   max_backups_space: 5
-  max_backups_time: 365
+  max_backups_time: 120
 profiles:
   -
     name: Datenbackup
