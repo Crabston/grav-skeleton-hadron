@@ -6,7 +6,7 @@ streams:
         '':
           - user/themes/local
           - user/themes/hadron
-          - user/themes/quark
+          - user/themes/quark2
 
 grid-size: grid-lg
 blog-page: /blog

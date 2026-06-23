@@ -10,9 +10,9 @@ keywords: grav, theme, etc
 license: MIT
 
 dependencies:
-  - { name: grav, version: '>=1.6.0' }
+  - { name: grav, version: '>=2.0.0' }
   - hadron
-  - quark
+  - quark2
 
 form:
   validation: loose

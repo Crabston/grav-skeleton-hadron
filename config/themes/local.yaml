@@ -6,7 +6,7 @@ streams:
         '':
           - user/themes/local
           - user/themes/hadron
-          - user/themes/quark
+          - user/themes/quark2
 
 # TODO: check if grid-xl is better
 grid-size: grid-lg
