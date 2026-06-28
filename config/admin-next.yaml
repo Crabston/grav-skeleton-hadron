@@ -1,0 +1,47 @@
+ui:
+  branding:
+    mode: default
+    text: Grav
+    logoLight: ''
+    logoDark: ''
+    title: ''
+    subtitle: ''
+    showPoweredBy: true
+    favicon: ''
+  defaults:
+    colorMode: ''
+    accentHue: 271
+    accentSaturation: 91
+    fontFamily: nunito-sans
+    fontSize: normal
+    editorMode: normal
+    editorStickyToolbar: true
+    editorFixedHeight: 0
+    adminLanguage: en-US
+    pagesPerPage: 20
+    pagesViewMode: tree
+    usersViewMode: cards
+    groupsViewMode: cards
+    pluginsViewMode: cards
+    themesViewMode: cards
+  settings:
+    autoSaveEnabled: false
+    autoSaveToolbarUndo: true
+    autoSaveBatchWindowMs: 0
+    collabEnabled: true
+    menubarLinks:
+      -
+        label: 'Grav | Crabston Tutorials'
+        url: 'https://tutorials.crabston.ch/grav'
+        icon: fa-book
+        external: true
+      -
+        label: 'Crabston Support (Portal)'
+        url: 'https://crabston.atlassian.net/servicedesk'
+        icon: fa-life-ring
+        external: true
+      -
+        label: 'Crabston Support (E-Mail)'
+        url: 'mailto:support@crabston.dev'
+        icon: fa-envelope
+        external: true
