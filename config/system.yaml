@@ -5,20 +5,20 @@ wrapped_site: false
 reverse_proxy_setup: false
 force_ssl: true
 force_lowercase_urls: true
-custom_base_url: null
+custom_base_url: 'https://usehadron.dev/'
 username_regex: '^[a-z0-9_-]{3,16}$'
 pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
 intl_enabled: true
 http_x_forwarded:
-  protocol: true
+  protocol: false
   host: false
-  port: true
-  ip: true
+  port: false
+  ip: false
 languages:
   supported:
     - de
     - en
-  default_lang: de
+  default_lang: en
   include_default_lang: false
   include_default_lang_file_extension: true
   translations: true
@@ -55,6 +55,8 @@ pages:
     page: true
     twig: true
   markdown:
+    gfm:
+      autolinks: false
     extra: true
     auto_line_breaks: false
     auto_url_links: false
@@ -110,7 +112,7 @@ cache:
   clear_images_by_default: false
   cli_compatibility: false
   lifetime: 604800
-  gzip: false
+  gzip: true
   allow_webserver_gzip: false
   redis:
     socket: '0'
@@ -135,16 +137,16 @@ twig:
   safe_filters: {  }
   umask_fix: false
 assets:
-  css_pipeline: false
+  css_pipeline: true
   css_pipeline_include_externals: true
   css_pipeline_before_excludes: true
   css_minify: true
   css_minify_windows: false
   css_rewrite: true
-  js_pipeline: false
+  js_pipeline: true
   js_pipeline_include_externals: true
   js_pipeline_before_excludes: true
-  js_module_pipeline: false
+  js_module_pipeline: true
   js_module_pipeline_include_externals: true
   js_module_pipeline_before_excludes: true
   js_minify: true
@@ -235,3 +237,6 @@ strict_mode:
   yaml_compat: false
   twig_compat: false
   blueprint_compat: false
+security:
+  twig_content:
+    process_enabled: true

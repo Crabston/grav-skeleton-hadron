@@ -1,5 +1,5 @@
-title: 'Hadron'
-default_lang: de
+title: Hadron
+default_lang: en
 author:
   name: 'Crabston GmbH'
   email: hadron@crabston.dev
@@ -10,13 +10,5 @@ taxonomies:
   - author
   - filter
 metadata:
-  description: 'Hadron ist ein Grav Theme und Skeleton, das für Einsteiger als Vorlage für Website uns Webshops dient, aber auch für Profis als Basis für komplexe Projekte genutzt werden kann.'
-  keywords: 'grav, theme, skeleton, hadron, website, webshop'
-  enabled: true
-  format: short
-  size: 300
-  delimiter: '==='
-redirects: null
-routes: null
-blog:
-  route: '/blog'
+  description: 'Hadron is a Grav theme and skeleton that serves as a template for websites and webshops for beginners, but can also be used by professionals as a basis for complex projects.'
+  keywords: 'grav, grav2, grav-theme, grav-skeleton, hadron, website, webshop, website cms, webshop cms, ecommerce tool, cms, website creator'
