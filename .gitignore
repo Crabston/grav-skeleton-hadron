@@ -8,10 +8,10 @@ plugins/*
 themes/*
 !themes/.*
 !themes/local
-config/versions.yaml
 
 # Security
 config/security.yaml
+config/versions.yaml
 
 # Development
 env/localhost/*
