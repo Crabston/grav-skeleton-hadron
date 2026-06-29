@@ -1,7 +1,7 @@
 {
-	"name": "local",
+	"name": "hadron-customizer",
 	"version": "1.0.0",
-	"description": "Local Theme Configuration",
+	"description": "Extend and customize the Hadron theme for Grav CMS, without modifying the original theme.",
 	"type": "commonjs",
 	"main": "gulpfile.js",
 	"scripts": {

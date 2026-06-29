@@ -4,7 +4,7 @@
 	use Grav\Common\Grav;
 	use Grav\Common\Theme;
 
-	class Local extends Hadron {
+	class HadronCustomizer extends Hadron {
 		public static function getSubscribedEvents() {
 			return [
 				'onTwigLoader' => ['onTwigLoader', 0],

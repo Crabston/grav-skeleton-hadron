@@ -4,7 +4,7 @@ streams:
       type: ReadOnlyStream
       prefixes:
         '':
-          - user/themes/local
+          - user/themes/custom
           - user/themes/hadron
           - user/themes/quark2
 
@@ -43,23 +43,23 @@ fontawesome:
 blog_page_hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 invert_logo: true
 favicon:
-  user/themes/local/images/favicon.svg:
+  user/themes/custom/images/favicon.svg:
     name: favicon.svg
     full_path: favicon.svg
     type: image/svg+xml
     size: 4868
-    path: user/themes/local/images/favicon.svg
+    path: user/themes/custom/images/favicon.svg
 custom_logo:
-  user/themes/local/images/logo/logo.svg:
+  user/themes/custom/images/logo/logo.svg:
     name: logo.svg
     full_path: logo.svg
     type: image/svg+xml
     size: 4868
-    path: user/themes/local/images/logo/logo.svg
+    path: user/themes/custom/images/logo/logo.svg
 custom_logo_mobile:
-  user/themes/local/images/logo/logo.svg:
+  user/themes/custom/images/logo/logo.svg:
     name: logo.svg
     full_path: logo.svg
     type: image/svg+xml
     size: 4868
-    path: user/themes/local/images/logo/logo.svg
+    path: user/themes/custom/images/logo/logo.svg

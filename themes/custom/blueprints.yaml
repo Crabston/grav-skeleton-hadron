@@ -1,12 +1,12 @@
-name: 'Local Theme'
+name: 'Hadron Customizer'
 version: '1.0.0'
-description: 'Local Theme Configuration'
-icon: crosshairs
+description: 'Extend and customize the Hadron theme for Grav CMS, without modifying the original theme.'
+icon: sliders
 author:
   name: 'Crabston GmbH'
   email: contact@crabston.dev
   url: 'https://crabston.dev'
-keywords: grav, theme, etc
+keywords: hadron, customization
 license: MIT
 
 dependencies:
