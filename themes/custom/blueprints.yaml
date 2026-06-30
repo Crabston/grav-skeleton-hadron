@@ -1,5 +1,7 @@
 name: 'Hadron Customizer'
-version: '1.0.0'
+slug: 'custom'
+type: theme
+version: 1.0.0
 description: 'Extend and customize the Hadron theme for Grav CMS, without modifying the original theme.'
 icon: sliders
 author:
@@ -11,8 +13,8 @@ license: MIT
 
 dependencies:
   - { name: grav, version: '>=2.0.0' }
-  - hadron
-  - quark2
+  - { name: quark2, version: '>=1.0.0' }
+  - { name: hadron, version: '>=3.0.0' }
 
 form:
   validation: loose
@@ -210,7 +212,7 @@ form:
               type: file
               label: THEME.QUARK.HEADER.FAVICON.LABEL
               size: large
-              destination: 'theme://images'
+              destination: 'user/media/favicons'
               multiple: false
               markdown: true
               description: THEME.QUARK.HEADER.FAVICON.DESCRIPTION
@@ -220,7 +222,7 @@ form:
               type: file
               label: THEME.QUARK.HEADER.CUSTOM_LOGO.LABEL
               size: large
-              destination: 'theme://images/logo'
+              destination: 'user/media/logo'
               multiple: false
               markdown: true
               description: THEME.QUARK.HEADER.CUSTOM_LOGO.DESCRIPTION
@@ -230,7 +232,7 @@ form:
               type: file
               label: THEME.QUARK.HEADER.CUSTOM_LOGO_MOBILE.LABEL
               size: large
-              destination: 'theme://images/logo'
+              destination: 'user/media/logo'
               multiple: false
               accept:
                 - 'image/*'

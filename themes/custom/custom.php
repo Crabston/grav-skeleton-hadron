@@ -4,10 +4,11 @@
 	use Grav\Common\Grav;
 	use Grav\Common\Theme;
 
-	class HadronCustomizer extends Hadron {
+	class Custom extends Hadron {
 		public static function getSubscribedEvents() {
 			return [
 				'onTwigLoader' => ['onTwigLoader', 0],
+				'onShortcodeHandlers' => ['onShortcodeHandlers', 0],
 			];
 		}
 
@@ -18,5 +19,9 @@
 			$parentThemeName = 'hadron';
 			$parentThemePath = Grav::instance()['locator']->findResource('themes://' . $parentThemeName);
 			$this->grav['twig']->addPath($parentThemePath . DIRECTORY_SEPARATOR . 'templates', $parentThemeName);
+		}
+
+		public function onShortcodeHandlers() {
+			$this->grav['shortcode']->registerAllShortcodes('user://themes/hadron/shortcodes');
 		}
 	}
