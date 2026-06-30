@@ -8,7 +8,6 @@
 		public static function getSubscribedEvents() {
 			return [
 				'onTwigLoader' => ['onTwigLoader', 0],
-				'onShortcodeHandlers' => ['onShortcodeHandlers', 0],
 			];
 		}
 
@@ -20,8 +19,4 @@
 			$parentThemePath = Grav::instance()['locator']->findResource('themes://' . $parentThemeName);
 			$this->grav['twig']->addPath($parentThemePath . DIRECTORY_SEPARATOR . 'templates', $parentThemeName);
 		}
-
-		public function onShortcodeHandlers() {
-			$this->grav['shortcode']->registerAllShortcodes('user://themes/hadron/shortcodes');
-		}
-	}
+    }
