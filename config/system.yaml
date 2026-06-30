@@ -55,8 +55,6 @@ pages:
     page: true
     twig: true
   markdown:
-    gfm:
-      autolinks: false
     extra: true
     auto_line_breaks: false
     auto_url_links: false
