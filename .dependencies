@@ -1,13 +1,4 @@
 git:
-    # grav2
-    github-markdown-alerts:
-        url: https://github.com/trilbymedia/grav-plugin-github-markdown-alerts
-        path: user/plugins/github-markdown-alerts
-        branch: main
-    quark2:
-        url: https://github.com/getgrav/grav-theme-quark2
-        path: user/themes/quark2
-        branch: main
     admin2:
         url: https://github.com/getgrav/grav-plugin-admin2
         path: user/plugins/admin2
@@ -16,7 +7,6 @@ git:
         url: https://github.com/getgrav/grav-plugin-api
         path: user/plugins/api
         branch: main
-    # current
     archives:
         url: https://github.com/getgrav/grav-plugin-archives
         path: user/plugins/archives
@@ -65,6 +55,11 @@ git:
         url: https://github.com/getgrav/grav-plugin-form
         path: user/plugins/form
         branch: master
+    github-markdown-alerts:
+        url: https://github.com/trilbymedia/grav-plugin-github-markdown-alerts
+        path: user/plugins/github-markdown-alerts
+        branch: main
+
     hadron:
         url: https://github.com/Crabston/grav-theme-hadron
         path: user/themes/hadron
@@ -98,6 +93,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-problems
         path: user/plugins/problems
         branch: master
+    quark2:
+        url: https://github.com/getgrav/grav-theme-quark2
+        path: user/themes/quark2
+        branch: main
     shortcode-core:
         url: https://github.com/getgrav/grav-plugin-shortcode-core
         path: user/plugins/shortcode-core
