@@ -34,30 +34,29 @@ spectre:
 production-mode: true
 h5pembedrootpath: 'https://h5p.org/h5p/embed/'
 fontawesome:
-  solid: false
-  regular: false
-  brands: false
-  brand: false
+  enabled: true
 blog_page_hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 invert_logo: true
 favicon:
-  user/themes/hadron/images/hadron-favicon.svg:
+  'user/media/favicon/hadron-favicon.svg':
     name: hadron-favicon.svg
     full_path: hadron-favicon.svg
     type: image/svg+xml
     size: 566
-    path: user/themes/hadron/images/hadron-favicon.svg
+    path: 'user/media/favicon/hadron-favicon.svg'
 custom_logo:
-  user/themes/hadron/images/logo/hadron-logo.svg:
+  'user/media/logo/hadron-logo.svg':
     name: hadron-logo.svg
     full_path: hadron-logo.svg
     type: image/svg+xml
     size: 3076
-    path: user/themes/hadron/images/logo/hadron-logo.svg
+    path: 'user/media/logo/hadron-logo.svg'
 custom_logo_mobile:
-  user/themes/hadron/images/logo/hadron-logo.svg:
+  'user/media/logo/hadron-logo.svg':
     name: hadron-logo.svg
     full_path: hadron-logo.svg
     type: image/svg+xml
     size: 3076
-    path: user/themes/hadron/images/logo/hadron-logo.svg
+    path: 'user/media/logo/hadron-logo.svg'
+theme-mode: dark
+accent-color: '#4063CB'
