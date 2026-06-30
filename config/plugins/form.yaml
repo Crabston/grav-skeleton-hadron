@@ -1,3 +1,8 @@
+refresh_prevention: true
+client_side_validation: false
+inline_errors: true
+files:
+  avoid_overwriting: true
 turnstile:
   site_key: CF_SITE_KEY # via doppler
   secret_key: CF_SECRET_KEY # via doppler

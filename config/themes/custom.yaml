@@ -4,9 +4,11 @@ streams:
       type: ReadOnlyStream
       prefixes:
         '':
+          - user/themes/custom
           - user/themes/hadron
           - user/themes/quark2
 
+# TODO: check if grid-xl is better
 grid-size: grid-lg
 blog-page: /blog
 hide_title: true

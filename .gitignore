@@ -7,11 +7,11 @@ plugins/*
 !plugins/.*
 themes/*
 !themes/.*
-!themes/local
-config/versions.yaml
+!themes/custom
 
 # Security
 config/security.yaml
+config/versions.yaml
 
 # Development
 env/localhost/*

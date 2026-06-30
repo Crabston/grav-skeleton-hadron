@@ -1,88 +1,99 @@
 website:
+  enabled: true
+  readableName: 'Website Login'
+  description: 'Can log in to the website and view protected pages'
   access:
     site:
       login: true
-  enabled: true
-  readableName: 'Website Login'
-  description: 'Kann sich an der Website anmelden'
 admin:
-  access:
-    admin:
-      login: true
-      users:
-        read: true
-        list: true
   enabled: true
   readableName: 'Admin Login'
-  description: 'Kann sich am Admin Panel anmelden'
-statistics:
+  description: 'Can log in to the admin panel and access the API'
   access:
-    admin:
-      statistics: true
+    api:
+      access: true
+      users:
+        read: true
+accounts:
   enabled: true
-  readableName: 'Site Statistics'
-  description: 'Kann Statistiken der Seite einsehen'
-editor:
+  readableName: 'Account Manager'
+  description: 'Can manage user accounts and groups'
   access:
-    admin:
-      cache: true
+    api:
+      users:
+        read: true
+        write: true
+editor:
+  enabled: true
+  readableName: 'Content Editor'
+  description: 'Can edit content on the site, including pages and media'
+  access:
+    api:
       pages:
         read: true
-        update: true
-        list: true
-  readableName: 'Content Editor'
-  description: 'Kann bestehende Seiten bearbeiten'
-  enabled: true
-pages:
-  access:
-    admin:
-      cache: true
-      pages: true
-      flex-objects: true
-      configuration:
-        site: true
-  readableName: 'Pages Manager'
-  description: 'Kann Seiten verwalten'
-  enabled: true
+        write: true
+      media:
+        read: true
+      system:
+        write: true
 maintainer:
-  access:
-    admin:
-      cache: true
-      maintenance: true
-      tools: true
-      flex-objects: true
-      configuration:
-        site: true
   enabled: true
   readableName: 'Site Maintainer'
-  description: 'Kann die Seite warten'
+  description: 'Can manage restricted parts of the site & see relevant system information'
+  access:
+    api:
+      system:
+        read: true
+        write: true
+      gpm:
+        read: true
+      scheduler:
+        read: true
+      pages:
+        read: true
+        write: true
+      media:
+        read: true
+        write: true
 manager:
-  access:
-    admin:
-      configuration:
-        system: true
-        site: true
+  enabled: true
   readableName: 'Site Manager'
-  enabled: true
-  description: 'Kann Seiten- & Systemeinstellungen verwalten'
-themes:
+  description: 'Can manage the site as a whole themselves. DO ONLY GRANT TO TRAINED & EXPERIENCED USERS!'
   access:
-    admin:
-      themes: true
-  readableName: 'Theme Manager'
+    api:
+      pages:
+        read: true
+        write: true
+      media:
+        read: true
+        write: true
+      config:
+        read: true
+        write: true
+      system:
+        read: true
+        write: true
+        backup: true
+      gpm:
+        read: true
+        write: true
+      scheduler:
+        read: true
+        write: true
+      reports:
+        read: true
+      webhooks:
+        read: true
+        write: true
+      flex-objects:
+        list: true
+statistics:
   enabled: true
-  description: 'Kann Themes verwalten'
-plugins:
+  readableName: 'Site Statistics'
+  description: 'Can see site statistics'
   access:
-    admin:
-      plugins: true
-  readableName: 'Plugin Manager'
-  enabled: true
-  description: 'Kann Plugins verwalten'
-accounts:
-  access:
-    admin:
-      users: true
-  readableName: 'Account Manager'
-  enabled: true
-  description: 'Kann Benutzerkonten verwalten'
+    api:
+      reports:
+        read: true
+      system:
+        read: true
