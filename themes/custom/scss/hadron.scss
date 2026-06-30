@@ -1,14 +1,10 @@
 // general
 @import 'theme';
-@import '../../hadron/scss/base';
-@import '../../hadron/scss/overrides';
 
 // components
-@import '../../hadron/scss/components';
+@import '../../hadron/scss/components/general';
 @import '../../hadron/scss/components/header';
 @import '../../hadron/scss/components/navigation';
-@import '../../hadron/scss/components/language-switcher';
-@import '../../hadron/scss/components/hero';
 @import '../../hadron/scss/components/form';
 @import '../../hadron/scss/components/table';
 @import '../../hadron/scss/components/footer';
