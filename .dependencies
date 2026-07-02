@@ -97,6 +97,10 @@ git:
         url: https://github.com/getgrav/grav-theme-quark2
         path: user/themes/quark2
         branch: main
+    readingtime:
+        url: https://github.com/getgrav/grav-plugin-readingtime
+        path: user/plugins/readingtime
+        branch: master
     shortcode-core:
         url: https://github.com/getgrav/grav-plugin-shortcode-core
         path: user/plugins/shortcode-core
