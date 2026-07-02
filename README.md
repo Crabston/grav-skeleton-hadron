@@ -28,7 +28,7 @@ Here are some of the main features of the Hadron skeleton:
 To get started quickly with the Hadron skeleton, you can check the [installation instructions](#installation) below. If you want to learn more about the Hadron theme & skeleton, you can visit the [Hadron Documentation](https://usehadron.dev/docs). There you will also find a detailed guide on how to install the skeleton and publish your first site.
 
 ## Installation
-_See [usehadron.dev/docs/skeleton/installation](https://usehadron.dev/docs/skeleton/installation) for detailed info_ or check out the quickstart methods [Installation (for developers)]() & [Installation (for beginners)]()
+_See [usehadron.dev/docs/skeleton/installation](https://usehadron.dev/docs/skeleton/installation) for detailed info_ or check out the quickstart methods [Installation (for developers)](#installation-for-developers) & [Installation (for beginners)](#installation-for-beginners)
 
 ### Installation (for developers)
 If you want to make changes with Git to the skeleton, the most comfortable way is to clone the repository. That way you can easily pull updates and changes from the original repository. There are multiple variations, depending on what you want to do with the skeleton:
@@ -39,7 +39,8 @@ _This is the recommended way if you want to develop a new site based on this ske
 
 To create a new repository based on this skeleton, click the `Use this template` button on the GitHub repository page. You will be asked to enter a repository name and description. After that, you have a current copy of the skeleton in your account. You can now clone the repository to your computer and start developing your site.
 
-> Note: You will have to clone the repository to the `user` folder of your Grav installation (Grav core).
+> [!Note]
+> You will have to clone the repository to the `user` folder of your Grav installation (Grav core). See below how to do it.
 
 #### Creating a fork
 By forking this repository, you create a linked copy of the original repository in your own GitHub account. This way you can make changes to the skeleton and push them to your own repository. You can then create a new site using your fork as a skeleton.
@@ -47,7 +48,8 @@ _This is the recommended way if you want to contribute to the original skeleton 
 
 To fork the repository, click the `Fork` button on the GitHub repository page. You will now have a copy of the skeleton in your account. You can clone the repository to your computer and start developing your site.
 
-> Note: You will have to clone the repository to the `user` folder of your Grav installation (Grav core).
+> [!Note]
+> You will have to clone the repository to the `user` folder of your Grav installation (Grav core). See below how to do it.
 
 #### Cloning the repository directly (not recommended)
 Cloning the repository directly will create a local copy of the skeleton on your computer.
@@ -60,19 +62,19 @@ git clone https://github.com/Crabston/grav.git .
 git clone https://github.com/Crabston/grav-skeleton-hadron.git user
 ```
 
-#### Install and start the server
-```bash
-bin/grav install
-bin/grav server
-```
-
 ### Installation (for beginners)
 If you are new to Grav / Website / Programming, you can download the skeleton as a ZIP file and install it manually. You can download two different versions of the skeleton:
 
 #### Download ZIP file
 By downloading the skeleton, you will get a ZIP file that includes the Grav core, plugins, and themes required to run the skeleton. This is the easiest way to get started with the skeleton, since you will have everything you need to run it.
 
-To download the skeleton, go to the [releases page](https://github.com/Crabston/grav-demo/releases) and download the latest release with dependencies. You can then unzip the file to the root of your server / computer
+To download the skeleton, go to the [releases page](https://github.com/Crabston/grav-skeleton-hadron/releases) and download the latest release with dependencies. You can then unzip the file to the root of your server / computer
 
 ### Start the server
-Open up the console on your computer (CMD / Terminal), navigate to your Grav folder with `cd` and run the command `bin/grav server`. This will start a small webserver on your device, and you can visit the website  using the provided URL (in most cases `http://127.0.0.1:8000`). Navigate to `/admin` and create a local account.
+Open up the console on your computer (CMD / Terminal), navigate to your Grav folder with `cd` and run the below commands:
+```bash
+bin/grav install
+bin/grav server
+```
+
+This will start a small webserver on your device, and you can visit the website using the provided URL (in most cases `http://127.0.0.1:8000`). Navigate to `/admin` and create a local account.
