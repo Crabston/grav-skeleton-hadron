@@ -44,13 +44,14 @@ In den folgenden Fällen ist es sinnvoller, das Theme anstelle des Skeletons zu 
 
 ## Funktionen von Hadron
 Das Hadron Theme bietet folgende Funktionen:
-- Fertig eingebauter Sprachschalter für mehrsprachige Websites
+- Fertig einsatzbereiter Sprachschalter für mehrsprachige Websites
 - Einzigartige Unterstützung für responsive Tabellen
 - Menü mit Dropdown Unterstützung und anpassbaren Menüpunkten
 - Mehr Theme Anpassungsoptionen
 - Eingebaute Unterstützung für H5P
 - Eingebaute Unterstützung für Embed.ly
-- bessere deutsche Übersetzungen
+- Bessere deutsche Übersetzungen
+- Hervorgehobene Beiträge in Blogs
 
 ### Nur im Skeleton verfügbare Funktionen:
 Diese Funktionen sind nur im Skeleton verfügbar:

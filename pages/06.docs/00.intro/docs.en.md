@@ -51,6 +51,7 @@ The Hadron theme offers the following features:
 - Built-in Support for H5P
 - Built-in Support for Embed.ly
 - more German translations
+- Featured posts in blogs
 
 ### Skeleton-only features:
 These features are only available through the skeleton:
