@@ -40,5 +40,5 @@ langswitcher:
   enable: true
   display: inline
   format: icon
-blog-page: /blog
+blog-page: /docs
 h5pembedrootpath: 'https://h5p.org/h5p/embed/'
