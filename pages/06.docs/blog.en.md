@@ -1,52 +1,45 @@
 ---
 # TODO: update docs to match current Hadron version and features
 title: Docs
-slug: docs
 blog_url: /docs
+display_banner: /docs/news-banner
 sitemap:
-  changefreq: monthly
-  priority: 0.7
-  lastmod: 31-07-2025
-date: 31-07-2025
+    changefreq: monthly
+    priority: 0.7
+    lastmod: 02-07-2026
+date: 02-07-2026
 taxonomy:
-  category: [ Docs ]
+    category: [ Docs, Hadron ]
 feed:
-  limit: 10
-hero_classes: 'text-light overlay-dark-gradient hero-large parallax'
-body_classes: 'header-dark header-transparent'
-show_breadcrumbs: false
+    limit: 10
+show_breadcrumbs: true
 sidebar:
-  show_popular_tags: true
-  show_feed: true
-  show_toc: false
-  show_tntsearch: true
+    enable: true
+    show_popular_tags: true
+    show_feed: true
+    show_toc: false
+    show_tntsearch: true
 pagination: true
 show_pagination: true
-bricklayer_layout: true
 child_type: item
-display_post_summary:
-  enabled: false
 modular_content:
-  items: '@self.modular'
-  order:
-    by: folder
-    dir: asc
-    custom:
-      - _notice
-content:
-	# TODO: use '@self.children' instead of '@self.descendants' when the blog is ready
-	# needs bugfix of empty tags getting displayed
-  items: '@self.descendants'
-  limit: 8
-  order:
-    by: folder
-    dir: asc
-  pagination: true
-  url_taxonomy_filters: true
-hide_summary: true
+    items: '@self.modular'
+    order:
+        by: folder
+        dir: asc
+        custom:
+            - _notice
+content: # TODO: use '@self.children' instead of '@self.descendants' when the blog is ready
+    # needs bugfix of empty tags getting displayed
+    items: '@self.descendants'
+    limit: 10
+    order:
+        by: folder
+        dir: asc
+    pagination: true
+    url_taxonomy_filters: true
 ---
 
-===
-
 # [span class="hadron-font"]Hadron[/span] Documentation
-## Technical Guides for Developers
+## Technical Guides for Developers &
+## Easy Instructions for Beginners
