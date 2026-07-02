@@ -5,7 +5,7 @@ blog_url: /docs
 display_banner: /docs/news-banner
 sitemap:
     changefreq: monthly
-    priority: 0.7
+    priority: 0.8
     lastmod: 02-07-2026
 date: 02-07-2026
 taxonomy:

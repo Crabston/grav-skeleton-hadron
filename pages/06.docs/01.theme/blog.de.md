@@ -2,36 +2,30 @@
 title: Theme
 slug: theme
 sitemap:
-  changefreq: monthly
-  priority: 0.8
-  lastmod: 06-10-2024
-date: 06-10-2024
+    changefreq: monthly
+    priority: 0.7
+    lastmod: 02-07-2026
+date: 02-07-2026
 taxonomy:
-  category: [ Theme ]
-  tag: [ Theme, Kategorie ]
-  author: Crabston GmbH
-hero_classes: 'text-light overlay-dark parallax'
-body_classes: 'header-dark header-transparent'
+    category: [ Docs, Hadron ]
+    tag: [ Theme ]
 show_breadcrumbs: true
 sidebar:
-	show_popular_tags: true
-	show_feed: false
-	show_toc: false
-bricklayer_layout: true
+    enable: true
+    show_popular_tags: true
+    show_feed: false
+    show_toc: false
+    show_tntsearch: true
 child_type: item
 content:
-  items: '@self.children'
-  order:
-    by: folder
-    dir: asc
-hide_summary: true
+    items: '@self.children'
+    order:
+        by: folder
+        dir: asc
+custom_hero_header_image: "media://logo/hadron-logo.svg"
 ---
 
-Hadron ist ein modernes Grav Theme, welches auf Quark basiert. Als Child-Theme von Quark enthält es erweiterte Funktionen als das ursprüngliche Quark Theme. Zudem bietet es erweiterte Gestaltungsoptionen.
-
-===
-
-# Hadron Tutorial - Theme
+# [span class="hadron-font"]Hadron[/span] Dokumentation -- Theme
 ## Alles über das Hadron Theme für Grav
 
-Hadron ist ein modernes Grav Theme, welches auf Quark basiert. Als Child-Theme von Quark enthält es erweiterte Funktionen als das ursprüngliche Quark Theme. Zudem bietet es erweiterte Gestaltungsoptionen.
+[span class="hadron-font"]Hadron[/span] ist mehr als ein modernes und anpassbares [Grav](https://getgrav.org/) Theme und Skeleton. Einerseits ist es für Anfänger optimiert, um schnell eine einfache Website zu erstellen, andererseits eignet es sich auch für Profis, die Hadron als Grundlage für eine komplexe Website mit selbst entwickelten Funktionen nutzen möchten.

@@ -2,36 +2,30 @@
 title: Skeleton
 slug: skeleton
 sitemap:
-  changefreq: monthly
-  priority: 0.8
-  lastmod: 10-10-2024
-date: 10-10-2024
+    changefreq: monthly
+    priority: 0.7
+    lastmod: 02-07-2026
+date: 02-07-2026
 taxonomy:
-  category: [ Skeleton ]
-  tag: [ Skeleton, Category ]
-  author: Crabston GmbH
-hero_classes: 'text-light overlay-dark parallax'
-body_classes: 'header-dark header-transparent'
+    category: [ Docs, Hadron ]
+    tag: [ Skeleton ]
 show_breadcrumbs: true
 sidebar:
-	show_popular_tags: true
-	show_feed: false
-	show_toc: false
-bricklayer_layout: true
+    enable: true
+    show_popular_tags: true
+    show_feed: false
+    show_toc: false
+    show_tntsearch: true
 child_type: item
 content:
-  items: '@self.children'
-  order:
-    by: folder
-    dir: asc
-hide_summary: true
+    items: '@self.children'
+    order:
+        by: folder
+        dir: asc
+custom_hero_header_image: "media://logo/hadron-logo.svg"
 ---
 
-The Hadron Skeleton can be used as a template for websites. It uses the Hadron theme and comes with pre-installed plugins and corresponding configurations. The demo content is also included.
-
-===
-
-# Hadron Tutorial - Skeleton
+# [span class="hadron-font"]Hadron[/span] Documentation -- Skeleton
 ## Everything about the Hadron Skeleton for Grav
 
-The Hadron Skeleton can be used as a template for websites. It uses the Hadron theme and comes with pre-installed plugins and corresponding configurations. The demo content is also included.
+[span class="hadron-font"]Hadron[/span] is more than a modern and customizable [Grav](https://getgrav.org/) theme and skeleton. On the one hand, it is optimized for beginners to quickly create a simple website, but on the other hand, it is also suitable for professionals who want to use Hadron as a foundation for a complex website with self-developed functions.
