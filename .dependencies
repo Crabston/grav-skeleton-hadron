@@ -59,7 +59,6 @@ git:
         url: https://github.com/trilbymedia/grav-plugin-github-markdown-alerts
         path: user/plugins/github-markdown-alerts
         branch: main
-
     hadron:
         url: https://github.com/Crabston/grav-theme-hadron
         path: user/themes/hadron
@@ -97,6 +96,10 @@ git:
         url: https://github.com/getgrav/grav-theme-quark2
         path: user/themes/quark2
         branch: main
+    readingtime:
+        url: https://github.com/getgrav/grav-plugin-readingtime
+        path: user/plugins/readingtime
+        branch: master
     shortcode-core:
         url: https://github.com/getgrav/grav-plugin-shortcode-core
         path: user/plugins/shortcode-core
@@ -118,7 +121,7 @@ git:
         path: user/plugins/shortcode-ui
         branch: master
     sitemap:
-        url: https://github.com/Crabston/grav-plugin-sitemap
+        url: https://github.com/getgrav/grav-plugin-sitemap
         path: user/plugins/sitemap
         branch: develop
     snipcart:

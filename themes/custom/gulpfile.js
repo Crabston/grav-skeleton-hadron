@@ -29,7 +29,7 @@ function compressCSS() {
 function compileTypescript() {
 	const tsProject = ts.createProject("tsconfig.json", {
 		noImplicitAny: true,
-		outFile: "hadron.js",
+		outFile: "custom.js",
 		allowJs: true,
 	});
 	return gulp.src("./ts/**/*.{ts,js}")
