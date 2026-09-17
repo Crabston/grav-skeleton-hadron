@@ -1,3 +1,14 @@
+# 3.0.0
+## 17-09-2026
+1. [](#new)
+   - **Hadron v3 now is Grav2 ready with Quark2**
+   - Fully integrated into Admin2
+   - Refactored and updated theme settings for custom theme
+1. [](#improved)
+   - local theme is now renamed to custom/Hadron Customizer
+   - Quick Tray links now are directly in Admin2
+   - Updated some system / plugin settings
+
 # 2.2.1
 ## 03-08-2025
 1. [](#bugfix)
