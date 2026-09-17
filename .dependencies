@@ -59,7 +59,6 @@ git:
         url: https://github.com/trilbymedia/grav-plugin-github-markdown-alerts
         path: user/plugins/github-markdown-alerts
         branch: main
-
     hadron:
         url: https://github.com/Crabston/grav-theme-hadron
         path: user/themes/hadron
@@ -122,7 +121,7 @@ git:
         path: user/plugins/shortcode-ui
         branch: master
     sitemap:
-        url: https://github.com/Crabston/grav-plugin-sitemap
+        url: https://github.com/getgrav/grav-plugin-sitemap
         path: user/plugins/sitemap
         branch: develop
     snipcart:
