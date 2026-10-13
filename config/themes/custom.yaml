@@ -1,7 +1,7 @@
 theme-mode: auto
 accent-color: '#4063CB'
 monochrome-logo: true
-favicon:
+custom_favicon:
   user/media/favicon/hadron-favicon.svg:
     name: hadron-favicon.svg
     type: image/svg+xml
