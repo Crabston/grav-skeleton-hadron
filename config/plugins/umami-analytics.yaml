@@ -1,4 +1,13 @@
 enabled: true
 script_src: 'https://umami.crabston.ch'
 website_id: 'UMAMI_WEBSITE_ID'
+api_token: 'UMAMI_API_TOKEN'
 domains: 'usehadron.dev'
+doNotTrack: true
+performance: false
+recorder: false
+proxy:
+  enable: true
+  script_path: stats.js
+  api_endpoint: /stats-api/
+  cache_ttl: 3600
